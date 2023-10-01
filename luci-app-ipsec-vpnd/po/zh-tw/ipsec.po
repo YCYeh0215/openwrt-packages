@@ -1,0 +1,32 @@
+msgid "IPSec VPN Server"
+msgstr "IPSec VPN 伺服器"
+
+msgid "IPSec VPN connectivity using the native built-in VPN Client on iOS or Andriod (IKEv1 with PSK and Xauth)"
+msgstr "使用iOS 或 Andriod (IKEv1 with PSK and Xauth) 原生內建 IPSec VPN 用戶端進行連線"
+
+msgid "VPN Client IP"
+msgstr "VPN客戶端位址區段"
+
+msgid "LAN DHCP reserved started IP addresses with the same subnet mask"
+msgstr "VPN用戶端使用獨立子網段，預設為 10.10.10.2/24"
+
+msgid "VPN Client DNS"
+msgstr "VPN客戶端DNS伺服器"
+
+msgid "DNS using in VPN tunnel.Set to the router's LAN IP is recommended"
+msgstr "指定VPN用戶端的DNS位址。建議設定為 ipsec0 虛擬介面位址，預設為 10.10.10.1"
+
+msgid "Account"
+msgstr "帳號"
+
+msgid "Secret Pre-Shared Key"
+msgstr "PSK金鑰"
+
+msgid "IPSec VPN Server status"
+msgstr "IPSec VPN 伺服器運作狀態"
+
+msgid "Disable from startup"
+msgstr "禁止開機啟動"
+
+msgid "Enable on startup"
+msgstr "允許開機啟動"

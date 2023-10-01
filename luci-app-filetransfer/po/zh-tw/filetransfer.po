@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.3.1\n"
+
+msgid "Choose local file:"
+msgstr "選擇本機檔案："
+
+msgid "Couldn't open file:"
+msgstr "無法開啟檔案："
+
+msgid "Create upload file error."
+msgstr "建立上傳檔案失敗。"
+
+msgid "Download"
+msgstr "下載"
+
+msgid "Download file"
+msgstr "下載檔案"
+
+msgid "File name"
+msgstr "檔名"
+
+msgid "File saved to"
+msgstr "檔案儲存到"
+
+msgid "FileTransfer"
+msgstr "檔案傳輸"
+
+msgid "Install"
+msgstr "安裝"
+
+msgid "Attributes"
+msgstr "屬性"
+
+msgid "Modify time"
+msgstr "修改時間"
+
+msgid "No specify upload file."
+msgstr "未指定上傳檔案。"
+
+msgid "Path on Route:"
+msgstr "路由根目錄："
+
+msgid "Remove"
+msgstr "移除"
+
+msgid "Size"
+msgstr "大小"
+
+msgid "Upload"
+msgstr "上傳"
+
+msgid "Upload file list"
+msgstr "上傳檔案清單"
+
+msgid "Upload file to '/tmp/upload/'"
+msgstr "將檔案上傳至'/tmp/upload/'"

@@ -1,0 +1,50 @@
+msgid "OpenVPN Server"
+msgstr "OpenVPN 伺服器"
+
+msgid "An easy config OpenVPN Server Web-UI"
+msgstr "易於使用的 OpenVPN 伺服器 Web-UI"
+
+msgid "Base Setting"
+msgstr "基本設定"
+
+msgid "Enable"
+msgstr "啟用"
+
+msgid "Port"
+msgstr "連接埠"
+
+msgid "WAN DDNS or IP"
+msgstr "WAN埠的 DDNS網域名稱 或 IP"
+
+msgid "Client Network"
+msgstr "客戶端網段"
+
+msgid "VPN Client Network IP with subnet"
+msgstr "客戶端指派的網段位址（預設為 10.8.0.0 255.255.255.0）"
+
+msgid "Client Settings"
+msgstr "客戶端推送設定"
+
+msgid "OpenVPN Client config file"
+msgstr "OpenVPN 用戶端設定檔"
+
+msgid "Download .ovpn file"
+msgstr "一鍵下載 .ovpn 檔案"
+
+msgid "If you are using IOS client, please download this .ovpn file and send it via QQ or Email to your IOS device"
+msgstr "如果你使用的是 iOS 設備，你可以使用 QQ 或郵件發送到自己的設備上用 OpenVPN 用戶端打開導入"
+
+msgid "Special Code"
+msgstr "特殊程式碼"
+
+msgid "(!)Special Code you know that add in to client .ovpn file"
+msgstr "(!)特殊程式碼將自動合併到客戶端的 .ovpn 設定檔"
+
+msgid "Set route 192.168.0.0 255.255.255.0 and dhcp-option DNS 192.168.0.1 base on your router"
+msgstr "根據路由的實際LAN IP 修改 route 192.168.0.0 255.255.255.0 和 dhcp-option DNS 192.168.0.1 這兩行"
+
+msgid "OpenVPN status"
+msgstr "OpenVPN 伺服器運作狀態"
+
+msgid "Proto"
+msgstr "協議"
