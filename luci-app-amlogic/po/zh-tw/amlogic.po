@@ -1,0 +1,197 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: https://github.com/ophub/luci-app-amlogic \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.3.1\n"
+
+msgid "Choose local file:"
+msgstr "選擇本機檔案："
+
+msgid "Couldn't open file:"
+msgstr "無法開啟檔案："
+
+msgid "The file Will download automatically."
+msgstr "檔案將會自動下載"
+
+msgid "Create upload file error."
+msgstr "建立上傳檔案失敗。"
+
+msgid "Download"
+msgstr "下載"
+
+msgid "Download file"
+msgstr "下載檔案"
+
+msgid "File name"
+msgstr "檔名"
+
+msgid "File saved to"
+msgstr "檔案儲存到"
+
+msgid "FileTransfer"
+msgstr "檔案傳輸"
+
+msgid "Install"
+msgstr "安裝"
+
+msgid "Attributes"
+msgstr "屬性"
+
+msgid "Modify time"
+msgstr "修改時間"
+
+msgid "No specify upload file."
+msgstr "未指定上傳檔案。"
+
+msgid "Path on Route:"
+msgstr "路由根目錄："
+
+msgid "Remove"
+msgstr "移除"
+
+msgid "Size"
+msgstr "大小"
+
+msgid "Upload"
+msgstr "上傳"
+
+msgid "Upload file list"
+msgstr "上傳檔案清單"
+
+msgid "There are config file in the upload directory, and you can restore the config. "
+msgstr "上傳檔案清單中有設定文件，你可以恢復設定。"
+
+msgid "There are kernel files in the upload directory, and you can replace the kernel."
+msgstr "上傳檔案清單中有核心文件，你可以升級核心。"
+
+msgid "There are openwrt firmware file in the upload directory, and you can update the openwrt."
+msgstr "上傳文件清單中有 OpenWrt 韌體文件，你可以升級 OpenWrt。"
+
+msgid "Update plugins first, then update the kernel or firmware."
+msgstr "先更新插件，再更新核心或韌體。"
+
+msgid "After uploading [Firmware], [Kernel], [IPK] 或 [Backup Config], the operation buttons will be displayed."
+msgstr "當上傳 [韌體檔案]，[核心檔案]，[IPK檔案]，[設定檔] 後，將自動顯示相關操作按鈕。"
+
+msgid "After uploading firmware (.img/.img.gz/.img.xz/.7z suffix) or kernel files (3 kernel files), the update button will be displayed."
+msgstr "當上傳檔案清單中有 OpenWrt 韌體（.img/.img.gz/.img.xz/.7z 字尾）或核心檔案（3個核心檔案）時，會自動顯示相關操作按鈕。"
+
+msgid "Amlogic Service"
+msgstr "晶晨寶盒"
+
+msgid "Restore Config / Replace OpenWrt Kernel"
+msgstr "恢復配置 / 升級 OpenWrt 核心"
+
+msgid "Manually Upload Update"
+msgstr "手動上傳更新"
+
+msgid "Install OpenWrt"
+msgstr "安裝 OpenWrt"
+
+msgid "Select the device model:"
+msgstr "選擇裝置型號："
+
+msgid "Select List"
+msgstr "選擇清單"
+
+msgid "Enter the dtb file name"
+msgstr "輸入自訂 dtb 檔案名稱"
+
+msgid "Enter the soc name:"
+msgstr "輸入自訂 soc 名稱："
+
+msgid "Enter the uboot_overload name:"
+msgstr "輸入自訂 uboot_overload 名稱："
+
+msgid "Invalid value."
+msgstr "無效值"
+
+msgid "Install OpenWrt:"
+msgstr "安裝 OpenWrt："
+
+msgid "Install OpenWrt to EMMC, Please select the device model, Or enter the dtb file name."
+msgstr "將 OpenWrt 安裝到 EMMC，請選擇裝置型號，或輸入 dtb 檔案名稱。"
+
+msgid "Tip: Writing is in progress, and it will automatically restart after completion."
+msgstr "提示：正在寫入，完成後將自動重新啟動。"
+
+msgid "You have chosen:"
+msgstr "你選擇了："
+
+msgid "Start install?"
+msgstr "開始安裝嗎？"
+
+msgid "Installing..."
+msgstr "正在安裝..."
+
+msgid "Install Failed"
+msgstr "安裝失敗"
+
+msgid "Successful Install"
+msgstr "安裝成功"
+
+msgid "Update"
+msgstr "升級"
+
+msgid "Updating..."
+msgstr "正在更新..."
+
+msgid "Update Failed"
+msgstr "更新失敗"
+
+msgid "Successful Update"
+msgstr "更新成功"
+
+msgid "Update OpenWrt firmware"
+msgstr "升級 OpenWrt 韌體"
+
+msgid "kernel"
+msgstr "核心"
+
+msgid "Replace OpenWrt Kernel"
+msgstr "更換 OpenWrt 核心"
+
+msgid "Tip: The kernel is being replaced, and it will automatically restart after completion."
+msgstr "提示：正在替換內核，完成後會自動重新啟動。"
+
+msgid "Supports management of Amlogic s9xxx, Allwinner (V-Plus Cloud), and Rockchip (BeikeYun, Chainedbox L1 Pro) boxes."
+msgstr "支援對晶晨 s9xxx 系列（斐訊N1、HK1等），全志（微加雲），以及瑞芯微（貝殼雲、我家雲）的盒子進行在線管理。"
+
+msgid "Supported functions:"
+msgstr "支援的功能："
+
+msgid "Provide services such as install to EMMC, Update Firmware and Kernel, Backup and Recovery Config, Snapshot management, etc."
+msgstr "支援將 OpenWrt 系統寫入 EMMC、升級韌體與內核，備份與恢復自訂配置，快照管理等功能。"
+
+msgid "Supported Boxes:"
+msgstr "支援的盒子："
+
+msgid "Amlogic s922x --- [ Beelink, Beelink-Pro, Ugoos-AM6-Plus, ODROID-N2, Khadas VIM3(a311d) ]"
+msgstr "晶晨 s922x --- [ Beelink, Beelink-Pro, Ugoos-AM6-Plus, ODROID-N2, Khadas VIM3(a311d) ]"
+
+msgid "Amlogic s905x3 -- [ X96-Max+, HK1-Box, H96-Max-X3, Ugoos-X3, TX3, X96-Air, A95XF3-Air ]"
+msgstr "晶晨 s905x3 -- [ X96-Max+, HK1-Box, H96-Max-X3, Ugoos-X3, TX3, X96-Air, A95XF3-Air ]"
+
+msgid "Amlogic s905x2 -- [ X96Max-4G, X96Max-2G, MECOOL-KM3-4G, Tanix-Tx5-Max, A95X-F2 ]"
+msgstr "晶晨 s905x2 -- [ X96Max-4G, X96Max-2G, MECOOL-KM3-4G, Tanix-Tx5-Max, A95X-F2 ]"
+
+msgid "Amlogic s912 ---- [ H96-Pro-Plus, Octopus-Planet, A1, A2, Z6-Plus, TX92, X92, TX8-MAX, TX9-Pro ]"
+msgstr "晶晨 s912 ---- [ H96-Pro-Plus, 章魚星球, A1, A2, Z6-Plus, TX92, X92, TX8-MAX, TX9-Pro ]"
+
+msgid "Amlogic s905x --- [ HG680P, B860H, TBee, T95, TX9, XiaoMI-3S, X96 ]"
+msgstr "晶晨 s905x --- [ 烽火HG680, 中興B860H, TBee, T95, TX9, XiaoMI-3S, X96 ]"
+
+msgid "Amlogic s905w --- [ X96-Mini, TX3-Mini, W95, X96W/FunTV, MXQ-Pro-4K ]"
+msgstr "晶晨 s905w --- [ X96-Mini, TX3-Mini, W95, X96W/FunTV, MXQ-Pro-4K ]"
+
+msgid "Amlogic s905d --- [ Phicomm-N1, MECOOL-KI-Pro, SML-5442TW ]"
+msgstr "晶晨 s905d --- [ 斐訊-N1, MECOOL-KI-Pro, SML-5442TW ]"
+
+msgid "Amlogic

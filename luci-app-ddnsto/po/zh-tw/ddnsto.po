@@ -1,0 +1,32 @@
+msgid "DDNS.to"
+msgstr "DDNS.to內網穿透"
+
+msgid "Running state"
+msgstr "運作狀態"
+
+msgid "Click to open DDNS.to"
+msgstr "點擊開啟DDNSTO控制台"
+
+msgid "DDNS.to is a reverse proxy."
+msgstr "DDNS.to是一個內部網路穿透工具。"
+
+msgid "Official Website"
+msgstr "官方網站"
+
+msgid "Token"
+msgstr "令牌"
+
+msgid "The DDNS.to service is running."
+msgstr "DDNS.to服務已啟動"
+
+msgid "The DDNS.to service is not running."
+msgstr "DDNS.to服務未啟動"
+
+msgid "DDNS.to Status"
+msgstr "DDNS.to服務狀態"
+
+msgid "Collecting data..."
+msgstr "收集資料..."
+
+msgid "Global settings"
+msgstr "全域設定"

@@ -1,0 +1,3439 @@
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+
+msgid "OpenClash"
+msgstr "OpenClash"
+
+msgid "A Clash Client For OpenWrt"
+msgstr "一個運行在 OpenWrt 上的 Clash 用戶端，相容於 Shadowsocks(R)、Vmess、Trojan、Snell 等協議，根據靈活的規則配置實現策略代理"
+
+msgid "Plugin Settings"
+msgstr "插件設定"
+
+msgid "Credits"
+msgstr "技術支援"
+
+msgid "Overviews"
+msgstr "運作狀態"
+
+msgid "Plugin Settings"
+msgstr "插件設定"
+
+msgid "Overwrite Settings"
+msgstr "覆寫設定"
+
+msgid "Rule Providers Append"
+msgstr "規則附加"
+
+msgid "Game Rules Append (Only TUN & Meta Core Support)"
+msgstr "遊戲規則附加（僅 TUN & Meta 核心）"
+
+msgid "Other Rule Providers Append (Only TUN & Meta Core Support)"
+msgstr "第三方規則集附加（僅 TUN & Meta 核心）"
+
+msgid "Custom Rule Providers Append (Only TUN & Meta Core Support)"
+msgstr "自訂規則集附加（僅 TUN & Meta 核心）"
+
+msgid "General Settings"
+msgstr "常規設定"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Config Subscribe"
+msgstr "配置訂閱"
+
+msgid "Config Subscribe Edit"
+msgstr "編輯設定檔訂閱資訊"
+
+msgid "Rules Update"
+msgstr "第三方規則訂閱"
+
+msgid "Dashboard Settings"
+msgstr "外部控制"
+
+msgid "Enable"
+msgstr "啟用"
+
+msgid "Disable"
+msgstr "停用"
+
+msgid "Running"
+msgstr "運作中"
+
+msgid "Not Running"
+msgstr "未執行"
+
+msgid "(Enable or Disable)"
+msgstr "(僅新增選取的設定)"
+
+msgid "Config Normal"
+msgstr "檢查通過"
+
+msgid "Config Abnormal"
+msgstr "檢查失敗"
+
+msgid "File Not Exist"
+msgstr "檔案不存在"
+
+msgid "Not Set"
+msgstr "未設定"
+
+msgid "Server Logs"
+msgstr "執行日誌"
+
+msgid "Debug Logs"
+msgstr "偵錯日誌"
+
+msgid "Generate Logs"
+msgstr "產生日誌"
+
+msgid "Click to Generate"
+msgstr "點擊產生"
+
+msgid "Enable OpenClash"
+msgstr "啟動 OpenClash"
+
+msgid "Disable OpenClash"
+msgstr "關閉 OpenClash"
+
+msgid "Commit Settings"
+msgstr "儲存配置"
+
+msgid "Apply Settings"
+msgstr "應用程式配置"
+
+msgid "Download Config"
+msgstr "下載配置"
+
+msgid "Copy Config"
+msgstr "複製配置"
+
+msgid "Update Config"
+msgstr "更新配置"
+
+msgid "Download Running Config"
+msgstr "下載執行設定"
+
+msgid "Select Mode"
+msgstr "*運作模式"
+
+msgid "redir-host"
+msgstr "Redir-Host（相容）模式"
+
+msgid "fake-ip"
+msgstr "Fake-IP（增強）模式"
+
+msgid "redir-host(tun mode)"
+msgstr "Redir-Host（TUN）模式"
+
+msgid "fake-ip(tun mode)"
+msgstr "Fake-IP（TUN）模式"
+
+msgid "redir-host-mix(tun mix mode)"
+msgstr "Redir-Host（TUN-混合）模式【UDP-TUN，TCP-轉發】"
+
+msgid "fake-ip-mix(tun mix mode)"
+msgstr "Fake-IP（TUN-混合）模式【UDP-TUN，TCP-轉送】"
+
+msgid "Select Mode For OpenClash Work, Try Flush DNS Cache If Network Error"
+msgstr "選擇運作模式，如客戶端的網路異常請嘗試清除DNS快取"
+
+msgid "Proxy Mode"
+msgstr "代理模式"
+
+msgid "Select Proxy Mode"
+msgstr "選擇預設代理模式"
+
+msgid "Rule Proxy Mode"
+msgstr "Rule【策略代理】"
+
+msgid "Global Proxy Mode"
+msgstr "Global【全域代理程式（需前往控制台手動指定節點）】"
+
+msgid "Direct Proxy Mode"
+msgstr "Direct【全域直連】"
+
+msgid "Script Proxy Mode (Tun Core Only)"
+msgstr "Script【腳本模式 - 僅TUN核心】"
+
+msgid "Select Stack Type"
+msgstr "網路堆疊型別"
+
+msgid "Select Stack Type For TUN Mode, According To The Running Speed on Your Machine"
+msgstr "請自行依運轉速度為 TUN 模式選擇適當的網路堆疊"
+
+msgid "China IP Route"
+msgstr "實驗性：繞過中國大陸 IP"
+
+msgid "China IPv6 Route"
+msgstr "實驗性：繞過中國大陸 IPv6"
+
+msgid "Bypass The China Network Flows, Improve Performance"
+msgstr "啟用後中國大陸流量將不再經過內核，提升系統效能"
+
+msgid "Bypass The China Network Flows, Improve Performance, Depend on Dnsmasq"
+msgstr "啟用後中國大陸流量將不再經過內核，提升系統效能，此功能依賴 Dnsmasq"
+
+msgid "Log Level"
+msgstr "日誌等級"
+
+msgid "Info Mode"
+msgstr "Info【資訊】"
+
+msgid "Warning Mode"
+msgstr "Warning【警告】"
+
+msgid "Error Mode"
+msgstr "Error【錯誤】"
+
+msgid "Debug Mode"
+msgstr "Debug【偵錯】"
+
+msgid "Silent Mode"
+msgstr "Silent【靜默】"
+
+msgid "Select Core's Log Level"
+msgstr "選擇核心日誌的預設輸出模式"
+
+msgid "Only intranet allowed"
+msgstr "只允許內網"
+
+msgid "When Enabled, The Control Panel And The Connection Broker Port Will Not Be Accessible From The Public Network"
+msgstr "啟用後將禁止從公網存取控制面板和連接代理連接埠"
+
+msgid "Redirect Local DNS Setting"
+msgstr "*本地 DNS 劫持"
+
+msgid "Set Local DNS Redirect"
+msgstr "建議使用 Dnsmasq 轉發，相容性更好，如和其他 DNS 插件衝突可停用，但須保證客戶端取得的查詢結果與 Clash 給出的一致"
+
+msgid "Dnsmasq Redirect"
+msgstr "使用 Dnsmasq 轉送"
+
+msgid "Firewall Redirect"
+msgstr "使用防火牆轉送"
+
+msgid "Disable Dnsmasq's DNS Cache"
+msgstr "禁止 Dnsmasq 快取 DNS"
+
+msgid "Recommended Enabled For Avoiding Some Connection Errors"
+msgstr "建議啟用，防止因快取造成連線錯誤"
+
+msgid "(Maybe Incompatible For Your Firmware)"
+msgstr "（部分韌體可能不相容）"
+
+msgid "Custom DNS Setting"
+msgstr "*自訂上游 DNS 伺服器"
+
+msgid "Use Custom Rules"
+msgstr "啟用後將把自訂規則增加到設定文件，規則請到下方文字方塊編輯"
+
+msgid "Add Custom DNS Servers"
+msgstr "設定自訂上游 DNS 伺服器"
+
+msgid "(Take Effect After Choose Above)"
+msgstr "（在上方設定啟用此功能後生效）"
+
+msgid "Advanced Setting"
+msgstr "進階設定"
+
+msgid "Enable Specify DNS Server"
+msgstr "啟用第二 DNS 伺服器"
+
+msgid "Specify DNS Server"
+msgstr "指定伺服器"
+
+msgid "Specify DNS Server For List, Only One IP Server Address Support"
+msgstr "指定下方清單中網域名稱的 DNS 伺服器，只支援填入一個IP位址"
+
+msgid "Domain Names In The List Do Not Return Fake-IP, One rule per line, Depend on Dnsmasq"
+msgstr "每行請只填寫一個域名，列表中的域名將使用上方指定的 DNS 進行查詢並返回真實IP地址，此功能依賴於 Dnsmasq"
+
+msgid "Domain Names In The List Do Not Return Fake-IP, One rule per line"
+msgstr "每行請只填寫一個域名，清單中的域名在 Fake-IP 模式下將回傳真實IP位址"
+
+msgid "Domain Names In The List Use The Custom DNS Server, But Still Return Fake-IP Results, One rule per line"
+msgstr "每行請只填寫一個規則，清單中的網域名稱會使用指定的 DNS 進行查詢，但 Fake-IP 模式下仍將傳回保留位址"
+
+msgid "Set OpenClash Upstream DNS Resolve Server"
+msgstr "啟用將覆蓋設定檔內的設置，請先在下方設定好伺服器"
+
+msgid "DNS Server Group"
+msgstr "伺服器分組"
+
+msgid "NameServer Group Must Be Set"
+msgstr "NameServer 群組必須設定至少一個"
+
+msgid "DNS Server Address"
+msgstr "伺服器位址"
+
+msgid "Do Not Add Type Ahead"
+msgstr "請勿新增類型前綴"
+
+msgid "DNS Server Port"
+msgstr "伺服器連接埠"
+
+msgid "Require When Use Non-Standard Port"
+msgstr "使用非標準連接埠時必須填入"
+
+msgid "DNS Server Type"
+msgstr "伺服器類型"
+
+msgid "Communication protocol"
+msgstr "通訊協定"
+
+msgid "Proxy IPv6 Traffic"
+msgstr "IPv6 流量代理"
+
+msgid "The Gateway and DNS of The Connected Device Must be The Router IP, Disable IPv6 DHCP To Avoid Abnormal Connection If You Do Not Use"
+msgstr "連接裝置的閘道和 DNS 必須為路由器 IP，如果您不使用，請停用 IPv6 的 DHCP 以避免連線例外"
+
+msgid "IPv6 DNS Resolve"
+msgstr "允許 IPv6 類型 DNS 解析"
+
+msgid "Enable to Resolve IPv6 DNS Requests"
+msgstr "允許解析 IPv6 型別的 DNS 請求"
+
+msgid "Rules Setting"
+msgstr "規則設定"
+
+msgid "Config Manage"
+msgstr "設定管理"
+
+msgid "Upload File Type"
+msgstr "上傳檔案類型"
+
+msgid "(Click to select)"
+msgstr "(點擊選擇)"
+
+msgid "Proxy Provider File"
+msgstr "代理程式集檔"
+
+msgid "Rule Provider File"
+msgstr "規則集檔"
+
+msgid "Core File"
+msgstr "核心檔案"
+
+msgid "Upload"
+msgstr "上傳"
+
+msgid "File saved to"
+msgstr "檔案已成功上傳至"
+
+msgid "upload file error."
+msgstr "檔案上傳失敗"
+
+msgid "No specify upload file."
+msgstr "未指定上傳檔案"
+
+msgid "Note: Please Upload File According To File Type, File Will Be Saved To The Prompt Path"
+msgstr "注意：請根據文件類型上傳文件，文件將會儲存到提示路徑"
+
+msgid "Proxy Provider File List"
+msgstr "代理程式集檔案清單"
+
+msgid "Rule Providers File List"
+msgstr "規則集檔案清單"
+
+msgid "Game Rules File List"
+msgstr "遊戲規則檔案清單"
+
+msgid "Please Make Sure Ports Available"
+msgstr "請確保連接埠可用"
+
+msgid "Update Subcription"
+msgstr "更新訂閱配置"
+
+msgid "Update time (every day)"
+msgstr "更新時間(每天)"
+
+msgid "Update Interval(min)"
+msgstr "更新間隔(分鐘)"
+
+msgid "Update Mode"
+msgstr "更新模式"
+
+msgid "Appointment Mode"
+msgstr "預約"
+
+msgid "Loop Mode"
+msgstr "迴圈"
+
+msgid "Auto Update"
+msgstr "自動更新"
+
+msgid "Check And Update"
+msgstr "檢查並更新"
+
+msgid "After clash start running, wait a moment for servers to resolve,enjoy"
+msgstr "運作後，請等待伺服器上線"
+
+msgid "Redir Port"
+msgstr "流量轉送埠"
+
+msgid "TProxy Port"
+msgstr "TProxy 埠"
+
+msgid "SOCKS5 Port"
+msgstr "SOCKS5 代理埠"
+
+msgid "HTTP(S) Port"
+msgstr "HTTP(S) 代理埠"
+
+msgid "Mixed Port"
+msgstr "HTTP(S)&SOCKS5 混合代理埠"
+
+msgid "Set Authentication of SOCKS5/HTTP(S)"
+msgstr "設定 SOCKS5/HTTP(S) 認證資訊"
+
+msgid "Not Null"
+msgstr "空值無效"
+
+msgid "Server Subscription Address"
+msgstr "設定檔訂閱位址"
+
+msgid "Auto Update Server subscription"
+msgstr "自動更新設定檔"
+
+msgid "Modify Your Config file:"
+msgstr "您可以在下方直接修改設定檔:"
+
+msgid "Here, Except The Settings That Were Taken Over"
+msgstr "，僅支援未被接管的設定"
+
+msgid "Default Config File With Correct Template"
+msgstr "參考設定文件，方便您查詢各項參數註解和正確的設定、順序"
+
+msgid "Config File Edited By OpenClash For Running"
+msgstr "OpenClash 修改後用於啟動的設定檔"
+
+msgid "Dashboard Secret"
+msgstr "管理頁面登入金鑰"
+
+msgid "Set Dashboard Secret"
+msgstr "設定您的管理頁面登入金鑰"
+
+msgid "Dashboard Address Example:"
+msgstr "管理頁面位址範例:"
+
+msgid "Dashboard Port"
+msgstr "管理頁面連接埠"
+
+msgid "Public Dashboard Address"
+msgstr "管理頁面公網網域名稱"
+
+msgid "Domain Name For Dashboard Login From Public Network"
+msgstr "設定公網域名，方便從公網存取時自動登入"
+
+msgid "Public Dashboard Port"
+msgstr "管理頁面對映連接埠"
+
+msgid "Port For Dashboard Login From Public Network"
+msgstr "設定對應端口，方便從公網存取時自動登入"
+
+msgid "Public Dashboard SSL enabled"
+msgstr "管理頁面公網SSL存取"
+
+msgid "Is SSL enabled For Dashboard Login From Public Network"
+msgstr "設定公網協定是否開啟了SSL，方便從公有網路存取時自動登入"
+
+msgid "GEO Update"
+msgstr "GEO 資料庫訂閱"
+
+msgid "Auto Update GeoIP MMDB"
+msgstr "自動更新 GeoIP MMDB 資料庫"
+
+msgid "Update GeoIP MMDB"
+msgstr "更新 GeoIP MMDB 資料庫"
+
+msgid "Auto Update GeoSite"
+msgstr "自動更新 GeoSite 資料庫"
+
+msgid "Update GeoSite Database"
+msgstr "更新 GeoSite 資料庫"
+
+msgid "Auto Update Chnroute Lists"
+msgstr "自動更新大陸白名單"
+
+msgid "Update Chnroute Lists"
+msgstr "更新大陸白名單"
+
+msgid "Chnroute Update"
+msgstr "大陸白名單訂閱"
+
+msgid "Other Rules Update(Only in Use)"
+msgstr "在使用第三者規則時才能更新"
+
+msgid "Enable Other Rules"
+msgstr "第三者規則"
+
+msgid "Use Other Rules"
+msgstr "將覆寫設定檔內的所有規則 (不包括自訂規則)，啟用前請先在此頁面下方建立設定"
+
+msgid "lhie1 Rules"
+msgstr "lhie1 規則"
+
+msgid "ConnersHua Rules"
+msgstr "ConnersHua 規則"
+
+msgid "ConnersHua(Provider-type) Rules"
+msgstr "ConnersHua(規則集) 規則"
+
+msgid "ConnersHua Return Rules"
+msgstr "ConnersHua 回國規則"
+
+msgid "Auto Update Other Rules"
+msgstr "正在使用第三方規則時更新設定才會生效"
+
+msgid "Update Time (Every Week)"
+msgstr "更新時間(每週)"
+
+msgid "Every Day"
+msgstr "每天"
+
+msgid "Every Monday"
+msgstr "每週一"
+
+msgid "Every Tuesday"
+msgstr "每週二"
+
+msgid "Every Wednesday"
+msgstr "每週三"
+
+msgid "Every Thursday"
+msgstr "每週四"
+
+msgid "Every Friday"
+msgstr "每週五"
+
+msgid "Every Saturday"
+msgstr "每週六"
+
+msgid "Every Sunday"
+msgstr "每週日"
+
+msgid "Update Other Rules"
+msgstr "更新第三者規則"
+
+msgid "GlobalTV"
+msgstr "國際串流"
+
+msgid "AsianTV"
+msgstr "亞洲串流"
+
+msgid "Proxy"
+msgstr "必須代理的流量"
+
+msgid "Apple"
+msgstr "蘋果服務（Apple）"
+
+msgid "Google FCM"
+msgstr "Google推送（Google FCM）"
+
+msgid "Scholar"
+msgstr "學術網站（Scholar）"
+
+msgid "Microsoft"
+msgstr "微軟服務（Microsoft）"
+
+msgid "Netflix"
+msgstr "奈飛（Netflix）"
+
+msgid "Disney Plus"
+msgstr "迪士尼+（Disney Plus）"
+
+msgid "Bilibili"
+msgstr "嗶哩嗶哩（Bilibili）"
+
+msgid "Bahamut"
+msgstr "巴哈姆特（Bahamut）"
+
+msgid "Steam"
+msgstr "Steam（非下載流量）"
+
+msgid "Netease Music"
+msgstr "網易雲音樂"
+
+msgid "Speedtest"
+msgstr "測速流量（Speedtest）"
+
+msgid "AdBlock"
+msgstr "廣告（AdBlock）"
+
+msgid "Domestic"
+msgstr "國內流量"
+
+msgid "Others"
+msgstr "未符合規則的流量"
+
+msgid "Choose Proxy Groups, Base On Your Config File"
+msgstr "指定流量(策略)的代理方式，只支援選擇（策略群組），資訊來自您的設定檔"
+
+msgid "Custom Clash Rules"
+msgstr "*自訂規則"
+
+msgid "Custom Rules Here, For More Go:"
+msgstr "在上方設定自訂規則，詳細資料請參閱:"
+
+msgid "(Priority)"
+msgstr "（優先匹配）"
+
+msgid "(Extended)"
+msgstr "（候補配對）"
+
+msgid "IP To CIDR:"
+msgstr "線上 IP 區段轉 CIDR 位址:"
+
+msgid "Custom Hosts Here, You May Need to Turn off The Rebinding Protection Option of Dnsmasq When Hosts Has Set a Reserved Address, For More Go:"
+msgstr "設定自訂 Hosts，設定了保留位址時需要關閉 Dnsmasq 的重綁定保護選項才能生效，詳細資料請參閱:"
+
+msgid "Set Custom Rules"
+msgstr "設定自訂規則（在上方規則設定啟用此功能後生效）"
+
+msgid "Version Update"
+msgstr "版本更新"
+
+msgid "Model Not Found"
+msgstr "處理器架構識別失敗"
+
+msgid "Current Core Version"
+msgstr "目前核心版本"
+
+msgid "Last Core Version"
+msgstr "最新核心版本"
+
+msgid "Unknown"
+msgstr "查詢失敗"
+
+msgid "Check Failed"
+msgstr "查詢更新失敗"
+
+msgid "<New>"
+msgstr "<可更新>"
+
+msgid "Update Core File"
+msgstr "更新核心"
+
+msgid "Download Form https://github.com/vernesong/OpenClash/releases/tag/Clash If Fail"
+msgstr ""
+"如下載失敗可前往 https://github.com/vernesong/OpenClash/releases/tag/Clash 手動下載並上傳"
+
+msgid "Last OpenClash Version"
+msgstr "最新客戶端版本"
+
+msgid "Current OpenClash Version"
+msgstr "目前客戶端版本"
+
+msgid "Update OpenClash"
+msgstr "更新客戶端"
+
+msgid "Only For IPK Install Type Or Not Release Memory"
+msgstr "只支援透過 IPK 安裝的版本進行更新，因為隨系統編譯的版本更新後不會釋放舊版本的快閃記憶體空間"
+
+msgid "Onekey Create"
+msgstr "一鍵生成"
+
+msgid "Read Config"
+msgstr "讀取配置"
+
+msgid "Delete Unused Servers"
+msgstr "刪除未啟用節點"
+
+msgid "Delete Servers"
+msgstr "清空伺服器設定"
+
+msgid "Delete Proxy Providers"
+msgstr "清空代理程式集合配置"
+
+msgid "Delete Groups"
+msgstr "清空策略群組配置"
+
+msgid "Back Settings"
+msgstr "返回概覽"
+
+msgid "Refresh Page"
+msgstr "刷新頁面"
+
+msgid "Onekey Create (Servers&Groups manage)"
+msgstr "一鍵產生（伺服器&策略群組管理）"
+
+msgid "Keep Settings"
+msgstr "保留配置"
+
+msgid "Only Update Servers Below When Subscription"
+msgstr "訂閱時僅更新節點和代理程式集，保留下方策略群組設置，不修改順序"
+
+msgid "New Servers Group (Support Regex)"
+msgstr "新節點預設策略群組（請勿重複新增，支援正規比對）"
+
+msgid "Set The New Subscribe Server's Default Proxy Groups"
+msgstr "選擇符合訂閱要求的新節點的預設策略群組（請勿重複新增）"
+
+msgid "Choose Template For Create Config"
+msgstr "選擇設定檔範本"
+
+msgid "Use Other Rules To Create Config"
+msgstr "使用第三方規則快速建立設定檔（建立後可在全域設定頁面調整參數）"
+
+msgid "Disable Create Config"
+msgstr "只更新設定檔伺服器節點資訊"
+
+msgid "Mix Proxies"
+msgstr "混合節點"
+
+msgid "Mix This Page's Proxies"
+msgstr "一鍵產生設定檔時合併本頁下方的所有代理伺服器資訊（不區分設定檔）"
+
+msgid "Type"
+msgstr "節點類型"
+
+msgid "Server Alias"
+msgstr "別名（請勿重新命名）"
+
+msgid "Server Address"
+msgstr "伺服器位址"
+
+msgid "Server Port"
+msgstr "伺服器連接埠"
+
+msgid "UDP Support"
+msgstr "UDP支援"
+
+msgid "Edit Server"
+msgstr "編輯伺服器設定"
+
+msgid "Server Node Type"
+msgstr "伺服器節點類型"
+
+msgid "Using incorrect encryption mothod may causes service fail to start"
+msgstr "輸入不正確的參數組合可能會導致服務無法啟動"
+
+msgid "Password"
+msgstr "密碼"
+
+msgid "Encrypt Method"
+msgstr "加密方式"
+
+msgid "Protocol"
+msgstr "協議"
+
+msgid "Protocol param(optional)"
+msgstr "傳輸協定參數（可選）"
+
+msgid "Obfs"
+msgstr "混淆插件"
+
+msgid "Obfs param(optional)"
+msgstr "混淆參數（可選）"
+
+msgid "UDP Enable"
+msgstr "UDP 支援"
+
+msgid "XUDP Enable"
+msgstr "XUDP 支援"
+
+msgid "obfs-mode"
+msgstr "傳輸協定"
+
+msgid "obfs-hosts"
+msgstr "混淆參數（HOST）"
+
+msgid "Auth Username"
+msgstr "登入使用者名稱"
+
+msgid "Auth Password"
+msgstr "登入密碼"
+
+msgid "None"
+msgstr "未配置"
+
+msgid "Create Config"
+msgstr "一鍵產生設定檔"
+
+msgid "Create Config By One-Click Only Need Proxies"
+msgstr "一鍵產生設定檔功能只需要設定伺服器節點資訊或代理程式集資訊"
+
+msgid "Proxy Groups(No Need Set when Config Create)"
+msgstr "策略群組設定（使用一鍵產生設定檔功能時無需設定）"
+
+msgid "Proxies"
+msgstr "伺服器節點配置"
+
+msgid "Edit Rule Providers"
+msgstr "編輯規則集配置"
+
+msgid "Rule Providers Type"
+msgstr "規則集型別"
+
+msgid "Choose The Rule Providers Type"
+msgstr "選擇規則集類型"
+
+msgid "Append Position"
+msgstr "規則集符合順序"
+
+msgid "Priority Match"
+msgstr "優先（覆蓋）"
+
+msgid "Extended Match"
+msgstr "擴充（補充）"
+
+msgid "Rule Providers Name"
+msgstr "別名（請勿重新命名）"
+
+msgid "Rule Behavior"
+msgstr "規則型別"
+
+msgid "Rule Format"
+msgstr "規則格式"
+
+msgid "Choose The Rule Behavior"
+msgstr "選擇規則類型"
+
+msgid "Choose The Rule File Format, For More Info:"
+msgstr "選擇規則格式, 了解使用方式請前往："
+
+msgid "Rule Providers Path"
+msgstr "規則集路徑"
+
+msgid "Update Your Rule Providers File From Config Luci Page"
+msgstr "請先在設定檔管理頁面上傳您的規則集檔"
+
+msgid "Rule Providers URL"
+msgstr "規則集位址"
+
+msgid "Rule Providers Interval(s)"
+msgstr "規則集更新時間（秒）"
+
+msgid "Edit Group"
+msgstr "編輯策略群組配置"
+
+msgid "Group Type"
+msgstr "策略組類型"
+
+msgid "Choose The Operation Mode"
+msgstr "設定策略群組挑選伺服器節點的工作方式"
+
+msgid "Group Name"
+msgstr "別名（請勿重新命名）"
+
+msgid "Disable UDP"
+msgstr "停用UDP連線"
+
+msgid "Test URL"
+msgstr "偵測位址（URL）"
+
+msgid "Test Interval(s)"
+msgstr "偵測頻率（秒）"
+
+msgid "Tolerance(ms)"
+msgstr "節點切換容忍值（毫秒）"
+
+msgid "Manual-Select"
+msgstr "Select【手動選擇】"
+
+msgid "URL-Test"
+msgstr "URL-Test【最低延遲】"
+
+msgid "Fallback"
+msgstr "Fallback【故障切換】"
+
+msgid "Load-Balance"
+msgstr "Load-Balance【負載平衡】"
+
+msgid "Relay-Traffic"
+msgstr "Relay【巢狀中轉】"
+
+msgid "Other Group (Support Regex)"
+msgstr "包含其他策略群組（請勿重複新增，支援正規比對）"
+
+msgid "The Added Proxy Groups Must Exist Except 'DIRECT' & 'REJECT'"
+msgstr "注意：除'DIRECT'和'REJECT'外，修改設定檔前新增的其他策略群組必須已建立"
+
+msgid "The Added Proxy Provider Must Exist"
+msgstr "修改設定檔前新增的代理程式集必須已建立"
+
+msgid "Proxy Group (Support Regex)"
+msgstr "新增至策略群組（請勿重複新增，支援正規比對）"
+
+msgid "Set Proxy Group"
+msgstr "指定策略群組"
+
+msgid "No Need Set when Config Create, The added Proxy Groups Must Exist"
+msgstr "注意：使用一鍵產生設定檔功能時無需設定此項，修改設定檔前新增的策略組必須已建立"
+
+msgid "Clean Log"
+msgstr "清理日誌"
+
+msgid "Stop Refresh Log"
+msgstr "停止刷新"
+
+msgid "Start Refresh Log"
+msgstr "開始刷新"
+
+msgid "Config File"
+msgstr "設定檔"
+
+msgid "State"
+msgstr "狀態"
+
+msgid "Update Time"
+msgstr "更新時間"
+
+msgid "File Name"
+msgstr "檔名"
+
+msgid "Grammar Check"
+msgstr "語法檢查"
+
+msgid "Switch Config"
+msgstr "切換"
+
+msgid "Size"
+msgstr "檔案大小"
+
+msgid "Remove"
+msgstr "移除"
+
+msgid "(Enable or Disable Subscribe)"
+msgstr "（啟用或停用更新）"
+
+msgid "Config Alias"
+msgstr "設定檔名稱"
+
+msgid "Name For Distinguishing"
+msgstr "用於區分，請勿重新命名"
+
+msgid "Subscribe Address"
+msgstr "訂閱網址"
+
+msgid "Keyword Match"
+msgstr "篩選節點"
+
+msgid "Exclude Keyword Match"
+msgstr "排除節點"
+
+msgid "eg: hk or tw&bgp"
+msgstr "格式範例：香港 或 台灣&bgp 或 新加坡&bgp&奈飛"
+
+msgid "Config File List"
+msgstr "設定檔列表"
+
+msgid "Use For All Config File"
+msgstr "新增至所有設定檔"
+
+msgid "Proxy-Provider"
+msgstr "代理程式集配置"
+
+msgid "Edit Proxy-Provider"
+msgstr "編輯代理程式集配置"
+
+msgid "Provider Type"
+msgstr "代理集類型"
+
+msgid "Choose The Provider Type"
+msgstr "選擇代理程式集的類型"
+
+msgid "Provider Name"
+msgstr "代理程式集別名（請勿重新名稱）"
+
+msgid "Provider Path"
+msgstr "代理集路徑（Path）"
+
+msgid "Update Your Proxy Provider File From Config Luci Page"
+msgstr "請先在設定檔管理頁面上傳您的代理程式集檔"
+
+msgid "Provider Filter"
+msgstr "代理集節點篩選"
+
+msgid "Provider URL"
+msgstr "代理集URL"
+
+msgid "Provider Interval(s)"
+msgstr "代理程式集更新間隔（s）"
+
+msgid "Provider Health Check"
+msgstr "代理程式集狀態檢查"
+
+msgid "Health Check URL"
+msgstr "狀態檢查URL"
+
+msgid "Health Check Interval(s)"
+msgstr "狀態檢查間隔（s）"
+
+msgid "Game Rule's Name"
+msgstr "選擇遊戲規則"
+
+msgid "Rule Provider's Name"
+msgstr "選擇規則集（請勿重複新增）"
+
+msgid "Select Proxy Group"
+msgstr "選擇策略群組"
+
+msgid "Game Rules List"
+msgstr "遊戲規則清單"
+
+msgid "Rule Name"
+msgstr "規則名稱"
+
+msgid "Rule Type"
+msgstr "規則型別"
+
+msgid "Rule Author"
+msgstr "規則作者"
+
+msgid "Download Rule"
+msgstr "下載規則"
+
+msgid "Exist"
+msgstr "已下載"
+
+msgid "Not Exist"
+msgstr "未下載"
+
+msgid "Serial Number"
+msgstr "序號"
+
+msgid "Game Rules Manage"
+msgstr "管理第三方遊戲規則"
+
+msgid "Other Rule Provider Manage"
+msgstr "管理第三方規則集"
+
+msgid "Other Rule Providers List"
+msgstr "第三方規則集清單"
+
+msgid "Proxy UDP Traffics"
+msgstr "UDP 流量轉送"
+
+msgid "The Servers Must Support UDP forwarding"
+msgstr "啟用時伺服器必須支援 UDP 轉送"
+
+msgid "If Docker is Installed, UDP May Not Forward Normally"
+msgstr "安裝了 Docker 的韌體請使用 TUN 模式，否則可能無法正常轉送 UDP，造成遊戲異常"
+
+msgid "Disable QUIC"
+msgstr "*停用 QUIC"
+
+msgid "Prevent YouTube and Others To Use QUIC Transmission"
+msgstr "防止 YouTube 等使用 QUIC 導致速度不佳"
+
+msgid "REJECT UDP Traffic(Not Include CN) On Port 443"
+msgstr "停用 443 連接埠 UDP 流量（不包括國內）"
+
+msgid "Operation Mode"
+msgstr "模式設定"
+
+msgid "Select Operation Mode"
+msgstr "*頁面操作模式"
+
+msgid "Select Mode For Page Settings, Switch By Click the Button Bellow"
+msgstr "選擇全域設定的操作模式，點選下方的按鈕切換"
+
+msgid "redir-host mode"
+msgstr "Redir-Host 模式"
+
+msgid "fake-ip mode"
+msgstr "Fake-IP 模式"
+
+msgid "Switch Operation Mode"
+msgstr "切換操作模式"
+
+msgid "Switch Mode"
+msgstr "切換"
+
+msgid "Black&White"
+msgstr "黑白名單"
+
+msgid "LAN Access Control Mode"
+msgstr "區域網路存取控制模式"
+
+msgid "Black List Mode"
+msgstr "黑名單模式"
+
+msgid "White List Mode"
+msgstr "白名單模式"
+
+msgid "LAN Bypassed Host List"
+msgstr "不走代理程式的區域網路設備 IP"
+
+msgid "LAN Proxied Host List"
+msgstr "走代理程式的區域網路設備 IP"
+
+msgid "WAN Bypassed Host List"
+msgstr "不走代理程式的 WAN IP"
+
+msgid "LAN Bypassed Mac List"
+msgstr "不走代理程式的區域網路設備 Mac"
+
+msgid "LAN Proxied Mac List"
+msgstr "走代理程式的區域網路設備 Mac"
+
+msgid "In The Fake-IP Mode, Only Pure IP Requests Are Supported"
+msgstr "在 Fake-IP 模式下，只支援過濾純 IP 類型的請求"
+
+msgid "Rule Match Proxy Mode"
+msgstr "僅代理命中規則流量"
+
+msgid "Append Some Rules to Config, Allow Only Traffic Proxies that Match the Rule, Prevent BT/P2P Passing"
+msgstr "附加規則到設定文件，僅允許匹配規則的流量代理，防止 BT、P2P 下載流量經過代理"
+
+msgid "Common Ports Proxy Mode"
+msgstr "*僅允許常用連接埠流量"
+
+msgid "Only Common Ports, Prevent BT/P2P Passing"
+msgstr "僅允許常用連接埠的流量經過 Clash，防止 BT、P2P 下載流量經過代理"
+
+msgid "443 or 21-443, Use Space to Separate"
+msgstr "443 or 21-443, 請使用空格分隔"
+
+msgid "Default Common Ports"
+msgstr "預設常用連接埠"
+
+msgid "Provider File Manage"
+msgstr "代理（規則）集檔案管理"
+
+msgid "Config File Edit"
+msgstr "設定檔編輯"
+
+msgid "Delete All File"
+msgstr "刪除所有檔案"
+
+msgid "SS/SSR/Vmess or Other Link And Subscription Address is Supported When Online Subscription Conversion is Enabled, Multiple Links Should be One Per Line or Separated By |"
+msgstr "在線訂閱轉換啟用時支援：SS/SSR/Vmess 等節點鏈接和訂閱鏈接，多個鏈接請每行一個或用 | 分隔"
+
+msgid "Template Name"
+msgstr "訂閱轉換範本"
+
+msgid "Subscribe Convert Online"
+msgstr "線上訂閱轉換"
+
+msgid "Custom Template URL"
+msgstr "自訂範本位址"
+
+msgid "Custom Template"
+msgstr "自訂範本"
+
+msgid "Emoji"
+msgstr "添加Emoji"
+
+msgid "skip-cert-verify"
+msgstr "跳過憑證驗證"
+
+msgid "Sort"
+msgstr "排序"
+
+msgid "Append Node Type"
+msgstr "插入節點類型"
+
+msgid "Convert Subscribe Online With Template"
+msgstr "根據範本線上轉換設定檔"
+
+msgid "Convert Subscribe function of Online is Supported By subconverter Written By tindy X"
+msgstr "線上訂閱轉換功能由 tindy X 透過 subconverter 提供支援"
+
+msgid "Small Flash Memory"
+msgstr "小型快閃記憶體模式"
+
+msgid "Move Core And GEOIP Data File To /tmp/etc/openclash For Small Flash Memory Device"
+msgstr "針對快閃記憶體空間不夠的設備，移動核心和 GEOIP 資料庫等檔案到 /tmp/etc/openclash 資料夾"
+
+msgid "Round-robin"
+msgstr "輪詢（輪流使用全部代理）"
+
+msgid "Consistent-hashing"
+msgstr "雜湊符合（造訪相同網站時使用同一個代理程式）"
+
+msgid "Strategy Type"
+msgstr "策略類型"
+
+msgid "Choose The Load-Balance's Strategy Type"
+msgstr "選擇負載平衡的策略類型"
+
+msgid "Main Program"
+msgstr "主程式"
+
+msgid "Daemons"
+msgstr "守護程序"
+
+msgid "Running Mode"
+msgstr "運作模式"
+
+msgid "Yacd Control Panel"
+msgstr "Yacd 控制面板"
+
+msgid "Dashboard Control Panel"
+msgstr "Dashboard 控制面板"
+
+msgid "Control Panel Login IP"
+msgstr "控制台登入 IP"
+
+msgid "Control Panel Login Port"
+msgstr "控制台登入連接埠"
+
+msgid "Control Panel Login Secret"
+msgstr "控制台登入金鑰"
+
+msgid "Dashboard Control Panel"
+msgstr "Dashboard 控制面板"
+
+msgid "Quick Operation"
+msgstr "常用操作快速按鈕"
+
+msgid "Please ensure that all items are displayed normally before running. If you need to update, please go to the global settings page"
+msgstr "元件的狀態顯示，運作前請確保各項目顯示正常，需要更新請到全域設定頁面操作"
+
+msgid "Node Select Backup"
+msgstr "策略群組節點選擇 備份日期"
+
+msgid "ConnersHua Rule Update"
+msgstr "ConnersHua 規則更新日期"
+
+msgid "Mainland IP Update"
+msgstr "大陸 IP 白名單 更新日期"
+
+msgid "Mainland IPv6 Update"
+msgstr "大陸 IPv6 白名單 更新日期"
+
+msgid "lhie1 Rule Update"
+msgstr "lhie1 規則更新日期"
+
+msgid "ConnersHua Return Rule Update"
+msgstr "ConnersHua 回國規則更新日期"
+
+msgid "GEOIP Data Update"
+msgstr "GEOIP 資料庫日期"
+
+msgid "GeoSite Data Update"
+msgstr "GeoSite 資料庫日期"
+
+msgid "No Backup"
+msgstr "暫未備份"
+
+msgid "Backup"
+msgstr "備份"
+
+msgid "<Limited State>"
+msgstr "<受限狀態>"
+
+msgid "Enhance"
+msgstr "增強"
+
+msgid "Compatible"
+msgstr "相容"
+
+msgid "Mix"
+msgstr "混合"
+
+msgid "Open Panel"
+msgstr "打開控制台"
+
+msgid "Close All Connections"
+msgstr "重置所有連結"
+
+msgid "Restore Nodes Selection"
+msgstr "還原策略群組節點選擇"
+
+msgid "Save Nodes Selection"
+msgstr "儲存策略群組節點選擇"
+
+msgid "Reload Firewall Rules"
+msgstr "重設防火牆規則"
+
+msgid "Check All Components Update"
+msgstr "外掛程式和核心檢查更新"
+
+msgid "Check Config Update"
+msgstr "設定檔檢查更新"
+
+msgid "Check Third Party Rules Update"
+msgstr "第三者規則檢查更新"
+
+msgid "Check GEOIP Data Update"
+msgstr "GEOIP 資料庫檢查更新"
+
+msgid "Check GeoSite Data Update"
+msgstr "GeoSite 資料庫檢查更新"
+
+msgid "Check and update all Cores and plug-ins?"
+msgstr "確定要一鍵檢查並更新所有核心及插件嗎？"
+
+msgid "Check failed, Please try again later!"
+msgstr "一鍵檢查更新失敗,請稍後再試！"
+
+msgid "No Compiled Version is Selected, Please Select on The Top and Try Again!"
+msgstr "未選擇編譯版本，請到上方標籤選擇後重試！"
+
+msgid "Checking..."
+msgstr "正在檢查更新..."
+
+msgid "Reloading..."
+msgstr "正在重置..."
+
+msgid "Restoring..."
+msgstr "正在還原..."
+
+msgid "Saving..."
+msgstr "正在儲存..."
+
+msgid "Firewall Rules Reset Failed"
+msgstr "防火牆規則重設失敗"
+
+msgid "Close All Connections Railed"
+msgstr "重置所有連結失敗"
+
+msgid "Restore Nodes Selection Railed"
+msgstr "還原失敗"
+
+msgid "Save Nodes Selection Failed"
+msgstr "備份失敗"
+
+msgid "Tip: after started, please wait patiently until the connection is normal"
+msgstr "Tip: OpenClash 成功啟動後請耐心等待下方網站存取檢查連線正常後再使用"
+
+msgid "Tip: You can modify the profile on the profile page (for content that is not taken over)"
+msgstr "Tip: 您可以在設定檔頁面直接修改設定檔（適用於沒被接管的內容）"
+
+msgid "Tip: click the version icon above to jump to the client publishing page"
+msgstr "Tip: 點擊上方版本圖示可跳到客戶端發佈頁面"
+
+msgid "Tip: do not write configuration files? Try to create one click on the server page"
+msgstr "Tip: 不會寫設定檔？試試在【伺服器與策略群組管理】頁面一鍵建立"
+
+msgid "Tip: some website are abnormal? Try switching modes or using third-party rules"
+msgstr "Tip: 某些網站連結出現異常? 試試切換模式或使用第三方規則"
+
+msgid "Tip: using the fake IP mode can get a faster access experience"
+msgstr "Tip: 使用 Fake-IP 模式可以獲得更快速的存取體驗"
+
+msgid "Tip: query DNS by TLS & TCP & HTTPS can get better anti pollution effect"
+msgstr "Tip: 使用 TLS & TCP & HTTPS 方式查詢DNS可以獲得更好的抗污染效果"
+
+msgid "Tip: openlash will check the configuration file parameters to ensure that it works properly"
+msgstr "Tip: OpenClash 啟動時會檢查設定檔參數【伺服器（策略）群組、規則、DNS設定】以確保能夠正常運作"
+
+msgid "Tip: the nameserver group must have at least one server set when using custom DNS"
+msgstr "Tip: 使用自訂DNS上游伺服器時NameServer群組必須設定至少一個伺服器"
+
+msgid "Tip: the website access check shows the connection of the device currently logged in to the Luci page"
+msgstr "Tip: 網站存取檢查展示的是目前登入LUCI頁面裝置的連線情況"
+
+msgid "Tip: if you don not use IPv6, please turn off the DHCP service of IPv6, otherwise the connection will be abnormal"
+msgstr "Tip: 若不使用IPv6，請關閉IPv6的DHCP服務，否則會造成連線例外"
+
+msgid "Tip: you can update the version in the global settings page"
+msgstr "Tip: 您可以在全域設定頁面進行版本更新操作"
+
+msgid "Note: if the update fails, you can manually download and upload"
+msgstr "注意：如更新失敗可手動下載並上傳"
+
+msgid "Note: the client may not support update, because the firmware with squashfs format will not release flash space after updating"
+msgstr "注意：客戶端可能無法更新，因為squashfs格式的韌體更新後不會釋放快閃記憶體空間"
+
+msgid "Compiled Version Selected (Auto-save when you click to update or download)"
+msgstr "已選擇編譯版本（點擊更新或下載時自動儲存）"
+
+msgid "Release Branch Selected (Auto-save when you click to update or download)"
+msgstr "已選擇更新分支（點擊更新或下載時自動儲存）"
+
+msgid "CPU Architecture"
+msgstr "處理器架構"
+
+msgid "Last Check Update"
+msgstr "上次檢查更新時間"
+
+msgid "Current Core"
+msgstr "目前核心版本"
+
+msgid "Latest Core"
+msgstr "最新核心版本"
+
+msgid "Core path:"
+msgstr "核心路徑："
+
+msgid "Update Core"
+msgstr "更新核心"
+
+msgid "Download Latest Core"
+msgstr "下載最新版本核心"
+
+msgid "Client Update"
+msgstr "客戶端版本更新"
+
+msgid "Current Client"
+msgstr "目前客戶端版本"
+
+msgid "Update Client"
+msgstr "更新客戶端"
+
+msgid "Latest Client"
+msgstr "最新客戶端版本"
+
+msgid "Download Latest Client"
+msgstr "下載最新版本用戶端"
+
+msgid "Download"
+msgstr "下載到本地"
+
+msgid "Restore Default Config"
+msgstr "還原預設設定"
+
+msgid "One Click Check Update"
+msgstr "一鍵檢查更新"
+
+msgid "Failed to get the latest version. Please try again later!"
+msgstr "最新版本取得失敗，請稍後再試！"
+
+msgid "Are you sure want to restore the default config?"
+msgstr "確定要還原預設配置嗎？"
+
+msgid "Restore succeeded!"
+msgstr "還原預設設定成功！"
+
+msgid "Restore failed!"
+msgstr "還原預設設定失敗！"
+
+msgid "Support syntax check, press"
+msgstr "支援語法檢查，按鈕"
+
+msgid "to control diff option, press"
+msgstr "控制 Diff 顯示，按鈕"
+
+msgid "to enter full screen editing mode"
+msgstr "進入全螢幕編輯模式"
+
+msgid "Switch page to Fake-IP mode"
+msgstr "切換頁面到 Fake-IP 模式"
+
+msgid "Switch page to Redir-Host mode"
+msgstr "切換頁面到 Redir-Host 模式"
+
+msgid "Page has been switched to Fake-IP mode!"
+msgstr "頁面已切換為 Fake-IP 模式！"
+
+msgid "Page has been switched to Redir-Host mode!"
+msgstr "頁面已切換為 Redir-Host 模式！"
+
+msgid "IP Address"
+msgstr "IP 位址"
+
+msgid "Mainland"
+msgstr "國內"
+
+msgid "Abroad"
+msgstr "國外"
+
+msgid "Website Access Check"
+msgstr "網站存取檢查"
+
+msgid "Baidu Search"
+msgstr "百度搜尋"
+
+msgid "NetEase Music"
+msgstr "網易雲音樂"
+
+msgid "Querying..."
+msgstr "查詢中..."
+
+msgid "Testing..."
+msgstr "偵測中..."
+
+msgid "Access Timed Out"
+msgstr "連接逾時"
+
+msgid "Access Normal"
+msgstr "連接正常"
+
+msgid "Access Denied"
+msgstr "無法存取"
+
+msgid "Bind Network Interface"
+msgstr "綁定網路介面"
+
+msgid "Default Interface Name:"
+msgstr "目前系統預設介面:"
+
+msgid ",Try Enable If Network Loopback"
+msgstr ", 如發生回環死機請嘗試啟用"
+
+msgid "Custom GeoIP MMDB URL"
+msgstr "GeoIP MMDB 資料庫更新 URL"
+
+msgid "Custom GeoSite URL"
+msgstr "GeoSite 資料庫更新 URL"
+
+msgid "Custom Chnroute6 Lists URL"
+msgstr "大陸IPv6段更新 URL"
+
+msgid "Custom Chnroute Lists URL"
+msgstr "大陸IP段更新 URL"
+
+msgid "Custom CN Doamin Lists URL"
+msgstr "大陸網域名稱清單檔案更新 URL"
+
+msgid "Custom GeoIP MMDB URL, Click Button Below To Refresh After Edit"
+msgstr "自訂 GeoIP MMDB 資料庫的更新來源，編輯後點選下方按鈕生效"
+
+msgid "Custom GeoSite Data URL, Click Button Below To Refresh After Edit"
+msgstr "自訂 GeoSite 資料庫的更新來源，編輯後點選下方按鈕生效"
+
+msgid "Custom Chnroute Lists URL, Click Button Below To Refresh After Edit"
+msgstr "自訂大陸 IP 區段的更新來源，編輯後點選下方按鈕生效"
+
+msgid "Custom Chnroute6 Lists URL, Click Button Below To Refresh After Edit"
+msgstr "自訂大陸 IPv6 區段的更新來源，編輯後點選下方按鈕生效"
+
+msgid "Custom CN Doamin Dnsmasq Conf URL, Click Button Below To Refresh After Edit"
+msgstr "自訂大陸網域名稱清單設定檔（Dnsmasq Conf）的更新來源，編輯後點選下方按鈕生效"
+
+msgid "(Default)"
+msgstr "(預設)"
+
+msgid "(Default mmdb)"
+msgstr "(默認，全部國家且僅寫入iso_code和geoname_id)"
+
+msgid "(All Info mmdb)"
+msgstr "(全部國家且包含官方全部資訊資料)"
+
+msgid "(Only CN)"
+msgstr "(僅限中國資料)"
+
+msgid "(Large Size)"
+msgstr "(18MB大文件，請確保足夠的剩餘空間)"
+
+msgid "Other Rules Edit"
+msgstr "設定第三者規則"
+
+msgid "Get Group Names"
+msgstr "取得策略群組"
+
+msgid "Get Group Names After Select Config File"
+msgstr "選擇設定檔後請點選對應的政策群組"
+
+msgid "Other Rules Name"
+msgstr "第三者規則"
+
+msgid "Note"
+msgstr "備註"
+
+msgid "Auto Restart"
+msgstr "定時重開機"
+
+msgid "Auto Restart OpenClash"
+msgstr "定時重新啟動插件"
+
+msgid "Restart Time (Every Week)"
+msgstr "重啟時間(每週)"
+
+msgid "Restart time (every day)"
+msgstr "重啟時間(每天)"
+
+msgid "DNS Port"
+msgstr "DNS監聽埠"
+
+msgid "Log Size (KB)"
+msgstr "日誌大小（KB）"
+
+msgid "Set Log File Size (KB)"
+msgstr "設定日誌檔案大小（KB）"
+
+msgid "Download Log"
+msgstr "下載日誌"
+
+msgid "Convert Address"
+msgstr "訂閱轉換服務位址"
+
+msgid "Note: There is A Risk of Privacy Leakage in Online Convert"
+msgstr "注意：線上訂閱轉換存在隱私外洩風險"
+
+msgid "Remove Core"
+msgstr "刪除核心"
+
+msgid "Are you sure want to remove all core files?"
+msgstr "確定要刪除所有核心檔案嗎？"
+
+msgid "Remove succeeded!"
+msgstr "刪除成功！"
+
+msgid "Remove failed!"
+msgstr "刪除失敗！"
+
+msgid "Import"
+msgstr "導入設定資訊"
+
+msgid "Export SSR"
+msgstr "匯出ssr設定檔"
+
+msgid "Import configuration information successfully."
+msgstr "導入設定資訊成功。"
+
+msgid "Invalid format."
+msgstr "無效的格式。"
+
+msgid "User cancelled."
+msgstr "使用者已取消。"
+
+msgid "Paste sharing link here"
+msgstr "在此貼上分享連結"
+
+msgid "Unable to copy SSR to clipboard."
+msgstr "無法複製 SSR 網址到剪貼簿。"
+
+msgid "Copy SSR to clipboard successfully."
+msgstr "成功複製 SSR 網址到剪貼簿。"
+
+msgid "Exclude Keyword Match Default"
+msgstr "排除無效節點"
+
+msgid "Start Downloading"
+msgstr "開始下載"
+
+msgid "Download Successful, Start Pre Update Test..."
+msgstr "下載成功，開始進行更新前測試..."
+
+msgid "Pre Update Test Failed, The File is Saved in /tmp/openclash.ipk, Please Try to Update Manually!"
+msgstr "更新前測試失敗，檔案儲存在 /tmp/openclash.ipk，請嘗試手動更新！"
+
+msgid "Pre Update Test Passed, Ready to Update and Please Do not Refresh The Page and Other Operations..."
+msgstr "更新前測試通過，準備開始更新，更新流程請不要刷新頁面和進行其他操作..."
+
+msgid "Uninstalling The Old Version, Please Do not Refresh The Page or Do Other Operations..."
+msgstr "正在卸載舊版本，更新過程請不要刷新頁面和進行其他操作..."
+
+msgid "Installing The New Version, Please Do Not Refresh The Page or Do Other Operations..."
+msgstr "正在安裝新版本，更新過程請不要刷新頁面和進行其他操作..."
+
+msgid "OpenClash Update Successful, About To Restart!"
+msgstr "OpenClash 更新成功，即將進行重新啟動！"
+
+msgid "OpenClash Update Failed, The File is Saved in /tmp/openclash.ipk, Please Try to Update Manually!"
+msgstr "OpenClash 更新失敗，檔案儲存在 /tmp/openclash.ipk，請嘗試手動更新！"
+
+msgid "Download Failed, Please Check The Network or Try Again Later!"
+msgstr "下載失敗，請檢查網頁或稍後再試！"
+
+msgid "Error: Failed to Get Version Information, Please Try Again Later..."
+msgstr "錯誤：取得版本資訊失敗，請稍後再試..."
+
+msgid "OpenClash Has not Been Updated, Stop Continuing!"
+msgstr "OpenClash 沒有更新，停止繼續操作！"
+
+msgid "Core Version Check Error, Please Try Again Later..."
+msgstr "核心最新版本偵測失敗，請稍後再試..."
+
+msgid "Core Downloading, Please Try to Download and Upload Manually If Fails"
+msgstr "版本核心正在下載，如下載失敗請嘗試手動下載並上傳..."
+
+msgid "Core Download Successful, Start Update..."
+msgstr "版本核心下載成功，開始更新..."
+
+msgid "Core Update Failed, Please Check The Network or Try Again Later!"
+msgstr "版本核心更新失敗，請檢查網路或稍後再試！"
+
+msgid "Core Update Successful!"
+msgstr "版本核心更新成功！"
+
+msgid "Core Update Failed. Please Make Sure Enough Flash Memory Space And Try Again!"
+msgstr "版本核心更新失敗，請確認裝置快閃記憶體空間足夠後再試一次！"
+
+msgid "No Compiled Version Selected, Please Select In Global Settings And Try Again!"
+msgstr "未選擇編譯版本，請到全域設定中選擇後再試！"
+
+msgid "Core Has Not Been Updated, Stop Continuing Operation!"
+msgstr "版本核心沒有更新，停止繼續操作！"
+
+msgid "Start Downloading Third Party Rules in Use..."
+msgstr "開始下載使用中的第三者規則..."
+
+msgid "Warning: Multiple Other-Rules-Configurations Enabled, Ignore..."
+msgstr "警告：偵測到啟用了多個第三方規則配置，忽略後續配置..."
+
+msgid "Download Successful, Start Preprocessing Rule File..."
+msgstr "下載成功，開始預處理規則檔..."
+
+msgid "Error: Ruby Works Abnormally, Please Check The Ruby Library Depends!"
+msgstr "錯誤：Ruby 依賴異常，無法校驗設定文件，請確認ruby依賴工作正常後重試！"
+
+msgid "Error:"
+msgstr "錯誤："
+
+msgid "Rule File Format Validation Failed, Please Try Again Later..."
+msgstr "規則檔案格式校驗失敗，請稍後再試..."
+
+msgid "Error: Updated Others Rules"
+msgstr "錯誤：更新的第三方規則檔案"
+
+msgid "Has No Rules Field, Update Exit..."
+msgstr "規則部分校驗失敗，請稍後再試..."
+
+msgid "Has Incompatible Proxy-Group, Update Exit, Please Wait For OpenClash Update To Adapt..."
+msgstr "含有未支援的新策略群組，更新停止，請等待 OpenClash 版本更新適合..."
+
+msgid "Check The Downloaded Rule File For Updates..."
+msgstr "檢查下載的規則檔案是否有更新..."
+
+msgid "Detected that The Downloaded Rule File Has Been Updated, Starting To Replace..."
+msgstr "偵測到下載的規則檔案有更新，開始替換..."
+
+msgid "Other Rules"
+msgstr "第三方規則檔案"
+
+msgid "Update Successful!"
+msgstr "更新成功！"
+
+msgid "Updated Other Rules"
+msgstr "偵測到更新的規則檔案"
+
+msgid "No Change, Do Nothing!"
+msgstr "沒有更新，停止繼續操作!"
+
+msgid "Update Error, Please Try Again Later..."
+msgstr "下載失敗，請檢查網頁或稍後再試..."
+
+msgid "Other Rules Not Enable, Update Stop!"
+msgstr "未啟用第三方規則，更新程式終止！"
+
+msgid "Get Other Rules Settings Faild, Update Stop!"
+msgstr "未找到第三方規則配置，更新程式終止！"
+
+msgid "is Replaced Successfully, Start Picking Nodes..."
+msgstr "替換成功，偵測到已啟用節點篩選，開始挑選節點..."
+
+msgid "is Replaced Successfully, Start to Reserving..."
+msgstr "取代成功，偵測到已啟用保留配置，開始進行設定..."
+
+msgid "Config File Test Successful, Check If There is Any Update..."
+msgstr "設定檔測試成功，檢查是否有更新..."
+
+msgid "Are Updates, Start Replacing..."
+msgstr "有更新，開始替換..."
+
+msgid "Download Successful, Start To Create..."
+msgstr "下載成功，本地沒有設定文件，開始建立..."
+
+msgid "Error: Ruby Works Abnormally, Please Check The Ruby Library Depends!"
+msgstr "錯誤：Ruby 依賴異常，無法校驗設定文件，請確認 Ruby 依賴工作正常後重試！"
+
+msgid "Config File Format Validation Failed..."
+msgstr "設定檔格式校驗失敗..."
+
+msgid "Error: Updated Config"
+msgstr "錯誤：更新的設定檔"
+
+msgid "Has No Proxy Field, Update Exit..."
+msgstr "節點部分校驗失敗..."
+
+msgid "Start Updating Config File"
+msgstr "開始更新設定檔"
+
+msgid "Config File Format Validation Failed, Trying To Download Without Agent..."
+msgstr "設定檔格式校驗失敗，嘗試不使用代理下載設定檔..."
+
+msgid "Has No Proxy Field, Trying To Download Without Agent..."
+msgstr "節點部分校驗失敗，嘗試不使用代理下載設定檔..."
+
+msgid "Error: Config File"
+msgstr "錯誤：設定檔"
+
+msgid "Subscribed Failed, Trying to Download Without Agent..."
+msgstr "訂閱失敗，嘗試不使用代理下載設定檔..."
+
+msgid "Start Downloading The Chnroute Cidr List..."
+msgstr "開始下載大陸 IP 白名單..."
+
+msgid "Start Downloading The Chnroute6 Cidr List..."
+msgstr "開始下載大陸 IPv6 白名單..."
+
+msgid "Start Downloading The CN Domains List..."
+msgstr "開始下載大陸網域白名單..."
+
+msgid "Chnroute Cidr List Download Success, Check Updated..."
+msgstr "大陸 IP 白名單下載成功，檢查版本是否更新..."
+
+msgid "Chnroute6 Cidr List Download Success, Check Updated..."
+msgstr "大陸 IPv6 白名單下載成功，檢查版本是否更新..."
+
+msgid "CN Domains List Download Success, Check Updated..."
+msgstr "大陸網域白名單下載成功，檢查版本是否更新..."
+
+msgid "Chnroute Cidr List Has Been Updated, Starting To Replace The Old Version..."
+msgstr "大陸 IP 白名單有更新，開始替換舊版本..."
+
+msgid "Chnroute6 Cidr List Has Been Updated, Starting To Replace The Old Version..."
+msgstr "大陸 IPv6 白名單有更新，開始取代舊版..."
+
+msgid "CN Domains List Has Been Updated, Starting To Replace The Old Version..."
+msgstr "大陸網域白名單有更新，開始替換舊版..."
+
+msgid "Chnroute Cidr List Update Successful!"
+msgstr "大陸 IP 白名單更新成功！"
+
+msgid "Chnroute6 Cidr List Update Successful!"
+msgstr "大陸 IPv6 白名單更新成功！"
+
+msgid "CN Domains List Update Successful!"
+msgstr "大陸網域白名單更新成功！"
+
+msgid "Updated Chnroute Cidr List No Change, Do Nothing..."
+msgstr "大陸 IP 白名單沒有更新，停止繼續操作..."
+
+msgid "Updated Chnroute6 Cidr List No Change, Do Nothing..."
+msgstr "大陸 IPv6 白名單沒有更新，停止繼續操作..."
+
+msgid "Updated CN Domains List No Change, Do Nothing..."
+msgstr "大陸網域白名單沒有更新，停止繼續操作..."
+
+msgid "Chnroute Cidr List Update Error, Please Try Again Later..."
+msgstr "大陸 IP 白名單下載失敗，請檢查網路或稍後再試..."
+
+msgid "Chnroute6 Cidr List Update Error, Please Try Again Later..."
+msgstr "大陸 IPv6 白名單下載失敗，請檢查網路或稍後再試..."
+
+msgid "CN Domains List Update Error, Please Try Again Later..."
+msgstr "大陸網域白名單下載失敗，請檢查網頁或稍後再試..."
+
+msgid "Start Downloading GeoSite Database..."
+msgstr "開始下載 GeoSite 資料庫..."
+
+msgid "GeoSite Database Download Success, Check Updated..."
+msgstr "GeoSite 資料庫下載成功，檢查資料庫版本是否更新..."
+
+msgid "GeoSite Database Has Been Updated, Starting To Replace The Old Version..."
+msgstr "GeoSite 資料庫版本有更新，開始取代資料庫版本..."
+
+msgid "GeoSite Database Update Successful!"
+msgstr "GeoSite 資料庫更新成功！"
+
+msgid "Updated GeoSite Database No Change, Do Nothing..."
+msgstr "GeoSite 資料庫版本沒有更新，停止繼續操作..."
+
+msgid "GeoSite Database Update Error, Please Try Again Later..."
+msgstr "GeoSite 資料庫下載失敗，請檢查網路或稍後再試..."
+
+msgid "Start Downloading GeoIP Dat..."
+msgstr "開始下載 GeoIP Dat 資料庫..."
+
+msgid "GeoIP Dat Download Success, Check Updated..."
+msgstr "GeoIP Dat 資料庫下載成功，檢查資料庫版本是否更新..."
+
+msgid "GeoIP Dat Has Been Updated, Starting To Replace The Old Version..."
+msgstr "GeoIP Dat 資料庫版本有更新，開始取代資料庫版本..."
+
+msgid "GeoIP Dat Update Successful!"
+msgstr "GeoIP Dat 資料庫更新成功！"
+
+msgid "Updated GeoIP Dat No Change, Do Nothing..."
+msgstr "GeoIP Dat 資料庫版本沒有更新，停止繼續操作..."
+
+msgid "GeoIP Dat Update Error, Please Try Again Later..."
+msgstr "GeoIP Dat 資料庫下載失敗，請檢查網路或稍後再試..."
+
+msgid "Start Downloading Geoip Database..."
+msgstr "開始下載 GEOIP 資料庫..."
+
+msgid "Geoip Database Download Success, Check Updated..."
+msgstr "GEOIP 資料庫下載成功，檢查資料庫版本是否更新..."
+
+msgid "Geoip Database Has Been Updated, Starting To Replace The Old Version..."
+msgstr "GEOIP 資料庫版本有更新，開始取代資料庫版本..."
+
+msgid "Geoip Database Update Successful!"
+msgstr "GEOIP 資料庫更新成功！"
+
+msgid "Updated Geoip Database No Change, Do Nothing..."
+msgstr "GEOIP 資料庫版本沒有更新，停止繼續操作..."
+
+msgid "Geoip Database Update Error, Please Try Again Later..."
+msgstr "GEOIP 資料庫下載失敗，請檢查網路或稍後再試..."
+
+msgid "Start Getting"
+msgstr "開始取得"
+
+msgid "Groups Setting..."
+msgstr "的政策群組配置..."
+
+msgid "Group Setting..."
+msgstr "的政策群組配置..."
+
+msgid "Proxy-providers Setting..."
+msgstr "的代理程式集配置..."
+
+msgid "Proxy-provider Setting..."
+msgstr "的代理程式集配置..."
+
+msgid "Proxies Setting..."
+msgstr "的伺服器節點設定..."
+
+msgid "Proxy Setting..."
+msgstr "的伺服器節點設定..."
+
+msgid "Read Error, Config File"
+msgstr "讀取錯誤，設定檔"
+
+msgid "Abnormal!"
+msgstr "異常！"
+
+msgid "Abnormal!"
+msgstr "異常！"
+
+msgid "Deleting Old Configuration..."
+msgstr "正在刪除舊配置..."
+
+msgid "Error: Unable To Parse Config File, Please Check And Try Again!"
+msgstr "設定檔校驗失敗，請檢查設定檔後重試！"
+
+msgid "Start Writing"
+msgstr "開始寫入"
+
+msgid "Group To Config File..."
+msgstr "策略群組到設定檔..."
+
+msgid "Proxy To Config File..."
+msgstr "節點到設定檔..."
+
+msgid "Proxy-provider To Config File..."
+msgstr "代理程式集到設定檔..."
+
+msgid "Unable To Parse, Please Choose One-key Function To Create Config File..."
+msgstr "的資訊讀取失敗，無法進行修改，請選擇一鍵建立設定檔..."
+
+msgid "Setting Secondary DNS Server List..."
+msgstr "正在設定第二個 DNS 伺服器清單..."
+
+msgid "Deleting"
+msgstr "刪除"
+
+msgid "Proxy-providers That no Longer Exists in Subscription"
+msgstr "訂閱中已不存在的代理程式集..."
+
+msgid "Proxies That no Longer Exists in Subscription"
+msgstr "訂閱中已不存在的節點..."
+
+msgid "Read Successful!"
+msgstr "讀取完成！"
+
+msgid "Write Successful!"
+msgstr "寫入完成！"
+
+msgid "Creating By Using Connershua (rule set) Rules..."
+msgstr "使用 ConnersHua(規則集) 規則建立中..."
+
+msgid "Creating By Using lhie1 Rules..."
+msgstr "使用 lhie1 規則建立中..."
+
+msgid "Creating By Using ConnersHua Return Rules..."
+msgstr "使用 ConnersHua 回國規則創建中..."
+
+msgid "Created Successful, Updating Proxies, Proxy-providers, Groups..."
+msgstr "已建立完成，正在更新伺服器、代理程式集、策略群組資訊..."
+
+msgid "Proxies, Proxy-providers, Groups Edited Successful, Updating Config File"
+msgstr "伺服器、代理程式集、政策群組資訊修改完成，正在更新設定檔"
+
+msgid "Warning: Because of The Different Porxy-Group's Name, Stop Setting The Other Rules!"
+msgstr "警告：由於第三方規則設定中的策略群組名稱與設定檔中的不符或不存在，停止繼續設定第三方規則！"
+
+msgid "Error: Missing Porxy-Group's Name, Stop Setting The Other Rules!"
+msgstr "錯誤：遺失或未指定第三方規則中的部分策略群組，停止繼續設定第三方規則！"
+
+msgid "Tip: Detected That The nameserver DNS Option Has No Server Set, Starting To Complete..."
+msgstr "提示：偵測到DNS選項下的 Nameserver 未設定伺服器，開始補全..."
+
+msgid "Error: Failed To Download Proxy-providers, Please Check The Log Page For Detailed error information!"
+msgstr "錯誤：代理程式集檔案下載失敗，請到日誌頁面查看詳細錯誤訊息！"
+
+msgid "Error: Failed To Download Rule-providers, Please Check The Log Page For Detailed error information!"
+msgstr "錯誤：規則集檔下載失敗，請到日誌頁面查看詳細錯誤訊息！"
+
+msgid "Error: Nameserver Option Must Be Setted, Stop Customing DNS Servers"
+msgstr "錯誤：設定檔DNS選項下的 Nameserver 必須設定伺服器，已停止設定自訂DNS伺服器！"
+
+msgid "Config File Does Not Exist, You Have Set Subscription Information, Ready To Download..."
+msgstr "設定檔不存在，您已設定訂閱訊息，準備開始下載..."
+
+msgid "Error: Config Not Found"
+msgstr "錯誤：缺少設定文件，請上傳或更新設定檔！"
+
+msgid "Error: Config File Format Validation Failed..."
+msgstr "錯誤：設定檔格式校驗失敗..."
+
+msgid "Tip: Detected The Exclusive Function of The TUN Core, Use TUN Core to Start..."
+msgstr "提示：偵測到配置了 TUN 核心專屬功能，呼叫 TUN 核心啟動..."
+
+msgid "Tip: Detected The Exclusive Function of The Meta Core, Use Meta Core to Start..."
+msgstr "提示：偵測到配置了 Meta 核心專屬功能，呼叫 Meta 核心啟動..."
+
+msgid "Tip: No Special Configuration Detected, Use Dev Core to Start..."
+msgstr "提示：未偵測到特殊配置，呼叫 Dev 核心啟動..."
+
+msgid "Tip: Detected that the Dev Core is not Installed, Use TUN Core to Start..."
+msgstr "提示：偵測到 Dev 核心未安裝，呼叫 TUN 核心啟動..."
+
+msgid "Tip: Detected that the Dev Core is not Installed, Use Meta Core to Start..."
+msgstr "提示：偵測到 Dev 核心未安裝，呼叫 Meta 核心啟動..."
+
+msgid "Tip: Detected that the GEOIP Database is not Installed, Ready to Download..."
+msgstr "提示：偵測到 GEOIP 資料庫檔案不存在，準備開始下載..."
+
+msgid "Tip: Detected that the GEOSITE Database is not Installed, Ready to Download..."
+msgstr "提示：偵測到 GEOSITE 資料庫檔案不存在，準備開始下載..."
+
+msgid "Tip: Detected that the GEOIP Dat is not Installed, Ready to Download..."
+msgstr "提示：偵測到 GEOIP Dat 資料庫檔案不存在，準備開始下載..."
+
+msgid "Tip: Detected that the Core is not Installed, Ready to Download..."
+msgstr "提示：偵測到核心檔案不存在，準備開始下載..."
+
+msgid "Tip: Detected that the Chnroute Cidr or CN Domains List is not Installed, Ready to Download..."
+msgstr "提示：偵測到大陸白名單清單不存在，準備開始下載..."
+
+msgid "Tip: Detected that the Chnroute Cidr List Format is wrong, Ready to Reformat..."
+msgstr "提示：偵測到大陸白名單清單格式錯誤，準備重新格式化..."
+
+msgid "Error: Could Not Load The Capsh Library, Please Verify The Capsh Shell Library Work Well..."
+msgstr "錯誤：Capsh 異常，請嘗試重新安裝依賴【libcap】和對應的Capsh函式庫，終止啟動..."
+
+msgid "Tip: You Could Download And Re-Install The libcap & libcap-bin Library From The Address Give"
+msgstr "提示：你可以嘗試從給定的位址中尋找、下載並重新安裝架構對應的 libcap 和 libcap-bin 依賴"
+
+msgid "Error: Get DNS 'listen' Option Error, OpenClash Can Not Start With Raw Config File"
+msgstr "錯誤：無法取得 DNS 部分的監聽連接埠設定, OpenClash 使用原始設定檔啟動失敗"
+
+msgid "Error: Get DNS 'enhanced-mode' Option Error, OpenClash Can Not Start With Raw Config File"
+msgstr "錯誤：無法取得 DNS 部分的運作模式設定, OpenClash 使用原始設定檔啟動失敗"
+
+msgid "Error: Get General 'redir-port' Option Error, OpenClash Can Not Start With Raw Config File"
+msgstr "錯誤：無法取得 General 部分的轉送連接埠設定, OpenClash 使用原始設定檔啟動失敗"
+
+msgid "Error: OpenClash Can Not Start, Please Check The Error Info And Try Again!"
+msgstr "錯誤：OpenClash 啟動失敗，請前往日誌頁面查看詳細錯誤訊息！"
+
+msgid "Error: OpenClash Can Not Start, Try Use Raw Config Restart Again..."
+msgstr "錯誤：OpenClash 啟動失敗，嘗試使用原始設定檔啟動..."
+
+msgid "Error: OpenClash Can Not Start, Try Use Backup Rules Start Again..."
+msgstr "錯誤：OpenClash 啟動失敗，嘗試還原第三方規則並重新啟動 Clash 主程式..."
+
+msgid "Found 53 Port Hijacked, Clean Up Firewall Rules..."
+msgstr "發現 53 連接埠被劫持，清理防火牆規則..."
+
+msgid "OpenClash Start Running..."
+msgstr "OpenClash 開始啟動..."
+
+msgid "OpenClash Restart..."
+msgstr "OpenClash 重新啟動中..."
+
+msgid "Step 1: Get The Configuration..."
+msgstr "第一步: 取得設定..."
+
+msgid "Step 2: Check The Components..."
+msgstr "第二步: 元件運作前檢查..."
+
+msgid "Step 3: Modify The Config File..."
+msgstr "第三步: 修改設定檔..."
+
+msgid "Step 4: Start Running The Clash Core..."
+msgstr "第四步: 啟動主程式..."
+
+msgid "Step 5: Check The Core Status..."
+msgstr "第五步: 檢查核心啟動狀態..."
+
+msgid "Step 6: Wait For The File Downloading..."
+msgstr "第六步: 等待主程式下載外部檔案..."
+
+msgid "Step 7: Set Firewall Rules..."
+msgstr "第七步: 設定防火牆規則..."
+
+msgid "Step 8: Restart Dnsmasq..."
+msgstr "第八步: 重新啟動 Dnsmasq 程式..."
+
+msgid "Step 9: Add Cron Rules, Start Daemons..."
+msgstr "第九步: 新增排程任務,啟動程序守護程序..."
+
+msgid "OpenClash Start Successful!"
+msgstr "OpenClash 啟動成功，請等待伺服器上線！"
+
+msgid "Warning: OpenClash Start Successful, Please Note That Network May Abnormal With IPv6's DHCP Server"
+msgstr "警告：OpenClash 啟動成功，偵測到您啟用了IPv6的DHCP服務，可能會造成連線異常！"
+
+msgid "Warning: OpenClash Start Successful With Raw Config File, Please Note That It's Restricted Mode Now"
+msgstr "警告：OpenClash 使用原始設定檔啟動成功，部分設定可能未生效！"
+
+msgid "OpenClash Stoping..."
+msgstr "OpenClash 開始關閉..."
+
+msgid "Step 1: Backup The Current Groups State..."
+msgstr "第一步: 備份目前原則組狀態..."
+
+msgid "Step 2: Delete OpenClash Firewall Rules..."
+msgstr "第二步: 刪除 OpenClash 防火牆規則..."
+
+msgid "Step 3: Close The OpenClash Daemons..."
+msgstr "第三步: 關閉 OpenClash 守護程式..."
+
+msgid "Step 4: Close The Clash Core Process..."
+msgstr "第四步: 關閉 Clash 主程式..."
+
+msgid "Step 5: Restart Dnsmasq..."
+msgstr "第五步: 重新啟動 Dnsmasq 程式..."
+
+msgid "Step 6: Delete OpenClash Residue File..."
+msgstr "第六步：刪除 OpenClash 殘留檔案..."
+
+msgid "OpenClash Already Stop!"
+msgstr "OpenClash 關閉成功！"
+
+msgid "Reload OpenClash Firewall Rules..."
+msgstr "重設 OpenClash 防火牆規則..."
+
+msgid "Warning: OpenClash Now Disabled, Need Start From Luci Page, Exit..."
+msgstr "警告：OpenClash 目前處於未啟用狀態，請從插件頁面啟動本插件，腳本退出..."
+
+msgid "Warning: Multiple Restart Scripts Running, Exit..."
+msgstr "警告：多個 OpenClash 啟動腳本執行中，此腳本退出..."
+
+msgid "Watchdog: Multiple Clash Processes, Kill All..."
+msgstr "守護程式：偵測到多個 Clash 核心運行，清理中..."
+
+msgid "Watchdog: Clash Core Problem, Restart..."
+msgstr "守護程式：偵測到 Clash 核心崩潰，重新啟動..."
+
+msgid "Watchdog: Already Restart 3 Times With Clash Core Problem, Auto-Exit..."
+msgstr "守護程序：已嘗試自動重啟三次 Clash 內核，為防止頻繁重啟造成嚴重後果，OpenClash 將停止運行..."
+
+msgid "Watchdog: Log Size Limit, Clean Up All Log Records..."
+msgstr "守護程序：因日誌大小限制，清理所有日誌內容..."
+
+msgid "Watchdog: Setting Firewall For Enabling Redirect..."
+msgstr "守護程式：偵測到轉送規則順序錯誤，修改外掛防火牆規則..."
+
+msgid "Watchdog: Force Reset DNS Hijack..."
+msgstr "守護程序：重新設定 Dnsmasq 的 DNS 轉送選項..."
+
+msgid "Rule File"
+msgstr "規則檔"
+
+msgid "Download Error!"
+msgstr "下載失敗！"
+
+msgid "Download Successful!"
+msgstr "下載成功！"
+
+msgid "Switch To The New Proxy When The Delay Difference Between Old and The Fastest Currently is Greater Than This Value"
+msgstr "只有當舊代理程式和目前最快代理程式之間的延遲差大於此值時，才會切換到新代理"
+
+msgid "URL-Test Group Tolerance"
+msgstr "URL-Test 策略群組切換靈敏度"
+
+msgid "Attention:"
+msgstr "注意事項："
+
+msgid "The game proxy is a test function and does not guarantee the availability of rules"
+msgstr "遊戲代理為測試功能，不保證規則可用性"
+
+msgid "Preparation steps:"
+msgstr "準備步驟："
+
+msgid "1. In the <server and policy group management> page, create the policy group and node you are going to use, and apply the configuration (when adding nodes, you must select the policy group you want to join). Poliant to join type suggestion: fallback, game nodes must be support UDP and not a Vmess"
+msgstr "1、在《伺服器與策略群組管理》頁面建立您準備使用的策略群組和節點，並套用設定（節點新增時必須選擇要加入的策略群組），策略群組類型建議: FallBack，遊戲節點必須支援 UDP 且不是Vmess 節點"
+
+msgid "2. Click the <manage third party game rules> 或 <manage third party rule set> button to enter the rule list and download the rules you want to use"
+msgstr "2、點選《管理第三方遊戲規則》或《管理第三方規則集》按鈕進入規則清單下載您要使用的規則"
+
+msgid "3. On this page, set the corresponding configuration file and policy group of the rule you have downloaded, and save the settings"
+msgstr "3、在此頁面設定您已下載的規則的對應設定檔、策略群組並儲存設定"
+
+msgid "4. Install the TUN or Meta core"
+msgstr "4、安裝 TUN 或 Meta 核心"
+
+msgid "When setting this page, if the groups is empty, please go to the <server and group management> page to add"
+msgstr "本頁設定時如政策群組為空，請先到《伺服器與策略群組管理》頁面進行新增"
+
+msgid "Introduction to rule set usage: https://lancellc.gitbook.io/clash/clash-config-file/rule-provider"
+msgstr "規則集使用介紹：https://lancellc.gitbook.io/clash/clash-config-file/rule-provider"
+
+msgid "Introduction to proxy usage: https://lancellc.gitbook.io/clash/clash-config-file/proxies"
+msgstr "代理使用介紹：https://lancellc.gitbook.io/clash/clash-config-file/proxies"
+
+msgid "Introduction to proxy-provider usage: https://lancellc.gitbook.io/clash/clash-config-file/proxy-provider"
+msgstr "代理程式集使用介紹：https://lancellc.gitbook.io/clash/clash-config-file/proxy-provider"
+
+msgid "Subconverter external configuration (subscription conversion template) Description: https://github.com/tindy2013/subconverter#external-configuration-file"
+msgstr "subconverter 外部設定(訂閱轉換範本)說明：https://github.com/tindy2013/subconverter#external-configuration-file"
+
+msgid "If you need to customize the external configuration file (subscription conversion template), please write it according to the instructions, upload it to the accessible location of the external network, and fill in the adden correct in the usrrect
+msgstr "如需自訂外部設定檔(訂閱轉換範本)，請依照指示撰寫後上傳至外部網路可存取的位置，並在使用時正確填入位址"
+
+msgid "If you have a recommended external configuration file (subscription conversion template), you can modify by following The file format of /usr/share/openclash/res/sub_ini.list and pr"
+msgstr "如您有值得推薦的外部設定檔(訂閱轉換範本)，可以依照 /usr/share/openclash/res/sub_ini.list 的檔案格式修改後提交PR"
+
+msgid "Note: To restore the default configuration, try accessing:"
+msgstr "注意: 如遇到配置遺失或需要還原預設配置，請嘗試存取位址:"
+
+msgid "Take Effect If Fallback DNS Setted, Prevent DNS Pollution"
+msgstr "只有在設定檔設定了 Fallback 群組的DNS時才會生效，正確設定可以有效防止 DNS 污染"
+
+msgid "Error: Fallback-Filter Need fallback of DNS Been Setted, Ignore..."
+msgstr "錯誤：只有在設定檔設定了 Fallback 群組的 DNS 時 Fallback-Filter 才會生效，跳過此項目修改..."
+
+msgid "Error: Unable To Parse Custom Fallback-Filter File, Ignore..."
+msgstr "錯誤：讀取自訂的 Fallback-Filter 設定失敗，跳過此項目修改..."
+
+msgid "Simple & trustworthy"
+msgstr "簡單 & 值得信賴"
+
+msgid "Cross-platform Support"
+msgstr "豐富的第三方應用相容性"
+
+msgid "Global Acceleration Network"
+msgstr "全球網路基礎架構"
+
+msgid "Easy to Use"
+msgstr "操作簡易"
+
+msgid "Intelligent Shunting"
+msgstr "智慧分流"
+
+msgid "Perfect Technical Support"
+msgstr "完善技術支援"
+
+msgid "Plan Expiration Time"
+msgstr "到期時間"
+
+msgid "Account Balances"
+msgstr "帳戶餘額"
+
+msgid "Aff Balances"
+msgstr "回饋餘額"
+
+msgid "Account Integral"
+msgstr "帳戶積分"
+
+msgid "Today Used"
+msgstr "今日已使用"
+
+msgid "Plan Used"
+msgstr "本月已使用"
+
+msgid "Plan Unused"
+msgstr "剩餘流量"
+
+msgid "Plan Traffic"
+msgstr "套餐流量"
+
+msgid "Checkin"
+msgstr "試試手氣"
+
+msgid "Dler Cloud Account Login Failed! Please Check And Try Again..."
+msgstr "Dler Cloud 帳號登入失敗！請檢查帳號資訊並重試..."
+
+msgid "Dler Cloud Checkin Failed! Please Check And Try Again..."
+msgstr "Dler Cloud 簽到失敗，請稍後再試！"
+
+msgid "Account Email Address"
+msgstr "帳號位址"
+
+msgid "Account Password"
+msgstr "帳號密碼"
+
+msgid "Checkin Interval (hour)"
+msgstr "簽到間隔（小時）"
+
+msgid "Checkin Multiple"
+msgstr "簽到倍數"
+
+msgid "Multiple Must Be a Positive Integer and No More Than 50"
+msgstr "倍數必須是正整數且不大於50"
+
+msgid "Dler Cloud Checkin Successful, Result:"
+msgstr "Dler Cloud 簽到成功，結果："
+
+msgid "Dler Cloud Checkin Failed, Result:"
+msgstr "Dler Cloud 簽到失敗，結果："
+
+msgid "Downloading Rule..."
+msgstr "正在下載規則..."
+
+msgid "Download Failed"
+msgstr "下載失敗"
+
+msgid "Download Successful"
+msgstr "下載成功"
+
+msgid "Rule No Change"
+msgstr "規則沒有更新"
+
+msgid "Download Timeout"
+msgstr "下載逾時"
+
+msgid "Rule Project:"
+msgstr "規則項目:"
+
+msgid "Rule Project:"
+msgstr "規則項目:"
+
+msgid "Login..."
+msgstr "登入中..."
+
+msgid "Dler Cloud Login Successful"
+msgstr "Dler Cloud 登入成功"
+
+msgid "Dler Cloud Login Faild"
+msgstr "Dler Cloud 登入失敗"
+
+msgid "Login Account"
+msgstr "登入帳號"
+
+msgid "Dler Cloud Logout Successful"
+msgstr "Dler Cloud 已成功退出"
+
+msgid "Dler Cloud Logout Faild"
+msgstr "Dler Cloud 退出失敗"
+
+msgid "Logout Account"
+msgstr "退出帳號"
+
+msgid "Account Login"
+msgstr "帳號登入"
+
+msgid "Account logged in"
+msgstr "帳號已登入"
+
+msgid "Account not logged in"
+msgstr "帳號未登入"
+
+msgid "Logout..."
+msgstr "退出中..."
+
+msgid "Error Login Info"
+msgstr "登入資訊錯誤"
+
+msgid "Warning: Proxy is no longer used. Auto replaced by proxies"
+msgstr "警告：【Proxy】寫法已不再支持，自動替換為proxies"
+
+msgid "Warning: Proxy Group is no longer used. Auto replaced by proxy-groups"
+msgstr "警告：【Proxy Group】寫法已不再支持，自動替換為proxy-groups"
+
+msgid "Warning: Rule is no longer used. Auto replaced by rules"
+msgstr "警告：【Rule】寫法已不再支持，自動替換為rules"
+
+msgid "Warning: rule-provider is no longer used. Auto replaced by rule-providers"
+msgstr "警告：【rule-provider】寫法已不再支持，自動替換為rule-providers"
+
+msgid "Error: Load File Failed,"
+msgstr "錯誤：檔案解析失敗，"
+
+msgid "Error: Set General Failed,"
+msgstr "錯誤：修改 General 設定失敗，"
+
+msgid "Error: Set authentication Failed,"
+msgstr "錯誤：修改 Authentication 設定失敗，"
+
+msgid "Error: Set Hosts Rules Failed,"
+msgstr "錯誤：修改 Hosts 設定失敗，"
+
+msgid "Error: Set Fake-IP-Filter Failed,"
+msgstr "錯誤：修改 Fake-IP-Filter 設定失敗，"
+
+msgid "Error: Set Nameserver-Policy Failed,"
+msgstr "錯誤：修改 Nameserver-Policy 設定失敗，"
+
+msgid "Error: Set Custom Rules Failed,"
+msgstr "錯誤：設定自訂規則失敗，"
+
+msgid "Error: Set BT/P2P DIRECT Rules Failed,"
+msgstr "錯誤：設定僅代理命中規則流量（BT/P2P直連）失敗，"
+
+msgid "Error: Set Loop Protect Rules Failed,"
+msgstr "錯誤：設定防回環規則失敗，"
+
+msgid "Error: Set lhie1 Rules Failed,"
+msgstr "錯誤：設定第三方規則（lhie1）失敗，"
+
+msgid "Error: Set ConnersHua Rules Failed,"
+msgstr "錯誤：設定第三方規則（ConnersHua）失敗，"
+
+msgid "Error: Set ConnersHua Return Rules Failed,"
+msgstr "錯誤：設定第三方規則（ConnersHua 回國）失敗，"
+
+msgid "Error: Filter Proxies Failed,"
+msgstr "錯誤：節點篩選失敗，"
+
+msgid "Error: Unable To Parse Config File,"
+msgstr "錯誤：設定檔解析失敗，"
+
+msgid "Error: Unable To Parse Updated Rules File,"
+msgstr "錯誤：更新的規則檔案解析失敗，"
+
+msgid "Error: Edit Provider Path Failed,"
+msgstr "錯誤：修改集路徑失敗，"
+
+msgid "Error: Edit URL-Test Group Tolerance Option Failed,"
+msgstr "錯誤：修改 URL-Test 原則群組容忍值失敗，"
+
+msgid "Error: Game Proxy Merge Failed,"
+msgstr "錯誤：遊戲規則策略組合併失敗，"
+
+msgid "Error: Rule Set Add Failed,"
+msgstr "錯誤：規則集 Rule-Set 規則新增失敗，"
+
+msgid "Error: Custom Rule Provider Merge Failed,"
+msgstr "錯誤：規則集 Rule Provider 合併失敗，"
+
+msgid "Error: Restore Backup Rules Failed,"
+msgstr "錯誤：還原預設規則失敗，"
+
+msgid "Error: Resolve Proxy-providers Failed,"
+msgstr "錯誤：解析代理程式集失敗，"
+
+msgid "Error: Resolve Proxies Failed,"
+msgstr "錯誤：節點解析失敗，"
+
+msgid "Error: Resolve Groups Failed,"
+msgstr "錯誤：策略群組解析失敗，"
+
+msgid "Error: Set default-nameserver Failed,"
+msgstr "錯誤：修改 Default-nameserver 設定失敗，"
+
+msgid "switching succeeded!"
+msgstr "切換成功！"
+
+msgid "switching failed!"
+msgstr "切換失敗！"
+
+msgid "Current Config File"
+msgstr "目前設定檔"
+
+msgid "Official Website"
+msgstr "官方網站"
+
+msgid "Up:"
+msgstr "上傳:"
+
+msgid "Down:"
+msgstr "下載:"
+
+msgid "Up Total:"
+msgstr "上傳總量:"
+
+msgid "Down Total:"
+msgstr "下載總量:"
+
+msgid "Connections:"
+msgstr "活動連結:"
+
+msgid "Ram:"
+msgstr "記憶體佔用:"
+
+msgid "CPU:"
+msgstr "CPU佔用:"
+
+msgid "Bad address specified!"
+msgstr "輸入的位址不合法！"
+
+msgid "Could not find any connection logs!"
+msgstr "找不到任何連線日誌！"
+
+msgid "Some error occurred!"
+msgstr "發生了一些錯誤！"
+
+msgid "Click to Test"
+msgstr "點擊測試"
+
+msgid "Connection Test (Current Browser)"
+msgstr "連線測試（目前瀏覽器）"
+
+msgid "Backup File"
+msgstr "備份檔案"
+
+msgid "Backup File Restore Successful!"
+msgstr "備份檔案復原成功！"
+
+msgid "Backup OpenClash"
+msgstr "備份 OpenClash"
+
+msgid "Not Select"
+msgstr "未選擇"
+
+msgid "1. It may be that the plugin is not running"
+msgstr "1. 可能是插件未在運作"
+
+msgid "2. It may be that the cache causes the browser to directly use the IP for access"
+msgstr "2. 可能是快取導致瀏覽直接使用 IP 位址進行存取"
+
+msgid "3. It may be that DNS hijacking did not take effect, so clash unable to reverse the domain name"
+msgstr "3. 可能是 DNS 未劫持成功，導致 Clash 無法正確反推出網域連線"
+
+msgid "4. It may be that the filled address cannot be resolved and connected"
+msgstr "4. 可能是所填位址無法進行解析與連接"
+
+msgid "OpenClash Log"
+msgstr "插件日誌"
+
+msgid "Core Log"
+msgstr "核心日誌"
+
+msgid "Append Upstream DNS"
+msgstr "追加上游 DNS"
+
+msgid "Append The Upstream Assigned DNS And Gateway IP To The Nameserver"
+msgstr "將上游指派的 DNS 和閘道 IP 追加到 Nameserver"
+
+msgid "All Groups"
+msgstr "所有政策群組"
+
+msgid "Are you sure want to switch the running mode?"
+msgstr "確認要切換運轉模式嗎?"
+
+msgid "Tip: Because of the file"
+msgstr "提示：由於檔案"
+
+msgid "modificated, Pause quick start..."
+msgstr "被修改，暫停快速啟動..."
+
+msgid "Click to Update"
+msgstr "點擊更新規則"
+
+msgid "Prefetch Netflix, Disney Plus Domains"
+msgstr "實驗性：預解析 Netflix、Disney Plus 網域"
+
+msgid "Prevent Some Devices From Directly Using IP Access To Cause Unlocking Failure, Recommend Use meta Sniffer Function"
+msgstr "防止部分裝置直接使用IP存取導致DNS解鎖失敗，建議換用 meta 核心的偵測功能"
+
+msgid "Update Preset Domains List"
+msgstr "更新預置網域清單"
+
+msgid "Domains Prefetch Interval(min)"
+msgstr "網域預解析間隔（分鐘）"
+
+msgid "Tip: Start Prefetch Netflix Domains..."
+msgstr "提示：開始預解析 Netflix 網域..."
+
+msgid "Tip: Netflix Domains Prefetch Finished!"
+msgstr "提示：Netflix 網域預解析完成!"
+
+msgid "Tip: Start Prefetch Disney Plus Domains..."
+msgstr "提示：開始預解析 Disney Plus 網域..."
+
+msgid "Tip: Disney Plus Domains Prefetch Finished!"
+msgstr "提示：Disney Plus 網域預解析完成!"
+
+msgid "Persistence Fake-IP"
+msgstr "Fake-IP 持久化"
+
+msgid "Cache Fake-IP DNS Resolution Records To File, Improve The Response Speed After Startup"
+msgstr "儲存 Fake-IP 的 DNS 解析記錄到文件，提升核心啟動後的反應速度和穩定性"
+
+msgid "About to open fast.com"
+msgstr "確認後將開啟 fast.com 進行測速"
+
+msgid "Please make sure the OpenClash works normally"
+msgstr "請確保 OpenClash 已正常運作"
+
+msgid "The domains catch time is one minute"
+msgstr "網域抓取功能運行時間為一分鐘"
+
+msgid "You can also try to catch while unlocking device playing"
+msgstr "您也可以在正常解鎖的裝置播放時嘗試抓取"
+
+msgid "The catch result will be automatically saved"
+msgstr "抓取結果將自動儲存"
+
+msgid "Click to Catch"
+msgstr "手動抓取網域名稱"
+
+msgid "Catch Netflix"
+msgstr "手排 Netflix 網域"
+
+msgid "No domain names were catched..."
+msgstr "未抓取到任何網域名稱..."
+
+msgid "Will Run Once Immediately After Started, The Interval Does Not Need To Be Too Short (Take Effect Immediately After Commit)"
+msgstr "啟動後會立即執行一次，間隔無需太短（修改後儲存配置即可生效）"
+
+msgid "Test failed"
+msgstr "偵測失敗"
+
+msgid "OpenClash Start Failed"
+msgstr "OpenClash 啟動失敗"
+
+msgid "interface-name"
+msgstr "指定出口網路卡"
+
+msgid "routing-mark"
+msgstr "指定路由標記"
+
+msgid "Streaming Enhance"
+msgstr "串流增強"
+
+msgid "Auto Select Unlock Proxy"
+msgstr "*自動選擇解鎖節點"
+
+msgid "Auto Select Proxy For Streaming Unlock, Support Netflix, Disney Plus, HBO And YouTube Premium, etc"
+msgstr "自動選擇解鎖節點，支援 Netflix、Disney Plus、HBO 和 YouTube Premium 等"
+
+msgid "Auto Select Interval(min)"
+msgstr "自動選擇（偵測）間隔（分鐘）"
+
+msgid "Expand Group"
+msgstr "展開策略群組"
+
+msgid "Automatically Expand The Group When Selected"
+msgstr "自動展開巢狀的政策群組並進行解鎖偵測，啟用後可能會造成網路不穩定"
+
+msgid "Group Filter"
+msgstr "策略群組篩選"
+
+msgid "Unlock Region Filter"
+msgstr "解鎖區域篩選"
+
+msgid "Unlock Nodes Filter"
+msgstr "解鎖節點篩選"
+
+msgid "Tip: Start Auto Select Proxy For Netflix Unlock..."
+msgstr "提示：開始自動選擇（偵測）Netflix 解鎖節點..."
+
+msgid "Tip: Start Auto Select Proxy For Disney Plus Unlock..."
+msgstr "提示：開始自動選擇（偵測）Disney Plus 解鎖節點..."
+
+msgid "Tip: Start Auto Select Proxy For HBO Now Unlock..."
+msgstr "提示：開始自動選擇（偵測）HBO Now 解鎖節點..."
+
+msgid "Tip: Start Auto Select Proxy For HBO Max Unlock..."
+msgstr "提示：開始自動選擇（偵測）HBO Max 解鎖節點..."
+
+msgid "Tip: Start Auto Select Proxy For HBO GO Asia Unlock..."
+msgstr "提示：開始自動選擇（偵測）HBO GO Asia 解鎖節點..."
+
+msgid "Tip: Start Auto Select Proxy For YouTube Premium Unlock..."
+msgstr "提示：開始自動選擇（偵測）YouTube Premium 解鎖節點..."
+
+msgid "Tip: Start Auto Select Proxy For TVB Anywhere+ Unlock..."
+msgstr "提示：開始自動選擇（偵測）TVB Anywhere+ 解鎖節點..."
+
+msgid "Tip: Start Auto Select Proxy For Amazon Prime Video Unlock..."
+msgstr "提示：開始自動選擇（偵測）Amazon Prime Video 解鎖節點..."
+
+msgid "Tip: Start Auto Select Proxy For DAZN Unlock..."
+msgstr "提示：開始自動選擇（偵測）DAZN 解鎖節點..."
+
+msgid "Tip: Start Auto Select Proxy For Paramount Plus Unlock..."
+msgstr "提示：開始自動選擇（偵測）Paramount Plus 解鎖節點..."
+
+msgid "Tip: Start Auto Select Proxy For Discovery Plus Unlock..."
+msgstr "提示：開始自動選擇（偵測）Discovery Plus 解鎖節點..."
+
+msgid "Tip: Start Auto Select Proxy For Bilibili Unlock..."
+msgstr "提示：開始自動選擇（偵測）Bilibili 解鎖節點..."
+
+msgid "Tip: Start Auto Select Proxy For Google Not CN Unlock..."
+msgstr "提示：開始自動選擇（偵測）Google 非送中節點..."
+
+msgid "Tip: Start Auto Select Proxy For OpenAI Unlock..."
+msgstr "提示：開始自動選擇（偵測）OpenAI 解鎖節點..."
+
+msgid "Netflix Group:"
+msgstr "Netflix 策略群組："
+
+msgid "Disney Plus Group:"
+msgstr "Disney Plus 策略群組："
+
+msgid "HBO Now Group:"
+msgstr "HBO Now 策略群組："
+
+msgid "HBO Max Group:"
+msgstr "HBO Max 策略群組："
+
+msgid "HBO GO Asia Group:"
+msgstr "HBO GO Asia 策略組："
+
+msgid "TVB Anywhere+ Group:"
+msgstr "TVB Anywhere+ 策略群組："
+
+msgid "Amazon Prime Video Group:"
+msgstr "Amazon Prime Video 策略群組："
+
+msgid "YouTube Premium Group:"
+msgstr "YouTube Premium 策略群組："
+
+msgid "DAZN Group:"
+msgstr "DAZN 策略群組："
+
+msgid "Paramount Plus Group:"
+msgstr "Paramount Plus 策略組："
+
+msgid "Discovery Plus Group:"
+msgstr "Discovery Plus 政策群組："
+
+msgid "Bilibili Group:"
+msgstr "Bilibili 策略群組："
+
+msgid "Google Group:"
+msgstr "Google 策略群組："
+
+msgid "OpenAI Group:"
+msgstr "OpenAI 策略群組："
+
+msgid "full support"
+msgstr "完整解鎖"
+
+msgid "full support, area:"
+msgstr "完整解鎖，區域："
+
+msgid "only support homemade!"
+msgstr "只支援自製劇！"
+
+msgid "unlock test faild!"
+msgstr "解鎖偵測失敗！"
+
+msgid ", the type of group is not select, auto select could not work!"
+msgstr "，目前策略群組類型非Select，無法進行自動選擇！"
+
+msgid "Start auto select unlock proxy..."
+msgstr "開始進行解鎖節點自動選擇..."
+
+msgid "only support homemade! the type of group is not select, auto select could not work!"
+msgstr "僅支援自製劇！目前策略群組類型非 Select，無法進行自動選擇！"
+
+msgid "unlock test faild! the type of group is not select, auto select could not work!"
+msgstr "解鎖偵測失敗！目前策略群組類型非 Select，無法進行自動選擇！"
+
+msgid "only support homemade! start auto select unlock proxy..."
+msgstr "僅支援自製劇！開始進行解鎖節點自動選擇..."
+
+msgid "unlock test faild! start auto select unlock proxy..."
+msgstr "解鎖偵測失敗！開始進行解鎖節點自動選擇..."
+
+msgid "It Will Be Searched According To The Regex When Auto Search Group Fails"
+msgstr "策略群組自動取得失敗時將會根據正規表示式進行比對"
+
+msgid "It Will Be Selected Region(Country Shortcode) According To The Regex"
+msgstr "解鎖區域(國家簡碼)將會依照正規表示式進行比對"
+
+msgid "It Will Be Selected Nodes According To The Regex"
+msgstr "解鎖節點的名字將會依照正規表示式進行比對"
+
+msgid "not support unlock!"
+msgstr "不支援解鎖！"
+
+msgid "not support unlock! the type of group is not select, auto select could not work!"
+msgstr "不支援解鎖！目前策略群組類型非 Select，無法進行自動選擇！"
+
+msgid "not support unlock! start auto select unlock proxy..."
+msgstr "不支援解鎖！開始進行解鎖節點自動選擇..."
+
+msgid "unlock node auto selected successfully, the current selected is"
+msgstr "解鎖節點自動選擇成功，目前選擇的是"
+
+msgid "unlock node auto selected failed, no node available, rolled back to the"
+msgstr "解鎖節點自動選擇失敗，無完整解鎖節點，回退到"
+
+msgid ", area:"
+msgstr "，區域："
+
+msgid "failed to search based on keywords and automatically obtain the group, please confirm the validity of the regex!"
+msgstr "根據關鍵字搜尋且自動取得策略群組失敗，請確認關鍵字的有效性！"
+
+msgid "unlock node auto selected failed, no node match the regex, rolled back to other full support node"
+msgstr "解鎖節點自動選擇失敗，找不到區域符合的節點，回退到其他區域的解鎖節點"
+
+msgid "unlock node auto selected successfully, no node match the old region, rolled back to other full support node"
+msgstr "解鎖節點自動選擇成功，找不到與先前解鎖區域相符的節點，回退到其他區域且符合條件的解鎖節點"
+
+msgid ", but not match the regex!"
+msgstr "，但區域與設定不符！"
+
+msgid "full support but not match the old region!"
+msgstr "完整解鎖但與先前解鎖區域不符！"
+
+msgid ", but not match the old region:"
+msgstr "，但不符合先前解鎖區域："
+
+msgid "the type of group is not select, auto select could not work!"
+msgstr "目前策略群組類型非 Select，無法進行自動選擇！"
+
+msgid ", but not match the regex! the type of group is not select, auto select could not work!"
+msgstr "完整解鎖但區域與設定不符！目前策略組類型非 Select，無法進行自動選擇！"
+
+msgid "but not match the old region! the type of group is not select, auto select could not work!"
+msgstr "但與先前解鎖區域不符！目前策略組類型非 Select，無法進行自動選擇！"
+
+msgid ", but not match the regex! start auto select unlock proxy..."
+msgstr "，但區域與設定不符！開始進行解鎖節點自動選擇..."
+
+msgid "unlock node test finished, rolled back to the full support node"
+msgstr "解鎖偵測完成，回退到完整解鎖的節點"
+
+msgid "unlock node test finished, no node match the old region, rolled back to other full support node"
+msgstr "解鎖偵測完成，找不到與先前解鎖區域相符的節點，回退到其他區域的解鎖節點"
+
+msgid "unlock node test finished, no node match the regex, rolled back to other full support node"
+msgstr "解鎖偵測完成，找不到區域符合的節點，回退到其他區域的解鎖節點"
+
+msgid "unlock node test finished, no node available, rolled back to the"
+msgstr "解鎖偵測完成，無完整解鎖節點，回退到"
+
+msgid "no nodes name match the regex!"
+msgstr "未找到名稱符合的節點!"
+
+msgid "Bypass Gateway Compatible"
+msgstr "旁路閘道（旁路由）相容"
+
+msgid "If The Network Cannot be Connected in Bypass Gateway Mode, Please Try to Enable."
+msgstr "旁路閘道（旁路由）模式下網路無法連線時請嘗試啟用。"
+
+msgid "Suggestion: If The Device Does Not Have WLAN, Please Disable The Lan Interface's Bridge Option"
+msgstr "建議：如果裝置沒有 WLAN，請停用 Lan 介面的橋接介面選項"
+
+msgid "Github Address Modify"
+msgstr "Github 位址修改"
+
+msgid "Modify The Github Address In The Config And OpenClash With Proxy(CDN) To Prevent File Download Faild. Format Reference:"
+msgstr "使用指定代理程式（CDN）反代插件和設定檔中的 Github 位址，以防止檔案下載失敗，格式參考："
+
+msgid "File Edit"
+msgstr "檔案編輯"
+
+msgid "Create File"
+msgstr "新建檔案"
+
+msgid "Paste the name of the new file (including the extension) here:"
+msgstr "請在此輸入要新建的檔案名稱（含副檔名）："
+
+msgid "Delay Start (s)"
+msgstr "延遲啟動（秒）"
+
+msgid "Delay Start On Boot"
+msgstr "系統重新啟動時延遲啟動"
+
+msgid "Enable Delay Start, OpenClash Will Start After"
+msgstr "延遲啟動已啟用，OpenClash 將在"
+
+msgid "Secends..."
+msgstr "秒後開始啟動..."
+
+msgid "Waiting for command to complete..."
+msgstr "等待指令執行完成..."
+
+msgid "Collecting data..."
+msgstr "正在收集資料..."
+
+msgid "Flushing..."
+msgstr "清理中..."
+
+msgid "Flush Fail"
+msgstr "清理失敗"
+
+msgid "Flush Successful"
+msgstr "清理成功"
+
+msgid "Flush Timeout"
+msgstr "清理逾時"
+
+msgid "Flush"
+msgstr "清理"
+
+msgid "Flush Fake-IP Cache"
+msgstr "Fake-IP 持久化快取清理"
+
+msgid "No Specify Upload File"
+msgstr "未選擇上傳檔案"
+
+msgid "Use Rule Provider"
+msgstr "使用規則集"
+
+msgid "Note: Please Make Sure Backend Service Supports This Feature"
+msgstr "注意：請確保您選擇的後端服務支援此功能，否則可能導致核心啟動失敗"
+
+msgid "Rename"
+msgstr "重新命名"
+
+msgid "Paste the new file name (including the extension) here:"
+msgstr "請在此輸入新檔案名稱（含副檔名）："
+
+msgid "Illegal extension!"
+msgstr "不支援的副檔名！"
+
+msgid "Manual Test"
+msgstr "手動測試"
+
+msgid "Unlock Test(Select)"
+msgstr "解鎖偵測(選擇)"
+
+msgid "All Proxies Test"
+msgstr "測試所有節點"
+
+msgid "Something Wrong While Testing..."
+msgstr "發生了一些錯誤，測試失敗..."
+
+msgid "Network instability may occur during testing, Are you sure want to start test?"
+msgstr "測試過程中可能會造成網路不穩定,確定要開始測試嗎？"
+
+msgid "Error: Edit Vmess Compatible Failed,"
+msgstr "錯誤：Vmess 節點相容性修改失敗，"
+
+msgid "Subscription Info"
+msgstr "訂閱資訊"
+
+msgid "No Sub Info Found"
+msgstr "無訂閱資訊"
+
+msgid "Sub Info Get Error"
+msgstr "訂閱資訊取得失敗"
+
+msgid "Router-Self Proxy"
+msgstr "*路由本機代理"
+
+msgid "Only Supported for Rule Mode"
+msgstr "僅支援規則（Rule）模式，其他模式預設分流"
+
+msgid "ALL Functions In Stream Enhance Tag Will Not Work After Disable"
+msgstr "停用後將無法使用串流增強標籤中的所有功能"
+
+msgid "Error: Set Router Self Proxy Rule Failed,"
+msgstr "錯誤：修改路由自身代理規則失敗，"
+
+msgid "Error: Streaming Unlock Has No Parameter of Type, Exiting..."
+msgstr "錯誤：串流媒體解鎖沒有指定需要偵測的串流類型，退出..."
+
+msgid "Error: Streaming Unlock Could not Work Because of Router-Self Proxy Disabled, Exiting..."
+msgstr "錯誤：因為停用了代理路由器本身流量，串流解鎖無法運作，退出..."
+
+msgid "Error: Multiple Scripts Running, Exiting..."
+msgstr "錯誤：多個腳本執行中，退出..."
+
+msgid "Error: Streaming DNS Prefetch Could not Work Because of Router-Self Proxy Disabled, Exiting..."
+msgstr "錯誤：因為停用了代理程式路由器本身流量，預先解析無法運作，退出..."
+
+msgid "Enable Meta Core"
+msgstr "*使用 Meta 核心"
+
+msgid "Some Premium Core Features are Unavailable, For Other More Useful Functions Go Wiki:"
+msgstr "Meta 核心尚未支援 Premium 核心的全部功能，要了解其獨特功能，請前往Wiki:"
+
+msgid "Enable Sniffer"
+msgstr "*啟用流量（網域）偵測"
+
+msgid "Sniffer Will Prevent Domain Name Proxy and DNS Hijack Failure"
+msgstr "流量（網域）偵測能有效防止網域分流異常及DNS劫持失敗"
+
+msgid "Override All Dns Query"
+msgstr "啟用後將盡可能的覆蓋DNS查詢到的網域名稱"
+
+msgid "(Support Vless By Pinyun)"
+msgstr "(由品雲提供，支援 Vless)"
+
+msgid "Meta Settings"
+msgstr "Meta 設定"
+
+msgid "Geodata Loader Mode"
+msgstr "Geodata 資料載入方式"
+
+msgid "Memconservative"
+msgstr "小型記憶體模式"
+
+msgid "Standard"
+msgstr "標準模式"
+
+msgid "Enable GeoIP Dat"
+msgstr "啟用 GeoIP Dat 版資料庫"
+
+msgid "Replace GEOIP MMDB With GEOIP Dat, Large Size File"
+msgstr "使用 Geoip Dat 取代 GEOIP MMDB 資料庫, 檔案體積較大且無內建"
+
+msgid "Need Download First"
+msgstr "請提前下載"
+
+msgid "Auto Update GeoIP Dat"
+msgstr "自動更新 GeoIP Dat 資料庫"
+
+msgid "Custom GeoIP Dat URL"
+msgstr "GeoIP Dat 資料庫更新 URL"
+
+msgid "Custom GeoIP Dat URL, Click Button Below To Refresh After Edit"
+msgstr "自訂 GeoIP Dat 資料庫的更新來源，編輯後點選下方按鈕生效"
+
+msgid "Update GeoIP Dat"
+msgstr "更新 GeoIP Dat 資料庫"
+
+msgid "Note: It is not recommended to enable IPv6 and related services for routing. Most of the network connection problems reported so far are related to it"
+msgstr "注意: 路由不建議開啟 IPV6 和相關服務，目前回饋的網路連線問題多數與它有關"
+
+msgid "Note: Turning on secure DNS in the browser will cause abnormal shunting, please be careful to turn it off"
+msgstr "注意: 瀏覽器開啟安全 DNS，會導致分流異常，請注意關閉"
+
+msgid "Note: Some software will modify the device HOSTS, which will cause abnormal shunt, please pay attention to check"
+msgstr "注意: 部分軟體會修改設備 HOSTS，會導致分流異常，請注意檢查"
+
+msgid "Note: The default proxy routes local traffic, BT, PT download, etc., please use redir mode as much as possible and pay attention to traffic avoidance"
+msgstr "注意: 預設代理程式路由本機流量，BT、PT 下載等請盡量使用 redir 模式並注意進行流量規避"
+
+msgid "Note: Game proxy please use nodes except Vmess"
+msgstr "注意: 遊戲代理請使用 Vmess 以外的節點"
+
+msgid "Note: If the connection is abnormal, please follow the steps on this page to check first"
+msgstr "注意: 連接例外狀況時請依照此頁步驟先進行檢查"
+
+msgid "Click to the page"
+msgstr "點擊前往"
+
+msgid "Only Meta Core"
+msgstr "僅 Meta 核心"
+
+msgid "(Only Meta Core)"
+msgstr "（僅 Meta 核心）"
+
+msgid "(Only TUN Core)"
+msgstr "（僅 TUN 核心）"
+
+msgid "(TUN&Meta Core)"
+msgstr "（TUN&Meta 核心）"
+
+msgid "Warning: Only Meta Core Support QUIC Type DNS, Skip"
+msgstr "警告：僅 Meta 核心支援 QUIC 類型的 DNS，跳過"
+
+msgid "Will Override Dns Queries If Domains in The List"
+msgstr "清單中的網域將會強制進行偵測（嗅探）"
+
+msgid "Will Disable Sniffing If Domains(sni) in The List"
+msgstr "清單中的網域名稱（sni）不會進行偵測（嗅探）"
+
+msgid "Will Only Sniffing If Ports in The List"
+msgstr "僅偵測（嗅探）清單中指定的協定連接埠"
+
+msgid "Custom Sniffer Settings"
+msgstr "自訂流量偵測（嗅探）設定"
+
+msgid "Custom The Force and Skip Sniffing Doamin Lists"
+msgstr "自訂強制和忽略流量偵測（嗅探）的網域清單"
+
+msgid "Warning: Only TUN Core Support Script Mode, Switch To The Rule Mode!"
+msgstr "警告：僅 TUN 核心支援 Script 模式，已切換為 Rule 模式！"
+
+msgid "Enable Tcp Concurrent"
+msgstr "*啟用 TCP 並發"
+
+msgid "TCP Concurrent Request IPs, Choose The Lowest Latency One To Connection"
+msgstr "TCP 並發請求所有 IP 位址，然後選擇延遲最低的一個進行連線"
+
+msgid "Remaining"
+msgstr "剩餘"
+
+msgid "days"
+msgstr "天"
+
+msgid "Douyin"
+msgstr "抖音（Douyin）"
+
+msgid "Warning: Skip the Custom Rule that Core not Support"
+msgstr "警告：跳過核心不支援的自訂規則"
+
+msgid "Specific Interface"
+msgstr "指定介面"
+
+msgid "DNS Lookup Only Through The Specific Interface"
+msgstr "DNS 僅透過特定介面進行查詢"
+
+msgid "Specific Group"
+msgstr "指定策略群組"
+
+msgid "Group Use For Proxy The DNS"
+msgstr "用於代理此 DNS 的政策群組"
+
+msgid "Warning: Only Meta Core Support Specific Group, Skip Setting"
+msgstr "警告：僅 Meta 核心支援指定 DNS 的政策群組，跳過設定"
+
+msgid "Node Domain Resolve"
+msgstr "節點網域解析"
+
+msgid "Use For Node Domain Resolve"
+msgstr "用於解析節點網域的 IP 位址"
+
+msgid "Warning: Only Meta Core Support proxy-server-nameserver, Skip Setting"
+msgstr "警告：僅 Meta 核心支援設定解析節點網域名稱的 DNS，跳過設定"
+
+msgid "Warning: Meta Core not Support Specific Interface, Skip Setting"
+msgstr "警告：Meta 核心不支援設定指定 DNS 的出口，跳過設定"
+
+msgid "Warning: Only Meta Core Support Force HTTP/3 to connect, Skip Setting"
+msgstr "警告：僅 Meta 核心支援 DOH 強制啟用 HTTP/3，跳過設定"
+
+msgid "Lan Bypassed Port List"
+msgstr "繞過核心的來源連接埠"
+
+msgid "The Traffic From The Local Specified Port Will Not Pass The Core, Try To Set When The Bypass Gateway Forwarding Fails"
+msgstr "來自本地指定連接埠的流量不會通過核心，在旁路網關（旁路由）下轉送失敗時嘗試設定"
+
+msgid "Local IPv4 Network Bypassed List"
+msgstr "本地 IPv4 繞過位址"
+
+msgid "Local IPv6 Network Bypassed List"
+msgstr "本地 IPv6 繞過位址"
+
+msgid "The Traffic of The Destination For The Specified Address Will Not Pass The Core"
+msgstr "目的地為指定位址的流量不會通過核心"
+
+msgid "Only Meta Core Support SS2022"
+msgstr "僅 Meta 核心支援 SS2022"
+
+msgid "Force HTTP/3"
+msgstr "強制 HTTP/3"
+
+msgid "Force HTTP/3 to connect"
+msgstr "強制使用 HTTP/3 進行連線"
+
+msgid "Control Panel"
+msgstr "控制面板"
+
+msgid "Unzip Error!"
+msgstr "解壓縮失敗！"
+
+msgid "Unzip Error"
+msgstr "解壓縮失敗"
+
+msgid "Switch To Official Version"
+msgstr "切換至官方版本"
+
+msgid "Switch To Meta Version"
+msgstr "切換至 Meta 版本"
+
+msgid "Switch(Update) Dashboard Version"
+msgstr "切換（更新） Dashboard 版本"
+
+msgid "Switch(Update) Yacd Version"
+msgstr "切換（更新） Yacd 版本"
+
+msgid "Downloading File..."
+msgstr "檔案下載中..."
+
+msgid "Switch Failed"
+msgstr "切換失敗"
+
+msgid "Switch Successful"
+msgstr "切換成功"
+
+msgid "Close Old Connections"
+msgstr "關閉舊連結"
+
+msgid "Automatically Close Old Connections When New Unlock Node Selected"
+msgstr "解鎖節點切換時關閉對應策略群組的所有舊連結"
+
+msgid "Append Default DNS"
+msgstr "追加預設 DNS"
+
+msgid "Automatically Append Compliant DNS to default-nameserver"
+msgstr "會自動將符合要求的 DNS 追加到 default-nameserver"
+
+msgid "China Mainland Only"
+msgstr "大陸限定"
+
+msgid "Hongkong/Macau/Taiwan"
+msgstr "港澳台限定"
+
+msgid "Taiwan Only"
+msgstr "台灣限定"
+
+msgid "Backup Section"
+msgstr "外掛程式備份"
+
+msgid "Backup Exclude Cores"
+msgstr "不備份核心"
+
+msgid "Backup Core"
+msgstr "僅備份核心"
+
+msgid "Backup Config"
+msgstr "僅備份設定檔"
+
+msgid "Backup Rule Provider"
+msgstr "僅備份規則集"
+
+msgid "Backup Proxy Provider"
+msgstr "僅備份代理程式集"
+
+msgid "Chnroute Bypassed List"
+msgstr "繞過中國大陸 IPv4 黑名單"
+
+msgid "Chnroute6 Bypassed List"
+msgstr "繞過中國大陸 IPv6 黑名單"
+
+msgid "Domains or IPs in The List Will Not be Affected by The China IP Route Option, Depend on Dnsmasq"
+msgstr "清單中的網域名稱或 IP 將不會受到繞過中國大陸 IP 選項的影響，此功能依賴 Dnsmasq"
+
+msgid "Warning: You May Need to Turn off The Rebinding Protection Option of Dnsmasq When Hosts Has Set a Reserved Address"
+msgstr "警告：Hosts 設定了保留位址時需要關閉 Dnsmasq 的重綁定保護選項才能生效"
+
+msgid "LAN Block Google DNS IP List"
+msgstr "實驗性：封鎖 Google DNS 的區域網路設備 IP"
+
+msgid "LAN Block Google DNS Mac List"
+msgstr "實驗性：封鎖 Google DNS 的區域網路裝置 Mac"
+
+msgid "Auto Select Logic"
+msgstr "*自動選擇邏輯"
+
+msgid "Urltest"
+msgstr "低延遲優先"
+
+msgid "Random"
+msgstr "隨機選擇"
+
+msgid "Tip: You have seted the authentication of SOCKS5/HTTP(S) proxy with"
+msgstr "提示：您為 SOCKS5/HTTP(S) 代理程式設定的帳號密碼為"
+
+msgid "Google Not CN"
+msgstr "Google 非送中"
+
+msgid "In Fake-ip Mode, Even If This Option is Turned Off, Domain Type Connections Still Pass Through The Core For The Availability"
+msgstr "在 Fake-IP 模式時，即使關閉此選項，網域類型的連線可能仍將透過核心以保證可用性"
+
+msgid "Warning: TUN Interface Start Failed, Please Check The Dependence or Try to Restart Again!"
+msgstr "警告：TUN 介面啟動失敗，請檢查依賴情況或稍後重試！"
+
+msgid "Warning: TUN Interface Start Failed, Try to Restart Again..."
+msgstr "警告：TUN 介面啟動失敗，嘗試重新啟動核心..."
+
+msgid "Forced Sniff Pure IP Connections"
+msgstr "強制偵測（嗅探）所有純 IP 的連線"
+
+msgid "Forced Sniff Pure IP"
+msgstr "偵測（嗅探）純 IP 連線"
+
+msgid "Download Failed:"
+msgstr "下載失敗："
+
+msgid "Tip: Waiting for TUN Interface Start..."
+msgstr "提示：正在等待 TUN 介面啟動..."
+
+msgid "Tip: You Can Try to Restart With Meta Core"
+msgstr "提示：您可以嘗試使用 Meta 核心啟動"
+
+msgid "Warning: Dnsmasq not Support nftset, Use ipset..."
+msgstr "警告：Dnsmasq 不支援 nftset, 使用 ipset 代替..."
+
+msgid "Tip: Firewall4 was Detected, Use NFTABLE Rules..."
+msgstr "提示：偵測到 Firewall4，使用 NFTABLE 規則..."
+
+msgid "Specify CN DNS Server"
+msgstr "大陸網域名稱 DNS 伺服器"
+
+msgid "Specify DNS Server For CN Domain Lists, Only One IP Server Address Support"
+msgstr "指定大陸網域名稱的 DNS 伺服器，只支援填入一個IP位址"
+
+msgid "Tip: Dnsmasq Work is Normal, Restore The Firewall DNS Hijacking Rules..."
+msgstr "提示：偵測到 Dnsmasq 正常運作，還原防火牆 DNS 劫持規則..."
+
+msgid "Tip: Bypass the China IP May Cause the Dnsmasq Load For a Long Time After Restart in FAKE-IP Mode, Hijack the DNS to Core Untill the Dnsmasq Works Well..."
+msgstr "提示：在 FAKE-IP 模式下繞過中國 IP 可能會導致 Dnsmasq 載入時間過長，暫時劫持 DNS 至核心直到 Dnsmasq 正常運作..."
+
+msgid "Seconds..."
+msgstr "秒後開始啟動..."
+
+msgid "1. Before modifying the configuration file, please click the button below to read the configuration file"
+msgstr "1. 修改設定檔前，請先點選下方按鈕讀取設定檔"
+
+msgid "2.Proxy-providers address can be directly filled in the subscription link"
+msgstr "2. 代理程式集合位址可以直接填入訂閱連結"
+
+msgid "Custom Tag"
+msgstr "自訂標記"
+
+msgid "Mark as Custom Node to Prevent Retention config from being Deleted When Enabled"
+msgstr "標記為自訂節點，防止保留配置啟用時被刪除"
+
+msgid "Error: Edit URL-Test URL Failed,"
+msgstr "錯誤：修改測速位址失敗，"
+
+msgid "Error: Edit URL-Test Interval Failed,"
+msgstr "錯誤：修改測速間隔失敗，"
+
+msgid "URL-Test Address Modify"
+msgstr "測速（連結性）位址修改"
+
+msgid "Modify The URL-Test Address In The Config"
+msgstr "修改設定檔中的測速（連通性）位址"
+
+msgid "URL-Test Interval Modify"
+msgstr "測速（連結性）間隔修改"
+
+msgid "Modify The URL-Test Interval In The Config"
+msgstr "修改設定檔中的測速（連通性）間隔"
+
+msgid "Whether to Enable Process Rules, If You Are Not Sure, Please Choose off Which Useful in Router Environment"
+msgstr "是否啟用進程規則，在路由環境下保持關閉可以提升效能"
+
+msgid "Enable Process Rule"
+msgstr "啟用進程規則"
+
+msgid "Warning: Because there is a port range"
+msgstr "警告：因為連接埠範圍"
+
+msgid "in the firewall rule settings"
+msgstr "存在於防火牆規則設定"
+
+msgid "auto bypassing may cause the normal connection of the client not to reach the core, if necessary, please add your own in the access control!"
+msgstr "自動繞過後可能造成客戶端的正常連線無法到達內核，如有需要，請在存取控制中自行新增！"
+
+msgid "Tip: Start Add Port Bypassing Rules For Firewall Redirect and Firewall Rules..."
+msgstr "提示：正在根據防火牆連接埠轉送和防火牆通訊規則新增連接埠繞過規則..."
+
+msgid "Tip: DNS Hijacking Mode is Dnsmasq Redirect..."
+msgstr "提示：DNS 劫持模式為 Dnsmasq 轉送..."
+
+msgid "Tip: DNS Hijacking Mode is Firewall Redirect..."
+msgstr "提示：DNS 劫持模式為防火牆轉送..."
+
+msgid "Tip: DNS Hijacking is Disabled..."
+msgstr "提示：DNS 劫持未開啟..."
+
+msgid "Fake-IP Range (IPv4 Cidr)"
+msgstr "Fake-IP 位址範圍 (IPv4 Cidr)"
+
+msgid "Set Fake-IP Range (IPv4 Cidr)"
+msgstr "設定 Fake-IP 位址範圍 (IPv4 Cidr)"
+
+msgid "IPv6 Settings"
+msgstr "IPv6 設定"
+
+msgid "IPv6 Settings"
+msgstr "IPv6 設定"
+
+msgid "Custom Config Overwrite Scripts Which Will Run After Plugin Own Completely, Please Be Careful, The Wrong Changes May Lead to Exceptions"
+msgstr "自訂設定檔的覆寫腳本，此腳本將在插件覆寫完成後執行，請謹慎修改，錯誤的修改可能會導致例外狀況"
+
+msgid "Custom Firewall Rules, Support IPv4 and IPv6, All Rules Will Be Added After Plugin Own Completely"
+msgstr "自訂防火牆規則，支援 IPv4 和 IPv6，此腳本將在插件內建規則完成後執行"
+
+msgid "Tip: Start Add Custom Firewall Rules..."
+msgstr "提示：開始新增自訂防火牆規則..."
+
+msgid "Tip: Start Running Custom Overwrite Scripts..."
+msgstr "提示：開始執行自訂覆寫腳本..."
+
+msgid "Developer Settings"
+msgstr "開發者選項"
+
+msgid "Restore"
+msgstr "還原"
+
+msgid "DNS Test (Clash Response)"
+msgstr "DNS 測試（Clash 查詢結果）"
+
+msgid "No Response Found!"
+msgstr "結果取得失敗！"
+
+msgid "Client Fingerprint"
+msgstr "客戶端指紋"
+
+msgid "Change The Client Fingerprint, Only Support TLS Transport in TCP/GRPC/WS/HTTP For Vless/Vmess and Trojan"
+msgstr "自動修改客戶端 TLS 指紋，目前僅支援 Vless/Vmess(TCP/GRPC/WS/HTTP) 和 Trojan"
+
+msgid "Watchdog: Edit Client-fingerprint Failed,"
+msgstr "守護程序：修改 Client-fingerprint 失敗，"
+
+msgid "Error: Edit Client-fingerprint Failed,"
+msgstr "錯誤：修改 Client-fingerprint 失敗，"
+
+msgid "Traffic Control"
+msgstr "流量控制"
+
+msgid "Hide IP"
+msgstr "隱藏 IP 位址"
+
+msgid "Show IP"
+msgstr "顯示 IP 位址"
+
+msgid "Refresh"
+msgstr "刷新"
+
+msgid "Refresh"
+msgstr "刷新"
+
+msgid "Specify URL"
+msgstr "指定訂閱資訊取得位址"
+
+msgid "Paste the new url of subscribe infos sources here:"
+msgstr "在此貼上並指定訂閱資訊來源的新位址："
+
+msgid "Specify subscribe infos sources url successfully!"
+msgstr "指定新的訂閱資訊來源位址成功！"
+
+msgid "Delete Specify Subscribe infos sources url successfully!"
+msgstr "已刪除指定的訂閱資訊來源位址！"
+
+msgid "Specify subscribe infos sources url failed:"
+msgstr "指定新的訂閱資訊來源位址失敗："
+
+msgid "IPv6 Proxy Mode"
+msgstr "IPv6 代理模式"
+
+msgid "TProxy Mode"
+msgstr "TProxy 模式"
+
+msgid "Redirect Mode"
+msgstr "Redirect 模式"
+
+msgid "TUN Mode"
+msgstr "TUN 模式"
+
+msgid "TUN Mode"
+msgstr "TUN 模式"
+
+msgid "Tip: IPv6 Proxy Mode is Redirect..."
+msgstr "提示：IPv6 代理模式為 Redirect..."
+
+msgid "Tip: IPv6 Proxy Mode is TUN..."
+msgstr "提示：IPv6 代理模式為 TUN..."
+
+msgid "Tip: IPv6 Proxy Mode is TProxy..."
+msgstr "提示：IPv6 代理模式為 TProxy..."
+
+msgid "Warning: Only Meta Core Support IPv6 Tun Mode, Use TProxy Instead..."
+msgstr "提示：只有 Meta 核心支援 IPv6 Tun 模式，使用 TProxy 模式取代..."
+
+msgid "Warning: Can't Settting Only Intranet Allowed Function, Get IPv4 WAN Interfaces error, Please Verify The Firewall's WAN Zone Name is wan, Ignore This IF The Device Does not Have a WAN Interfaces..."
+msgstr "警告：設定僅允許內網功能失敗，無法取得 IPv4 的 WAN 介面名稱，請確保防火牆設定中 IPv4 WAN 區域的名稱為 wan，如裝置無 WAN 埠請忽略此提示..."
+
+msgid "Warning: Can't Settting Only Intranet Allowed Function, Get IPv6 WAN Interfaces error, Please Verify The Firewall's WAN Zone Name is wan, Ignore This IF The Device Does not Have a WAN Interfaces..."
+msgstr "警告：設定僅允許內網功能失敗，無法取得 IPv6 的 WAN 介面名稱，請確保防火牆設定中 IPv6 WAN 區域的名稱為 wan，如裝置無 WAN 埠請忽略此提示..."
+
+msgid "Config File Download Successful, Test If There is Any Errors..."
+msgstr "設定檔下載成功，使用核心測試是否有錯誤..."
+
+msgid "configuration file"
+msgstr "設定檔"
+
+msgid "test failed"
+msgstr "測試失敗..."
+
+msgid "test is successful"
+msgstr "測試成功..."
+
+msgid "Error: Config File Tested Faild, Please Check The Log Infos!"
+msgstr "錯誤：設定檔測試失敗，請查看《核心日誌》排查失敗原因！"
+
+msgid "Test The Config File First..."
+msgstr "啟動前呼叫核心測試設定檔..."
+
+msgid "Other Parameters"
+msgstr "其他附加配置"
+
+msgid "Edit Your Other Parameters Here"
+msgstr "請在此編輯您的附加設定"
+
+msgid "Error: Config Not Found, Switch Config File to"
+msgstr "錯誤：未找到設定文件，切換至設定檔"
+
+msgid "Warning: Skip the nameserver-policy that Core not Support"
+msgstr "警告：跳過核心不支援的 nameserver-policy 規則"
+
+msgid "Enable Unified Delay"
+msgstr "*啟用統一延遲"
+
+msgid "Change the delay calculation method to remove extra delays such as handshaking"
+msgstr "更換延遲計算方式，透過移除握手等額外開銷來降低延遲數值"
+
+msgid "Tip: If the download fails, try setting the CDN in Overwrite Settings - General Settings - Github Address Modify Options"
+msgstr "提示：如果下載失敗，您可以嘗試在覆寫設定 - 常規設定 - Github位址修改選項中設定CDN"

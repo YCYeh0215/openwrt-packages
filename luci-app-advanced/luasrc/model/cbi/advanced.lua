@@ -1,16 +1,16 @@
 local e=require"nixio.fs"
 local t=require"luci.sys"
 local t=luci.model.uci.cursor()
-m=Map("advanced",translate("高级进阶设置"),translate("<font color=\"Red\"><strong>配置文档是直接编辑的除非你知道自己在干什么，否则请不要轻易修改这些配置文档。配置不正确可能会导致不能开机等错误。</strong></font><br/>"))
+m=Map("advanced",translate("進階進階設定"),translate("<font color=\"Red\"><strong>設定文件是直接編輯的除非你知道自己在幹嘛，否則請不要 輕易修改這些設定文件。設定不正確可能會導致不能開機等錯誤。</strong></font><br/>"))
 m.apply_on_parse=true
 s=m:section(TypedSection,"advanced")
 s.anonymous=true
 
 if nixio.fs.access("/etc/dnsmasq.conf")then
 
-s:tab("dnsmasqconf",translate("dnsmasq"),translate("本页是配置/etc/dnsmasq.conf的文档内容。应用保存后自动重启生效"))
+s:tab("dnsmasqconf",translate("dnsmasq"),translate("本頁是設定/etc/dnsmasq.conf的文件內容。套用儲存後自動重新啟動生效"))
 
-conf=s:taboption("dnsmasqconf",Value,"dnsmasqconf",nil,translate("开头的数字符号（＃）或分号的每一行（;）被视为注释；删除（;）启用指定选项。"))
+conf=s:taboption("dnsmasqconf",Value,"dnsmasqconf",nil,translate("開頭的數字符號（＃）或分號的每一行（;）被視為註解；刪除（;）啟用指定選項。 "))
 conf.template="cbi/tvalue"
 conf.rows=20
 conf.wrap="off"
@@ -30,8 +30,8 @@ end
 end
 end
 if nixio.fs.access("/etc/config/network")then
-s:tab("netwrokconf",translate("网络"),translate("本页是配置/etc/config/network包含网络配置文档内容。应用保存后自动重启生效"))
-conf=s:taboption("netwrokconf",Value,"netwrokconf",nil,translate("开头的数字符号（＃）或分号的每一行（;）被视为注释；删除（;）启用指定选项。"))
+s:tab("netwrokconf",translate("網路"),translate("本頁是設定/etc/config/network包含網路設定文件內容。套用儲存後自動重新啟動生效"))
+conf=s:taboption("netwrokconf",Value,"netwrokconf",nil,translate("開頭的數字符號（＃）或分號的每一行（;）被視為註解；刪除（;）啟用指定選項。 "))
 conf.template="cbi/tvalue"
 conf.rows=20
 conf.wrap="off"
@@ -51,9 +51,9 @@ end
 end
 end
 if nixio.fs.access("/etc/config/wireless")then
-s:tab("wirelessconf",translate("无线"), translate("本页是/etc/config/wireless的配置文件内容，应用保存后自动重启生效."))
+s:tab("wirelessconf",translate("無線"), translate("本頁是/etc/config/wireless的設定檔內容，套用儲存後自動重新啟動生效."))
 
-conf=s:taboption("wirelessconf",Value,"wirelessconf",nil,translate("开头的数字符号（＃）或分号的每一行（;）被视为注释；删除（;）启用指定选项。"))
+conf=s:taboption("wirelessconf",Value,"wirelessconf",nil,translate("開頭的數字符號（＃）或分號的每一行（;）被視為註解；刪除（;）啟用指定選項。 "))
 conf.template="cbi/tvalue"
 conf.rows=20
 conf.wrap="off"
@@ -74,9 +74,9 @@ end
 end
 
 if nixio.fs.access("/etc/hosts")then
-s:tab("hostsconf",translate("hosts"),translate("本页是配置/etc/hosts的文档内容。应用保存后自动重启生效"))
+s:tab("hostsconf",translate("hosts"),translate("本頁是設定/etc/hosts的文件內容。套用儲存後自動重新啟動生效"))
 
-conf=s:taboption("hostsconf",Value,"hostsconf",nil,translate("开头的数字符号（＃）或分号的每一行（;）被视为注释；删除（;）启用指定选项。"))
+conf=s:taboption("hostsconf",Value,"hostsconf",nil,translate("開頭的數字符號（＃）或分號的每一行（;）被視為註解；刪除（;）啟用指定選項。 "))
 conf.template="cbi/tvalue"
 conf.rows=20
 conf.wrap="off"
@@ -97,8 +97,8 @@ end
 end
 
 if nixio.fs.access("/etc/config/arpbind")then
-s:tab("arpbindconf",translate("ARP绑定"),translate("本页是配置/etc/config/arpbind包含APR绑定MAC地址文档内容。应用保存后自动重启生效"))
-conf=s:taboption("arpbindconf",Value,"arpbindconf",nil,translate("开头的数字符号（＃）或分号的每一行（;）被视为注释；删除（;）启用指定选项。"))
+s:tab("arpbindconf",translate("ARP綁定"),translate("本頁是設定/etc/config/arpbind包含APR綁定MAC位址文件內容。套用儲存後自動重新啟動生效"))
+conf=s:taboption("arpbindconf",Value,"arpbindconf",nil,translate("開頭的數字符號（＃）或分號的每一行（;）被視為註解；刪除（;）啟用指定選項。 "))
 conf.template="cbi/tvalue"
 conf.rows=20
 conf.wrap="off"
@@ -119,8 +119,8 @@ end
 end
 
 if nixio.fs.access("/etc/config/firewall")then
-s:tab("firewallconf",translate("防火墙"),translate("本页是配置/etc/config/firewall包含防火墙协议设置文档内容。应用保存后自动重启生效"))
-conf=s:taboption("firewallconf",Value,"firewallconf",nil,translate("开头的数字符号（＃）或分号的每一行（;）被视为注释；删除（;）启用指定选项。"))
+s:tab("firewallconf",translate("防火牆"),translate("本頁是設定/etc/config/firewall包含防火牆協定設定文件內容。套用儲存後自動重新啟動生效"))
+conf=s:taboption("firewallconf",Value,"firewallconf",nil,translate("開頭的數字符號（＃）或分號的每一行（;）被視為註解；刪除（;）啟用指定選項。 "))
 conf.template="cbi/tvalue"
 conf.rows=20
 conf.wrap="off"
@@ -141,8 +141,8 @@ end
 end
 
 if nixio.fs.access("/etc/config/mwan3")then
-s:tab("mwan3conf",translate("负载均衡"),translate("本页是配置/etc/config/mwan3包含负载均衡设置文档内容。应用保存后自动重启生效"))
-conf=s:taboption("mwan3conf",Value,"mwan3conf",nil,translate("开头的数字符号（＃）或分号的每一行（;）被视为注释；删除（;）启用指定选项。"))
+s:tab("mwan3conf",translate("負載平衡"),translate("本頁是設定/etc/config/mwan3包含負載平衡設定文件內容。套用儲存後自動重新啟動生效"))
+conf=s:taboption("mwan3conf",Value,"mwan3conf",nil,translate("開頭的數字符號（＃）或分號的每一行（;）被視為註解；刪除（;）啟用指定選項。 "))
 conf.template="cbi/tvalue"
 conf.rows=20
 conf.wrap="off"
@@ -162,8 +162,8 @@ end
 end
 end
 if nixio.fs.access("/etc/config/dhcp")then
-s:tab("dhcpconf",translate("DHCP"),translate("本页是配置/etc/config/DHCP包含机器名等设置文档内容。应用保存后自动重启生效"))
-conf=s:taboption("dhcpconf",Value,"dhcpconf",nil,translate("开头的数字符号（＃）或分号的每一行（;）被视为注释；删除（;）启用指定选项。"))
+s:tab("dhcpconf",translate("DHCP"),translate("本頁是設定/etc/config/DHCP包含機器名稱等設定文件內容。套用儲存後自動重新啟動生效"))
+conf=s:taboption("dhcpconf",Value,"dhcpconf",nil,translate("開頭的數字符號（＃）或分號的每一行（;）被視為註解；刪除（;）啟用指定選項。 "))
 conf.template="cbi/tvalue"
 conf.rows=20
 conf.wrap="off"
@@ -184,8 +184,8 @@ end
 end
 
 if nixio.fs.access("/etc/config/ddns")then
-s:tab("ddnsconf",translate("DDNS"),translate("本页是配置/etc/config/ddns包含动态域名设置文档内容。应用保存后自动重启生效"))
-conf=s:taboption("ddnsconf",Value,"ddnsconf",nil,translate("开头的数字符号（＃）或分号的每一行（;）被视为注释；删除（;）启用指定选项。"))
+s:tab("ddnsconf",translate("DDNS"),translate("本頁是設定/etc/config/ddns包含動態網域設定文件內容。套用儲存後自動重新啟動生效"))
+conf=s:taboption("ddnsconf",Value,"ddnsconf",nil,translate("開頭的數字符號（＃）或分號的每一行（;）被視為註解；刪除（;）啟用指定選項。 "))
 conf.template="cbi/tvalue"
 conf.rows=20
 conf.wrap="off"
@@ -206,8 +206,8 @@ end
 end
 
 if nixio.fs.access("/etc/config/parentcontrol")then
-s:tab("parentcontrolconf",translate("家长控制"),translate("本页是配置/etc/config/parentcontrol包含家长控制配置文档内容。应用保存后自动重启生效"))
-conf=s:taboption("parentcontrolconf",Value,"parentcontrolconf",nil,translate("开头的数字符号（＃）或分号的每一行（;）被视为注释；删除（;）启用指定选项。"))
+s:tab("parentcontrolconf",translate("家長控制"),translate("本頁是設定/etc/config/parentcontrol包含家長控制設定文件內容。套用儲存後自動重新啟動生效"))
+conf=s:taboption("parentcontrolconf",Value,"parentcontrolconf",nil,translate("開頭的數字符號（＃）或分號的每一行（;）被視為註解；刪除（;）啟用指定選項。 "))
 conf.template="cbi/tvalue"
 conf.rows=20
 conf.wrap="off"
@@ -228,8 +228,8 @@ end
 end
 
 if nixio.fs.access("/etc/config/autotimeset")then
-s:tab("autotimesetconf",translate("定时设置"),translate("本页是配置/etc/config/autotimeset包含定时设置任务配置文档内容。应用保存后自动重启生效"))
-conf=s:taboption("autotimesetconf",Value,"autotimesetconf",nil,translate("开头的数字符号（＃）或分号的每一行（;）被视为注释；删除（;）启用指定选项。"))
+s:tab("autotimesetconf",translate("定時設定"),translate("本頁是設定/etc/config/autotimeset包含定時設定任務設定文件內容。套用儲存後自動重新啟動生效"))
+conf=s:taboption("autotimesetconf",Value,"autotimesetconf",nil,translate("開頭的數字符號（＃）或分號的每一行（;）被視為註解；刪除（;）啟用指定選項。 "))
 conf.template="cbi/tvalue"
 conf.rows=20
 conf.wrap="off"
@@ -250,8 +250,8 @@ end
 end
 
 if nixio.fs.access("/etc/config/wolplus")then
-s:tab("wolplusconf",translate("网络唤醒"),translate("本页是配置/etc/config/wolplus包含网络唤醒配置文档内容。应用保存后自动重启生效"))
-conf=s:taboption("wolplusconf",Value,"wolplusconf",nil,translate("开头的数字符号（＃）或分号的每一行（;）被视为注释；删除（;）启用指定选项。"))
+s:tab("wolplusconf",translate("網路喚醒"),translate("本頁是設定/etc/config/wolplus包含網路喚醒設定檔內容。套用儲存後自動重新啟動生效"))
+conf=s:taboption("wolplusconf",Value,"wolplusconf",nil,translate("開頭的數字符號（＃）或分號的每一行（;）被視為註解；刪除（;）啟用指定選項。 "))
 conf.template="cbi/tvalue"
 conf.rows=20
 conf.wrap="off"
@@ -272,8 +272,8 @@ end
 end
 
 if nixio.fs.access("/etc/config/smartdns")then
-s:tab("smartdnsconf",translate("SMARTDNS"),translate("本页是配置/etc/config/smartdns包含smartdns配置文档内容。应用保存后自动重启生效"))
-conf=s:taboption("smartdnsconf",Value,"smartdnsconf",nil,translate("开头的数字符号（＃）或分号的每一行（;）被视为注释；删除（;）启用指定选项。"))
+s:tab("smartdnsconf",translate("SMARTDNS"),translate("本頁是設定/etc/config/smartdns包含smartdns設定文件內容。套用儲存後自動重新啟動生效"))
+conf=s:taboption("smartdnsconf",Value,"smartdnsconf",nil,translate("開頭的數字符號（＃）或分號的每一行（;）被視為註解；刪除（;）啟用指定選項。 "))
 conf.template="cbi/tvalue"
 conf.rows=20
 conf.wrap="off"
@@ -294,8 +294,8 @@ end
 end
 
 if nixio.fs.access("/etc/config/bypass")then
-s:tab("bypassconf",translate("BYPASS"),translate("本页是配置/etc/config/bypass包含bypass配置文档内容。应用保存后自动重启生效"))
-conf=s:taboption("bypassconf",Value,"bypassconf",nil,translate("开头的数字符号（＃）或分号的每一行（;）被视为注释；删除（;）启用指定选项。"))
+s:tab("bypassconf",translate("BYPASS"),translate("本頁是設定/etc/config/bypass包含bypass設定文件內容。套用儲存後自動重新啟動生效"))
+conf=s:taboption("bypassconf",Value,"bypassconf",nil,translate("開頭的數字符號（＃）或分號的每一行（;）被視為註解；刪除（;）啟用指定選項。 "))
 conf.template="cbi/tvalue"
 conf.rows=20
 conf.wrap="off"
@@ -316,8 +316,8 @@ end
 end
 
 if nixio.fs.access("/etc/config/openclash")then
-s:tab("openclashconf",translate("openclash"),translate("本页是配置/etc/config/openclash的文档内容。应用保存后自动重启生效"))
-conf=s:taboption("openclashconf",Value,"openclashconf",nil,translate("开头的数字符号（＃）或分号的每一行（;）被视为注释；删除（;）启用指定选项。"))
+s:tab("openclashconf",translate("openclash"),translate("本頁是設定/etc/config/openclash的文檔內容。 套用儲存後自動重新啟動生效"))
+conf=s:taboption("openclashconf",Value,"openclashconf",nil,translate("開頭的數字符號（＃）或分號的每一行（;）被視為註解；刪除（;）啟用指定選項。 "))
 conf.template="cbi/tvalue"
 conf.rows=20
 conf.wrap="off"

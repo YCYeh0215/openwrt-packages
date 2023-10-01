@@ -1,0 +1,110 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "AliyunDrive"
+msgstr "阿里雲盤"
+
+msgid "AliyunDrive WebDAV"
+msgstr "阿里雲盤 WebDAV"
+
+msgid "Enable"
+msgstr "啟用"
+
+msgid "Refresh Token"
+msgstr "Refresh Token"
+
+msgid "Root Directory"
+msgstr "雲端磁碟根目錄"
+
+msgid "Host"
+msgstr "監聽主機"
+
+msgid "Port"
+msgstr "監聽埠"
+
+msgid "Aliyun drive type"
+msgstr "雲端磁碟機型別"
+
+msgid "Supports drive type: resource, backup"
+msgstr "支援磁碟機類型：resource, backup"
+
+msgid "TLS certificate file path"
+msgstr "TLS 憑證檔案路徑"
+
+msgid "TLS private key file path"
+msgstr "TLS 私鑰檔案路徑"
+
+msgid "Username"
+msgstr "使用者名稱"
+
+msgid "Password"
+msgstr "密碼"
+
+msgid "Read Buffer Size"
+msgstr "下載緩衝大小(bytes)"
+
+msgid "Upload Buffer Size"
+msgstr "上傳緩衝大小(bytes)"
+
+msgid "Cache Size"
+msgstr "目錄快取大小"
+
+msgid "Cache Expiration Time (seconds)"
+msgstr "目錄快取過期時間（單位為秒）"
+
+msgid "Collecting data..."
+msgstr "取得資料中..."
+
+msgid "Invalidate cache"
+msgstr "清除快取"
+
+msgid "RUNNING"
+msgstr "運作中"
+
+msgid "NOT RUNNING"
+msgstr "未執行"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Log"
+msgstr "日誌"
+
+msgid "Debug Mode"
+msgstr "偵錯模式"
+
+msgid "<a href=\"https://github.com/messense/aliyundrive-webdav\" target=\"_blank\">Project GitHub URL</a>"
+msgstr "<a href=\"https://github.com/messense/aliyundrive-webdav\" target=\"_blank\">GitHub 專案網址</a> | <a href=\"https://t .zsxq.com/0c9sq6Ca8\" target=\"_blank\">加入知識星球</a>"
+
+msgid "Double click the input box above to get refresh token by scanning qrcode"
+msgstr "滑鼠雙擊上面的輸入框掃碼登入自動取得 refresh token"
+
+msgid "Restrict access to a folder of aliyundrive, defaults to / which means no restrictions"
+msgstr "限制只能存取該雲端磁碟目錄，預設為 / 表示不限制，注意這個參數不是本機磁碟路徑"
+
+msgid "Delete file permanently instead of trashing"
+msgstr "刪除檔案不放入回收站"
+
+msgid "Enable read only mode"
+msgstr "啟用唯讀模式"
+
+msgid "Disallow upload, modify and delete file operations"
+msgstr "禁止上傳、修改和刪除檔案操作"
+
+msgid "Skip uploading same size files"
+msgstr "跳過上傳相同大小的檔案"
+
+msgid "Reduce the upload traffic by skipping uploading files with the same size"
+msgstr "跳過上傳相同大小的檔案減少上傳流量消耗，但可能會導致修改過的相同大小的檔案不會被上傳"
+
+msgid "Prefer HTTP Download"
+msgstr "使用 HTTP 下載"
+
+msgid "Prefer downloading files using HTTP instead of HTTPS protocol"
+msgstr "優先使用 HTTP 而非 HTTPS 協定下載，在低階裝置上降低 CPU 佔用"
+
+msgid "Enable 302 Redirect"
+msgstr "啟用 302 重新導向"
+
+msgid "Enable 302 redirect when possible"
+msgstr "在可能的情況下啟用 302 重定向"

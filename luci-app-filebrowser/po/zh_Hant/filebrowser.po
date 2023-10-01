@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh-Hans\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: applications/luci-app-filebrowser/htdocs/luci-static/resources/view/filebrowser.js:62
+msgid "Collecting data..."
+msgstr "收集資料中..."
+
+#: applications/luci-app-filebrowser/htdocs/luci-static/resources/view/filebrowser.js:81
+msgid "Disable Command Runner feature"
+msgstr "停用指令執行功能"
+
+#: applications/luci-app-filebrowser/htdocs/luci-static/resources/view/filebrowser.js:68
+msgid "Enable"
+msgstr "啟用"
+
+#: applications/luci-app-filebrowser/htdocs/luci-static/resources/view/filebrowser.js:31
+#: applications/luci-app-filebrowser/htdocs/luci-static/resources/view/filebrowser.js:33
+#: applications/luci-app-filebrowser/htdocs/luci-static/resources/view/filebrowser.js:48
+#: applications/luci-app-filebrowser/root/usr/share/luci/menu.d/luci-app-filebrowser.json:3
+msgid "FileBrowser"
+msgstr "FileBrowser"
+
+#: applications/luci-app-filebrowser/htdocs/luci-static/resources/view/filebrowser.js:49
+msgid ""
+"FileBrowser provides a file managing interface within a specified directory "
+"and it can be used to upload, delete, preview, rename and edit your files.."
+msgstr ""
+"FileBrowser 提供指定目錄下的檔案管理介面，可用來上傳、刪除、預覽、重新命名和編輯"
+"輯文件。"
+
+#: applications/luci-app-filebrowser/root/usr/share/rpcd/acl.d/luci-app-filebrowser.json:3
+msgid "Grant UCI access for luci-app-filebrowser"
+msgstr "授予 luci-app-filebrowser 存取 UCI 設定的權限"
+
+#: applications/luci-app-filebrowser/htdocs/luci-static/resources/view/filebrowser.js:72
+msgid "Listen port"
+msgstr "監聽埠"
+
+#: applications/luci-app-filebrowser/htdocs/luci-static/resources/view/filebrowser.js:33
+msgid "NOT RUNNING"
+msgstr "未執行"
+
+#: applications/luci-app-filebrowser/htdocs/luci-static/resources/view/filebrowser.js:30
+msgid "Open Web Interface"
+msgstr "開啟 Web 介面"
+
+#: applications/luci-app-filebrowser/htdocs/luci-static/resources/view/filebrowser.js:31
+msgid "RUNNING"
+msgstr "運作中"
+
+#: applications/luci-app-filebrowser/htdocs/luci-static/resources/view/filebrowser.js:77
+msgid "Root directory"
+msgstr "根目錄"

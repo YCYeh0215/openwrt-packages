@@ -1,0 +1,44 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Design Config"
+msgstr "Design 主題設定"
+
+msgid "Here you can set the mode of the theme and change the proxy tool icon in the navigation bar. [Recommend Chrome]"
+msgstr "這裡可以設定主題的模式和更換導覽列的代理工具圖示。[建議使用 Chrome]"
+
+msgid "Theme mode"
+msgstr "主題模式"
+
+msgid "Follow System"
+msgstr "跟隨系統"
+
+msgid "Force Light"
+msgstr "強制亮色"
+
+msgid "Force Dark"
+msgstr "強制暗色"
+
+msgid "You can choose Theme color mode here"
+msgstr "你可以選擇喜歡的主題模式"
+
+msgid "Navigation bar setting"
+msgstr "導覽列設定"
+
+msgid "Display navigation bar"
+msgstr "顯示導覽列"
+
+msgid "Close navigation bar"
+msgstr "關閉導覽列"
+
+msgid "The navigation bar is display by default"
+msgstr "預設顯示導覽列"
+
+msgid "Navigation bar proxy"
+msgstr "導覽列代理"
+
+msgid "OpenClash by default"
+msgstr "預設 OpenClash"
+
+msgid "Save Changes"
+msgstr "儲存變更"

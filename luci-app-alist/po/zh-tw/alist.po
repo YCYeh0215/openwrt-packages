@@ -1,0 +1,113 @@
+msgid "Alist"
+msgstr "Alist 檔案清單"
+
+msgid "Open Web Interface"
+msgstr "開啟 Web 介面"
+
+msgid "A file list program that supports multiple storage."
+msgstr "一款支援多種儲存的目錄檔案清單程式。"
+
+msgid "Basic Setting"
+msgstr "基本設定"
+
+msgid "Logs"
+msgstr "日誌"
+
+msgid "Enabled"
+msgstr "啟用"
+
+msgid "Port"
+msgstr "連接埠"
+
+msgid "Enable SSL"
+msgstr "啟用 SSL"
+
+msgid "SSL cert"
+msgstr "SSL 憑證"
+
+msgid "SSL certificate file path"
+msgstr "SSL 憑證檔案路徑"
+
+msgid "SSL key"
+msgstr "SSL 金鑰"
+
+msgid "SSL key file path"
+msgstr "SSL 金鑰檔案路徑"
+
+msgid "Data directory"
+msgstr "資料目錄"
+
+msgid "Cache directory"
+msgstr "快取目錄"
+
+msgid "RUNNING"
+msgstr "運作中"
+
+msgid "NOT RUNNING"
+msgstr "未執行"
+
+msgid "Collecting data..."
+msgstr "收集資料..."
+
+msgid "NAS"
+msgstr "網路儲存"
+
+msgid "User Manual"
+msgstr "使用手冊"
+
+msgid "Allow Access From Internet"
+msgstr "允許從外網存取"
+
+msgid "Enable Logs"
+msgstr "啟用日誌"
+
+msgid "Clear logs"
+msgstr "清空日誌"
+
+msgid "Reset Password"
+msgstr "重設密碼"
+
+msgid "Reset"
+msgstr "重置"
+
+msgid "Username:"
+msgstr "使用者名稱："
+
+msgid "Password:"
+msgstr "密碼："
+
+msgid "Login Validity Period (hours)"
+msgstr "登入有效期限（小時）"
+
+msgid "Max Connections"
+msgstr "最大同時連線數"
+
+msgid "0 is unlimited, It is recommend to set a low number of concurrency (10-20) for poor performance device"
+msgstr "預設0不限制，低效能設備建議設定較低的同時數量（10-20）"
+
+msgid "Site URL"
+msgstr "網站 URL"
+
+msgid "When the web is reverse proxied to a subdirectory, this option must be filled out to ensure proper functioning of the web. Do not include '/' at the end of the URL"
+msgstr "Web 反向代理到二級目錄時，必須填寫該選項以確保 Web 正常運作。URL 結尾請勿攜帶 '/'"
+
+msgid "Delayed Start (seconds)"
+msgstr "開機延遲啟動（秒）"
+
+msgid "Enable MySQL"
+msgstr "啟用 MySQL"
+
+msgid "MySQL Host"
+msgstr "主機"
+
+msgid "MySQL Port"
+msgstr "連接埠"
+
+msgid "MySQL Username"
+msgstr "使用者名稱"
+
+msgid "MySQL Password"
+msgstr "密碼"
+
+msgid "Database Name"
+msgstr "資料庫名稱"

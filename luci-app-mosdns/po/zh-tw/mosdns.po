@@ -1,0 +1,392 @@
+msgid "Basic Setting"
+msgstr "基本設定"
+
+msgid "Basic Options"
+msgstr "基本選項"
+
+msgid "Advanced Options"
+msgstr "進階選項"
+
+msgid "Cloudflare Options"
+msgstr "Cloudflare 選項"
+
+msgid "API Options"
+msgstr "API 選項"
+
+msgid "MosDNS is a plugin-based DNS forwarder/traffic splitter."
+msgstr "MosDNS 是一個插件化的 DNS 轉送/分流器。"
+
+msgid "RUNNING"
+msgstr "運作中"
+
+msgid "NOT RUNNING"
+msgstr "未執行"
+
+msgid "Collecting data..."
+msgstr "取得資料中..."
+
+msgid "Enabled"
+msgstr "啟用"
+
+msgid "Listen port"
+msgstr "監聽埠"
+
+msgid "API Listen port"
+msgstr "API 監聽埠"
+
+msgid "Flush Cache"
+msgstr "刷新快取"
+
+msgid "Flushing Cache will clear any IP addresses or DNS records from MosDNS cache"
+msgstr "刷新快取會清空 MosDNS 所有 IP 位址和 DNS 解析快取"
+
+msgid "Flushing..."
+msgstr "正在刷新..."
+
+msgid "Flushing Success"
+msgstr "刷新成功"
+
+msgid "Flushing Failed, Please check if MosDNS is enabled"
+msgstr "刷新失敗，請檢查 MosDNS 是否已啟用"
+
+msgid "Match the parsing result with the Cloudflare IP ranges, and when there is a successful match, use the 'Custom IP' as the parsing result (experimental feature)"
+msgstr "將解析結果與 Cloudflare IP 範圍進行匹配，當匹配成功時，使用 “自選 IP” 作為解析結果（實驗性功能）"
+
+msgid "Custom IP"
+msgstr "自選 IP"
+
+msgid "Cloudflare IP Ranges"
+msgstr "Cloudflare IP 範圍"
+
+msgid "Log Level"
+msgstr "日誌等級"
+
+msgid "DNS Forward"
+msgstr "DNS 轉送"
+
+msgid "Forward Dnsmasq Domain Name resolution requests to MosDNS"
+msgstr "將 Dnsmasq 網域解析請求轉送至 MosDNS 伺服器"
+
+msgid "Enable DNS ADblock"
+msgstr "啟用 DNS 廣告過濾"
+
+msgid "ADblock Source"
+msgstr "廣告過濾規則來源"
+
+msgid "When using custom rule sources, please use rule types supported by MosDNS (domain lists)."
+msgstr "使用自訂規則來源時，請使用 MosDNS 支援的規則類型（網域名稱清單）"
+
+msgid "Support for local files, such as: file:///var/mosdns/example.txt"
+msgstr "支援本機文件，例如：file:///var/mosdns/example.txt"
+
+msgid "Restart-Service"
+msgstr "重啟服務"
+
+msgid "Restart the MosDNS process to take effect of new configuration"
+msgstr "重啟 MosDNS 程序使新設定檔生效"
+
+msgid "Configuration Editor"
+msgstr "配置編輯器"
+
+msgid "Geodata Update"
+msgstr "更新資料庫"
+
+msgid "Update GeoIP & GeoSite dat"
+msgstr "更新廣告規則、GeoIP & GeoSite 資料庫"
+
+msgid "Update Time"
+msgstr "更新時間"
+
+msgid "Update Cycle"
+msgstr "更新週期"
+
+msgid "Every Day"
+msgstr "每天"
+
+msgid "Every Monday"
+msgstr "每週一"
+
+msgid "Every Tuesday"
+msgstr "每週二"
+
+msgid "Every Wednesday"
+msgstr "每週三"
+
+msgid "Every Thursday"
+msgstr "每週四"
+
+msgid "Every Friday"
+msgstr "每週五"
+
+msgid "Every Saturday"
+msgstr "每週六"
+
+msgid "Every Sunday"
+msgstr "每週日"
+
+msgid "Database Update"
+msgstr "資料庫更新"
+
+msgid "Check And Update"
+msgstr "檢查並更新"
+
+msgid "Enable Auto Database Update"
+msgstr "啟用自動更新"
+
+msgid "Updating..."
+msgstr "正在更新..."
+
+msgid "Update success"
+msgstr "更新成功"
+
+msgid "Update failed, Please check the network status"
+msgstr "更新失敗，請檢查網路狀態"
+
+msgid "Config File"
+msgstr "設定檔"
+
+msgid "Default Config"
+msgstr "內建預設"
+
+msgid "Custom Config"
+msgstr "自訂"
+
+msgid "Log File"
+msgstr "日誌檔"
+
+msgid "Custom China DNS"
+msgstr "自訂國內 DNS"
+
+msgid "Follow WAN interface DNS if not enabled"
+msgstr "不啟用則使用 WAN 介面 DNS"
+
+msgid "Apple domains optimization"
+msgstr "Apple 網域解析最佳化"
+
+msgid "For Apple domains equipped with Chinese mainland CDN, always responsive to Chinese CDN IP addresses"
+msgstr "配備中國大陸 CDN 的 Apple 域名，始終應答中國大陸 CDN 地址"
+
+msgid "China DNS server"
+msgstr "國內 DNS 伺服器"
+
+msgid "Remote DNS server"
+msgstr "遠端 DNS 伺服器"
+
+msgid "Bootstrap DNS servers"
+msgstr "Bootstrap DNS 伺服器"
+
+msgid "Bootstrap DNS servers are used to resolve IP addresses of the DoH/DoT resolvers you specify as upstreams"
+msgstr "Bootstrap DNS 伺服器用於解析您指定為上游的 DoH / DoT 解析器的 IP 位址"
+
+msgid "Tencent Public DNS (119.29.29.29)"
+msgstr "騰訊公共 DNS（119.29.29.29）"
+
+msgid "Tencent Public DNS (119.28.28.28)"
+msgstr "騰訊公共 DNS（119.28.28.28）"
+
+msgid "Aliyun Public DNS (223.5.5.5)"
+msgstr "阿里雲端公用 DNS（223.5.5.5）"
+
+msgid "Aliyun Public DNS (223.6.6.6)"
+msgstr "阿里雲端公用 DNS（223.6.6.6）"
+
+msgid "Xinfeng Public DNS (114.114.114.114)"
+msgstr "信風公共 DNS（114.114.114.114）"
+
+msgid "Xinfeng Public DNS (114.114.115.115)"
+msgstr "信風公共 DNS（114.114.115.115）"
+
+msgid "Baidu Public DNS (180.76.76.76)"
+msgstr "百度公用 DNS（180.76.76.76）"
+
+msgid "Tencent Public DNS (DNS over HTTPS)"
+msgstr "騰訊公共 DNS（DNS over HTTPS）"
+
+msgid "Aliyun Public DNS (DNS over QUIC)"
+msgstr "阿里雲端公用 DNS（DNS over QUIC）"
+
+msgid "Aliyun Public DNS (DNS over HTTPS)"
+msgstr "阿里雲端公用 DNS（DNS over HTTPS）"
+
+msgid "Aliyun Public DNS (DNS over HTTPS/3)"
+msgstr "阿里雲端公用 DNS（DNS over HTTPS/3）"
+
+msgid "360 Public DNS (DNS over HTTPS)"
+msgstr "360 安全性 DNS（DNS over HTTPS）"
+
+msgid "CloudFlare Public DNS (1.1.1.1)"
+msgstr "CloudFlare 公用 DNS（1.1.1.1）"
+
+msgid "CloudFlare Public DNS (1.0.0.1)"
+msgstr "CloudFlare 公用 DNS（1.0.0.1）"
+
+msgid "Google Public DNS (8.8.8.8)"
+msgstr "Google公共 DNS（8.8.8.8）"
+
+msgid "Google Public DNS (8.8.4.4)"
+msgstr "Google公共 DNS（8.8.4.4）"
+
+msgid "Quad9 Public DNS (9.9.9.9)"
+msgstr "Quad9 公用 DNS（9.9.9.9）"
+
+msgid "Quad9 Public DNS (149.112.112.112)"
+msgstr "Quad9 公用 DNS（149.112.112.112）"
+
+msgid "Cisco Public DNS (208.67.222.222)"
+msgstr "思科公用 DNS（208.67.222.222）"
+
+msgid "Cisco Public DNS (208.67.220.220)"
+msgstr "思科公用 DNS（208.67.220.220）"
+
+msgid "Concurrent"
+msgstr "DNS 伺服器並發數（預設2）"
+
+msgid "DNS query request concurrency, The number of upstream DNS servers that are allowed to initiate requests at the same time"
+msgstr "DNS 查詢請求並發數，允許同時發起請求的上游 DNS 伺服器數量"
+
+msgid "Maximum Connections"
+msgstr "最大連線數（預設 2）"
+
+msgid "Set the Maximum connections for DoH and pipeline's TCP/DoT, Except for the HTTP/3 protocol"
+msgstr "設定 DoH 和已啟用 Query Pipelining 連線複用模式的 TCP/DoT 最大連線數，HTTP/3 協定除外"
+
+msgid "Idle Timeout"
+msgstr "空閒逾時"
+
+msgid "DoH/TCP/DoT Connection Multiplexing idle timeout (default 30 seconds)"
+msgstr "DoH/TCP/DoT 連線重複使用空閒時間（預設 30 秒）"
+
+msgid "TCP/DoT Connection Multiplexing"
+msgstr "TCP/DoT 連線重複使用"
+
+msgid "Enable TCP/DoT RFC 7766 new Query Pipelining connection multiplexing mode"
+msgstr "啟用 TCP/DoT RFC 7766 新型 Query Pipelining 連線重複使用模式"
+
+msgid "Disable TLS Certificate"
+msgstr "停用 TLS 憑證"
+
+msgid "Disable TLS Servers certificate validation, Can be useful if system CA certificate expires or the system time is out of order"
+msgstr "停用 TLS 伺服器憑證驗證，當系統 CA 憑證過期或系統時間錯亂時，本選項可能會有用"
+
+msgid "Enable EDNS client subnet"
+msgstr "啟用 EDNS 客戶端子網"
+
+msgid "Add the EDNS Client Subnet option (ECS) to Remote DNS"
+msgstr "在遠端 DNS 請求中加入 EDNS 客戶端子網路（即 ECS）選項（需要上游 DNS 伺服器支援）"
+
+msgid "MosDNS will auto identify the IP address subnet segment of your remote connection (0/24)"
+msgstr "MosDNS 將會自動取得您存取遠端連線時所使用的 IP 子網路區段（0/24）"
+
+msgid "If your remote access network changes, May need restart MosDNS to update the ECS request address"
+msgstr "如果您的遠端存取網路變更時可能需要重新啟動 MosDNS 以更新 ECS 請求位址"
+
+msgid "Prevent DNS Leaks"
+msgstr "防止 DNS 外洩"
+
+msgid "Enable this option fallback policy forces forwarding to remote DNS"
+msgstr "啟用此選項 fallback 原則會強制轉送至遠端 DNS"
+
+msgid "DNS Cache Size"
+msgstr "DNS 快取大小"
+
+msgid "DNS cache size (in piece). To disable caching, please set to 0."
+msgstr "DNS 快取大小（單位：條），若要停用緩存，請設定為 0"
+
+msgid "Lazy Cache TTL"
+msgstr "樂觀快取 TTL"
+
+msgid "Lazy cache survival time (in second). To disable Lazy Cache, please set to 0."
+msgstr "樂觀快取生存時間（單位：秒），若要停用樂觀緩存，請設定為 0"
+
+msgid "Cache Dump"
+msgstr "自動儲存快取"
+
+msgid "Save the cache locally and reload the cache dump on the next startup"
+msgstr "儲存快取到本機文件，以便下次啟動時重新載入使用"
+
+msgid "Auto Save Cache Interval"
+msgstr "自動儲存快取間隔（秒）"
+
+msgid "Minimum TTL"
+msgstr "覆蓋最小 TTL 值（預設為 0）"
+
+msgid "Modify the Minimum TTL value (seconds) for DNS answer results, 0 indicating no modification"
+msgstr "修改 DNS 回應結果的最小 TTL 值 (秒)，0 表示不修改"
+
+msgid "Maximum TTL"
+msgstr "覆寫最大 TTL 值（預設 0）"
+
+msgid "Modify the Maximum TTL value (seconds) for DNS answer results, 0 indicating no modification"
+msgstr "修改 DNS 回應結果的最大 TTL 值（秒），0 表示不修改"
+
+msgid "Logs"
+msgstr "日誌"
+
+msgid "Clear logs"
+msgstr "清空日誌"
+
+msgid "Rule List"
+msgstr "規則清單"
+
+msgid "Rule Settings"
+msgstr "自訂規則清單"
+
+msgid "<br>The list of rules only apply to 'Default Config' profiles."
+msgstr "<br>規則清單僅適用於 “內建預設” 設定檔"
+
+msgid "White Lists"
+msgstr "白名單"
+
+msgid "These domain names allow DNS resolution with the highest priority. Please input the domain names of websites, every line can input only one website domain. For example: hm.baidu.com."
+msgstr "加入的網域總是允許使用 “本地 DNS” 進行解析，且優先順序最高（每個網域名稱一行，支援網域名稱匹配規則）"
+
+msgid "Block Lists"
+msgstr "黑名單"
+
+msgid "These domains are blocked from DNS resolution. Please input the domain names of websites, every line can input only one website domain. For example: baidu.com."
+msgstr "加入的網域名稱會封鎖 DNS 解析（每個網域名稱一行，支援網域名稱比對規則）"
+
+msgid "Grey Lists"
+msgstr "灰名單"
+
+msgid "These domains are always resolved using remote DNS. Please input the domain names of websites, every line can input only one website domain. For example: google.com."
+msgstr "加入的網域總是使用 “遠端 DNS” 解析（每個網域名稱一行，支援網域名稱匹配規則）"
+
+msgid "DDNS Lists"
+msgstr "DDNS 網域"
+
+msgid "These domains are always resolved using local DNS. And force TTL 5 seconds, DNS resolution results will not enter the cache. For example: myddns.example.com."
+msgstr "加入的網域總是使用 “本地 DNS” 進行解析，並且強制 TTL 5 秒，解析結果不會進入快取（每個網域名稱一行，支援網域名稱匹配規則）"
+
+msgid "Hosts For example: baidu.com 10.0.0.1"
+msgstr "自訂 Hosts 重寫，如：baidu.com 10.0.0.1（每個規則一行）"
+
+msgid "Redirect"
+msgstr "重新導向"
+
+msgid "The domain name to redirect the request to. Requests domain A, but returns records for domain B. example: a.com b.com"
+msgstr "重新導向請求的網域名稱。要求網域名稱 A，但傳回網域 B 的記錄，如：baidu.com qq.com（每個規則一行）"
+
+msgid "Block PTR"
+msgstr "PTR 黑名單"
+
+msgid "These domains are blocked from PTR requests"
+msgstr "加入的網域名稱將阻止 PTR 請求（每個網域一行，支援網域名稱比對規則）"
+
+msgid "GeoData Export"
+msgstr "GeoData 導出"
+
+msgid "GeoSite Tags"
+msgstr "GeoSite 標籤"
+
+msgid "Enter the GeoSite.dat category to be exported, Allow add multiple tags"
+msgstr "填寫需要匯出的 GeoSite.dat 類別條目，允許新增多個標籤"
+
+msgid "GeoIP Tags"
+msgstr "GeoIP 標籤"
+
+msgid "Enter the GeoIP.dat category to be exported, Allow add multiple tags"
+msgstr "輸入需要匯出的 GeoIP.dat 類別條目，允許新增多個標籤"
+
+msgid "Export directory: /var/mosdns"
+msgstr "匯出目錄：/var/mosdns"

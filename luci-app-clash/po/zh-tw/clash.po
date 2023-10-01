@@ -1,0 +1,1279 @@
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+msgid "Custom TLS Host"
+msgstr "自訂TLS主機"
+
+msgid "Cache DNS"
+msgstr "快取的DNS"
+
+msgid "Fake IP Range"
+msgstr "假IP範圍"
+
+msgid "Ip range will be added to iptables"
+msgstr "Ip範圍將會加入iptables"
+
+msgid "New Version :"
+msgstr "新版本："
+
+msgid "Core Type"
+msgstr "核心類型"
+
+msgid "Select Core"
+msgstr "選擇核心"
+
+msgid "Obfs"
+msgstr "混淆"
+
+msgid "Obfs Param"
+msgstr "混淆參數"
+
+msgid "Protocol"
+msgstr "協議"
+
+msgid "Protocol Param"
+msgstr "協定參數"
+
+msgid "Servers"
+msgstr "伺服器"
+
+msgid "Custom List DNS"
+msgstr "自訂清單DNS"
+
+msgid "Apply Custom List"
+msgstr "套用自訂清單"
+
+msgid "Custom List"
+msgstr "自訂清單"
+
+msgid "Allow Lan"
+msgstr "允許區域網路"
+
+msgid "Bind All IP Addresses"
+msgstr "綁定所有IP位址"
+
+msgid "Bind Address"
+msgstr "綁定位址"
+
+msgid "enabled to create custom configuration"
+msgstr "已啟用以建立自訂配置"
+
+msgid "Status"
+msgstr "狀態"
+
+msgid "Click to create custom server configuration"
+msgstr "點選以建立自訂伺服器設定"
+
+msgid "Log"
+msgstr "日誌"
+
+msgid "Update Config"
+msgstr "更新配置"
+
+msgid "NOT RUNNING"
+msgstr "最後執行"
+
+msgid "Enabled Custom Rule"
+msgstr "啟用自訂規則"
+
+msgid "Download Config"
+msgstr "下載配置"
+
+msgid "Enable/Start/Restart Client"
+msgstr "啟用/啟動/重新啟動客戶端"
+
+msgid "Disable/Stop Client"
+msgstr "停用/停止客戶端"
+
+msgid "Stop"
+msgstr "停用客戶端"
+
+msgid "Start"
+msgstr "啟用客戶端"
+
+msgid "Reload"
+msgstr "重裝客戶端"
+
+msgid "enabled"
+msgstr "啟用"
+
+msgid "Subcription Type"
+msgstr "伺服器訂閱型別"
+
+msgid "Select Subcription Type"
+msgstr "選擇伺服器訂閱類型"
+
+msgid "disabled"
+msgstr "停用"
+
+msgid "Access Control"
+msgstr "存取控制"
+
+msgid "Proxy Ports"
+msgstr "代理埠設定"
+
+msgid "DNS Settings"
+msgstr "DNS設定"
+
+msgid "Http Port"
+msgstr "http代理埠"
+
+msgid "Socks Port"
+msgstr "socks代理埠"
+
+msgid "Redir Port"
+msgstr "redir代理埠"
+
+msgid "No Update | Return"
+msgstr "已安裝最新本 | 返回"
+
+msgid "Log level"
+msgstr "日誌等級"
+
+msgid "Choose Log Level"
+msgstr "選擇日誌等級"
+
+msgid "Overview"
+msgstr "概覽"
+
+msgid "Download"
+msgstr "下載"
+
+msgid "Checking..."
+msgstr "正在檢查..."
+
+msgid "Not Installed"
+msgstr "未安裝"
+
+msgid "Version"
+msgstr "已安裝版本"
+
+msgid "NO CONFIG"
+msgstr "沒配置"
+
+msgid "Clash Mode"
+msgstr "Clash模式"
+
+msgid "App Name"
+msgstr "應用程式名稱"
+
+msgid "Rule-based Custom Proxy Client"
+msgstr "基於規則的自訂代理客戶端"
+
+msgid "Error Occured | Return"
+msgstr "檢查錯誤 | 返回"
+
+msgid "Current Version"
+msgstr "目前版本"
+
+msgid "Return"
+msgstr "返回檢查"
+
+msgid "Check Update"
+msgstr "檢查更新"
+
+msgid "Check"
+msgstr "檢查"
+
+msgid "DNS Forwarding"
+msgstr "DNS轉送"
+
+msgid "Set custom DNS forwarder in DHCP and DNS Settings and forward all dns traffic to clash"
+msgstr "在DHCP和DNS設定自訂DNS轉送,轉送所有dns流量到clash"
+
+msgid "Proxy Lan IP"
+msgstr "走代理程式的區域網路IP"
+
+msgid "Only selected IPs will be proxied if enabled. fake-ip mode not supported"
+msgstr "如果啟用，僅選擇IP只走代理,不支援fake-ip模式"
+
+msgid "Proxy Lan List"
+msgstr "走代理程式的IP列表"
+
+msgid "Only selected IPs will be proxied"
+msgstr "選擇IP只走代理"
+
+msgid "Bypass Lan IP"
+msgstr "不走代理程式的區域網路IP"
+
+msgid "Selected IPs will not be proxied if enabled. fake-ip mode not supported"
+msgstr "如果啟用，僅選擇IP只不走代理程式,不支援fake-ip模式"
+
+msgid "Bypass Lan List"
+msgstr "不走代理程式的IP列表"
+
+msgid "Selected IPs will not be proxied"
+msgstr "選擇LAN IP只不走代理"
+
+msgid "Enabling Custom DNS will Overwrite your config.yaml dns section"
+msgstr "啟用自訂DNS會覆蓋config.yaml dns"
+
+msgid "Dashboard Host"
+msgstr "外部控制Host"
+
+msgid "Dashboard Port"
+msgstr "外部控制埠"
+
+msgid "Clear Logs"
+msgstr "清理日誌"
+
+msgid "Dashboard Secret"
+msgstr "外部控制金鑰"
+
+msgid "Google"
+msgstr "Google網"
+
+msgid "Youtube"
+msgstr "Youtube"
+
+msgid "Baidu"
+msgstr "百度網"
+
+msgid "Github"
+msgstr "Github"
+
+msgid "Music.163"
+msgstr "網易雲音樂"
+
+msgid "iQiyi"
+msgstr "愛奇藝"
+
+msgid "NORMAL"
+msgstr "正常"
+
+msgid "TIMEOUT"
+msgstr "超時"
+
+msgid "NOT SET"
+msgstr "未設定"
+
+msgid "NO ACCESS"
+msgstr "無法存取"
+
+msgid "Domestic IP"
+msgstr "國內網IP"
+
+msgid "Global IP"
+msgstr "國外網IP"
+
+msgid "clash"
+msgstr "clash"
+
+msgid "DASHBOARD"
+msgstr "外部控制"
+
+msgid "Clash Dashboard"
+msgstr "Clash控制面板"
+
+msgid "Client"
+msgstr "客戶端"
+
+msgid "Clash Client"
+msgstr "客戶端"
+
+msgid "Configuration"
+msgstr "設定檔"
+
+msgid "logs"
+msgstr "日誌"
+
+msgid "Custom DNS"
+msgstr "自訂DNS"
+
+msgid "Modify yaml DNS"
+msgstr "修改 DNS"
+
+msgid "Enable"
+msgstr "啟用"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Update time (every day)"
+msgstr "更新時間 (每天)"
+
+msgid "Auto Update"
+msgstr "自動更新"
+
+msgid "Auto Update Server subscription"
+msgstr "自動更新伺服器訂閱"
+
+msgid "Daily Server subscription update time"
+msgstr "每日伺服器訂閱更新時間"
+
+msgid "Enable"
+msgstr "啟用"
+
+msgid "Delete Config"
+msgstr "刪除配置"
+
+msgid "Config"
+msgstr "配置"
+
+msgid "NB: press ENTER to create a blank line at the end of input."
+msgstr "填寫時請依照範本格式, 按Enter鍵在輸入結束時建立一行空白行"
+
+msgid "GEOIP Database"
+msgstr "GEOIP資料庫"
+
+msgid "Update GEOIP Database"
+msgstr "更新GEOIP資料庫"
+
+msgid "Upload Config"
+msgstr "上傳配置"
+
+msgid "NB: Only upload file with name config.yml or config.yaml"
+msgstr "注意：上載config.yml或config.yaml的檔案"
+
+msgid "Subcription Url"
+msgstr "訂閱網址"
+
+msgid "Update Subcription"
+msgstr "更新訂閱配置"
+
+msgid "Update"
+msgstr "更新"
+
+msgid "Enable Client"
+msgstr "啟用客戶端"
+
+msgid "Config In Use"
+msgstr "使用中的設定"
+
+msgid "Server Subscription Address"
+msgstr "伺服器訂閱位址"
+
+msgid "Clash Subscription Address"
+msgstr "Clash訂閱網址"
+
+msgid "V2/SSR Subscription Address, Only input your subscription address without any api conversion url"
+msgstr "V2/SSR訂閱位址,輸入訂閱位址不要新增api轉換位址"
+
+msgid "Changes to config file must be made from source"
+msgstr "必須從來源檔案變更設定檔"
+
+msgid "Import Config"
+msgstr "導入配置"
+
+msgid "Enable to create custom config.yaml. Note that this will overide any configuration you already have"
+msgstr "啟用以建立自訂config.yaml。請注意，這會覆寫/etc/clash/config.yaml"
+
+
+msgid "host"
+msgstr "主機名稱"
+
+msgid "Enable Create Config"
+msgstr "啟用建立配置"
+
+msgid "Perform this action to delete all servers"
+msgstr "執行此操作以刪除所有伺服器"
+
+msgid "Perform this action to generate new configuration"
+msgstr "執行此操作以產生新配置"
+
+msgid "Delete Severs"
+msgstr "清空節點"
+
+msgid "Load Config"
+msgstr "讀取配置"
+
+msgid "Error"
+msgstr "錯誤"
+
+msgid "Load Groups"
+msgstr "讀取代理組"
+
+msgid "Load Servers"
+msgstr "讀取節點"
+
+msgid "Load From"
+msgstr "從讀取"
+
+msgid "Enable to read servers"
+msgstr "啟用讀取節點"
+
+msgid "Enable to read policy group"
+msgstr "啟用讀取代理組"
+
+msgid "Type"
+msgstr "節點類型"
+
+msgid "Alias"
+msgstr "節點別名"
+
+msgid "Server Address"
+msgstr "伺服器位址"
+
+msgid "Server Port"
+msgstr "連接埠"
+
+msgid "Edit Server"
+msgstr "編輯伺服器設定"
+
+msgid "Server Node Type"
+msgstr "伺服器節點類型"
+
+msgid "Using incorrect encryption mothod may causes service fail to start"
+msgstr "輸入不正確的參數組合可能會導致服務無法啟動"
+
+msgid "Password"
+msgstr "密碼"
+
+msgid "Encrypt Method"
+msgstr "加密方式"
+
+msgid "UDP"
+msgstr "UDP"
+
+msgid "obfs-mode"
+msgstr "傳輸協定"
+
+msgid "obfs-hosts"
+msgstr "混淆參數"
+
+msgid "Auth Username"
+msgstr "登入使用者名稱"
+
+msgid "Auth Password"
+msgstr "登入密碼"
+
+msgid "Skip Cert Verify"
+msgstr "忽略許可驗證"
+
+msgid "None"
+msgstr "未配置"
+
+msgid "NB: Attention to Proxy Group and Rule when making changes to this section"
+msgstr "注意：更改時，請注意代理組和規則"
+
+msgid "Subscription Config"
+msgstr "訂閱配置"
+
+msgid "Subscribe Config"
+msgstr "訂閱配置"
+
+msgid "Uploaded Config"
+msgstr "上傳的配置"
+
+msgid "Custom Config"
+msgstr "自訂配置"
+
+msgid "Custom"
+msgstr "自訂"
+
+msgid "Config Type"
+msgstr "Clash配置類型"
+
+msgid "Select Configuration type"
+msgstr "選擇配置類型”"
+
+msgid "Create Config"
+msgstr "建立配置"
+
+msgid "Create Config By One-Click Only Need Proxys"
+msgstr "一鍵產生設定檔功能只需要設定伺服器節點資訊"
+
+msgid "Proxy Groups(No Need Set when Config Create)"
+msgstr "策略群組設定（使用一鍵產生設定檔功能時無需設定）"
+
+msgid "Proxies"
+msgstr "代理"
+
+msgid "Edit Group"
+msgstr "編輯策略群組配置"
+
+msgid "Group Type"
+msgstr "策略組類型"
+
+msgid "Choose The Operation Mode"
+msgstr "設定策略群組挑選伺服器節點的工作方式"
+
+msgid "Group Name"
+msgstr "政策組別別名（請勿重新命名）"
+
+msgid "Test URL"
+msgstr "偵測位址（URL）"
+
+msgid "Test Interval(s)"
+msgstr "偵測頻率（秒）"
+
+msgid "Select"
+msgstr "手動選擇"
+
+msgid "URL-Test"
+msgstr "最低延遲"
+
+msgid "Fallback"
+msgstr "故障切換"
+
+msgid "Load-Balance"
+msgstr "負載平衡"
+
+msgid "Other Group"
+msgstr "包含其他原則群組"
+
+msgid "Proxy Groups Must Exist In Rule"
+msgstr "新增的策略群組必須存在規則建立"
+
+msgid "Policy Groups"
+msgstr "策略組"
+
+msgid "Rule"
+msgstr "規則"
+
+msgid "Custom Rule Url"
+msgstr "自訂規則URL"
+
+msgid "Download Rule"
+msgstr "下載規則"
+
+msgid "Insert your custom rule Url and click download"
+msgstr "輸入自訂規則URL並點選下載"
+
+msgid "Delete Rule"
+msgstr "刪除規則"
+
+msgid "Latency"
+msgstr "延遲"
+
+msgid "Delete Groups"
+msgstr "刪除策略群組"
+
+msgid "Perform this action to delete all policy groups"
+msgstr "執行此操作以刪除所有政策群組"
+
+msgid "Upload Config"
+msgstr "上傳設定檔"
+
+msgid "Upload"
+msgstr "上傳"
+
+msgid "File saved to"
+msgstr "檔案已成功上傳至"
+
+msgid "upload file error."
+msgstr "檔案上傳失敗"
+
+msgid "Load Config From"
+msgstr "從哪讀取自訂節點"
+
+msgid "Select from which configuration custom server should be loaded from"
+msgstr "選擇從哪個設定檔讀取自訂節點"
+
+msgid "All Servers"
+msgstr "所有節點"
+
+msgid "Core"
+msgstr "核心"
+
+msgid "Select core, clashr support ssr while clash does not."
+msgstr "選擇核心clash不支援ssr, clashr支援ssr"
+
+msgid "Downloading..."
+msgstr "正在下載。。。"
+
+msgid "Remove Lan DNS"
+msgstr "刪除區域網路DNS"
+
+msgid "Remove Lan custom DNS Servers when client is disabled"
+msgstr "停用客戶端時刪除區域網路自訂DNS伺服器"
+
+msgid "Enable ipv6"
+msgstr "啟用ipv6"
+
+msgid "Allow ipv6 traffic through clash"
+msgstr "允許ipv6流量通過clash"
+
+msgid "NB: Upload GEOIP Database file Country.mmdb"
+msgstr "注意：上傳GEOIP資料庫檔案Country.mmdb"
+
+msgid "Download logs"
+msgstr "下載日誌"
+
+msgid "Enable Create"
+msgstr "啟用建立"
+
+msgid "Enable to create configuration"
+msgstr "啟用以建立配置"
+
+msgid "Proxy-Provider"
+msgstr "代理程式集管理"
+
+msgid "Edit Proxy Provider"
+msgstr "編輯代理程式集配置"
+
+msgid "Provider Type"
+msgstr "代理集類型"
+
+msgid "Provider Type"
+msgstr "代理程式集的型別"
+
+msgid "Provider Name"
+msgstr "代理程式集別名"
+
+msgid "Provider Path"
+msgstr "代理集路徑（Path）"
+
+msgid "【HTTP】./hk.yaml or 【File】/etc/clash/hk.yaml"
+msgstr "【HTTP】./hk.yaml，【檔案】/etc/clash/hk.yaml"
+
+msgid "Provider URL"
+msgstr "代理集URL"
+
+msgid "Provider Interval"
+msgstr "代理程式集更新間隔"
+
+msgid "Provider Health Check"
+msgstr "代理程式集狀態檢查"
+
+msgid "Health Check URL"
+msgstr "狀態檢查URL"
+
+msgid "Health Check Interval"
+msgstr "狀態檢查間隔"
+
+msgid "Delete Provider"
+msgstr "清空節點集合"
+
+msgid "Policy Group"
+msgstr "策略組"
+
+msgid "Proxy Provider"
+msgstr "代理集合"
+
+msgid "Tun Mode"
+msgstr "Tun模式"
+
+msgid "Select Tun Mode"
+msgstr "選Tun模式"
+
+msgid "Tun Mode DNS"
+msgstr "Tun模式DNS"
+
+msgid "Enable Tun custom DNS and make sure you are using tun supported core"
+msgstr "啟用Tun自訂DNS,並確保使用支援的Tun內核"
+
+msgid "Upload Provider File"
+msgstr "上傳代理程式集檔"
+
+msgid "Upload Provider File If Empty"
+msgstr "上傳代理程式集檔案（如果為空）"
+
+msgid "Provider File"
+msgstr "代理程式集檔"
+
+msgid "Modify Tun DNS"
+msgstr "修改Tun DNS"
+
+msgid "Local Update GeoIP"
+msgstr "本地更新GeoIP資料庫"
+
+msgid "Online Update GeoIP"
+msgstr "線上更新GeoIP資料庫"
+
+msgid "MaxMind License Key"
+msgstr "MaxMind許可證金鑰"
+
+msgid "License Key"
+msgstr "許可證金鑰"
+
+msgid "Auto Update GeoIP Database"
+msgstr "自動更新GeoIP資料庫"
+
+msgid "Update Day (Day of Month)"
+msgstr "更新(每月的日)"
+
+msgid "GeoIP Update Time"
+msgstr "GeoIP更新時間"
+
+msgid "Every 1st Day"
+msgstr "每月的第一天"
+
+msgid "Every 7th Day"
+msgstr "每月的第七天"
+
+msgid "Every 14th Day"
+msgstr "每月的第十四天"
+
+msgid "Every 21st Day"
+msgstr "每月的第二十一天"
+
+msgid "Every 28th Day"
+msgstr "每月的第二十八天"
+
+msgid "Update GeoIP"
+msgstr "更新GeoIP資料庫"
+
+msgid "Update Time"
+msgstr "更新時間"
+
+msgid "Every Monday"
+msgstr "每週一"
+
+msgid "Every Tuesday"
+msgstr "每週二"
+
+msgid "Every Wednesday"
+msgstr "每週三"
+
+msgid "Every Thursday"
+msgstr "每週四"
+
+msgid "Every Friday"
+msgstr "每週五"
+
+msgid "Every Saturday"
+msgstr "每週六"
+
+msgid "Every Sunday"
+msgstr "每週日"
+
+msgid "Update Every (Week/Month)"
+msgstr "更新（每週/每月）"
+
+msgid "Update Day (Day of Week)"
+msgstr "更新的天"
+
+msgid "Time For Update (Once a week/Month)"
+msgstr "更新（每週一次/每月一次）"
+
+msgid "Weekly"
+msgstr "每週"
+
+msgid "Monthly"
+msgstr "每月"
+
+msgid "Upload Clash(Tun)"
+msgstr "上傳Clash(Tun)"
+
+msgid "NB: Upload Clash Supported Tun (clash)"
+msgstr "注意：上傳clash支援的Tun"
+
+msgid "Download Clash/Clashr"
+msgstr "下載Clash/Clashr"
+
+msgid "No file chosen"
+msgstr "未選擇檔案"
+
+msgid "Chose File"
+msgstr "選擇檔案"
+
+msgid "Update Time"
+msgstr "更新時間"
+
+msgid "File Name"
+msgstr "檔名"
+
+msgid "Use Config"
+msgstr "使用配置"
+
+msgid "Size"
+msgstr "檔案大小"
+
+msgid "Remove"
+msgstr "移除"
+
+msgid "Download Config"
+msgstr "下載配置"
+
+msgid "Config Name"
+msgstr "配置名稱"
+
+msgid "Config Name. Do not use a config name that already exist"
+msgstr "設定名稱,不要使用已經存在的設定名稱"
+
+msgid "CONFIG IN USE"
+msgstr "使用中的設定"
+
+msgid "Daily Server subscription update time. Only update config in use"
+msgstr "每日伺服器訂閱更新時間。僅更新正在使用的設定"
+
+msgid "NB: Only upload file with name .yaml.It recommended to rename each upload file name to avoid overwrite"
+msgstr "注意：僅上載名為.yaml的檔案。建議重命名每個上載檔名以避免覆蓋"
+
+msgid "Not Selected"
+msgstr "未選擇"
+
+msgid "Force Same Name"
+msgstr "強制使用同名"
+
+msgid "Enable to overwrite config file"
+msgstr "啟用覆蓋設定檔"
+
+msgid "Give a name for your config"
+msgstr "為配置命名"
+
+msgid "Config Type"
+msgstr "Clash配置類型"
+
+msgid "SUBSCRIBE"
+msgstr "訂閱配置"
+
+msgid "UPLOAD"
+msgstr "上傳配置"
+
+msgid "CUSTOM"
+msgstr "自訂配置"
+
+msgid "Operation"
+msgstr "操作"
+
+msgid "NOT SELECTED"
+msgstr "未選擇"
+
+msgid "Game Rule's Name"
+msgstr "選擇遊戲規則"
+
+msgid "Select Proxy Group"
+msgstr "選擇策略群組"
+
+msgid "Game Rules List"
+msgstr "遊戲規則清單"
+
+msgid "Rule Name"
+msgstr "規則名稱"
+
+msgid "Download Rule"
+msgstr "下載規則"
+
+msgid "Exist"
+msgstr "已下載"
+
+msgid "Not Exist"
+msgstr "未下載"
+
+msgid "Order Number"
+msgstr "序號"
+
+msgid "Game Rules & Groups"
+msgstr "遊戲規則策略群組"
+
+msgid "Timeout"
+msgstr "下載逾時"
+
+msgid "Error"
+msgstr "下載失敗"
+
+msgid "Successful"
+msgstr "下載成功"
+
+msgid "Game Rules"
+msgstr "遊戲規則"
+
+msgid "Update Rule"
+msgstr "點擊更新規則"
+
+msgid "Game Rule Tag"
+msgstr "遊戲規則名稱"
+
+msgid "Rule Tag"
+msgstr "遊戲名字"
+
+msgid "Edit Game Rule & Group"
+msgstr "編輯遊戲規則策略群組"
+
+msgid "Give a special name for your rules"
+msgstr "規則名字"
+
+msgid "Select a policy group to add rule"
+msgstr "選擇要新增規則的政策群組"
+
+msgid "Set rules under Setting=>Game Rules, will take effect when client start"
+msgstr "在設定=>遊戲規則下設定規則，將在客戶端啟動時生效"
+
+msgid "Enable"
+msgstr "啟用"
+
+msgid "Downloading..."
+msgstr "正在下載規則..."
+
+msgid "Auto Update Config"
+msgstr "自動更新配置"
+
+msgid "Subcription Config List"
+msgstr "訂閱配置清單"
+
+msgid "Upload Config List"
+msgstr "上傳配置清單"
+
+msgid "Custom Config List"
+msgstr "自訂配置清單"
+
+msgid "Downloading..."
+msgstr "正在下載規則..."
+
+msgid "Downloading..."
+msgstr "正在下載規則..."
+
+msgid "Clash Config"
+msgstr "Clash配置"
+
+msgid "VIEW CONFIG"
+msgstr "檢視配置"
+
+msgid "If config does not show refresh page"
+msgstr "如果設定不顯示刷新頁"
+
+msgid "Usage Steps:"
+msgstr "使用步驟："
+
+msgid "1.Load Policy Group, make sure you have selected a config on config page"
+msgstr "1. 載入原則組，確保已在設定頁上選擇設定。"
+
+msgid "2.Download the game rules you want to use from the game rules list on this page"
+msgstr "2. 從該頁的遊戲規則清單下載要使用的遊戲規則。"
+
+msgid "3. Make sure your game and servers support UDP"
+msgstr "3. 確保遊戲和伺服器支援UDP。"
+
+msgid "4.Click on ADD, Set the corresponding policy group of the downloaded game rules and save, recommended: FallBack"
+msgstr "4. 點選新增，設定下載遊戲規則的對應策略群組（策略群組類型建議:FallBack）。"
+
+msgid "5.Select ClashTun Core type and start client"
+msgstr "5. 在客戶端頁選擇ClashTun核心(https://github.com/comzyh/clash/releases)和啟用遊戲規則。"
+
+msgid "RULE"
+msgstr "規則模式"
+
+msgid "GLOBAL"
+msgstr "全域模式"
+
+msgid "DIRECT"
+msgstr "直接模式"
+
+msgid "Proxy Mode"
+msgstr "代理模式"
+
+msgid "Choose proxy mode"
+msgstr "選擇代理模式"
+
+msgid "NB: Upload only Dreamacro clash tun core - (https://github.com/Dreamacro/clash/releases/tag/TUN)"
+msgstr "注意：只上傳clash tun核心-(https://github.com/Dreamacro/clash/releases/tag/TUN)"
+
+msgid "Load Provider"
+msgstr "讀取代理集"
+
+msgid "Enable to read Proxy Provider"
+msgstr "啟用讀取代理程式集"
+
+msgid "Every Hour"
+msgstr "每小時"
+
+msgid "Every 6 Hours"
+msgstr "每個6小時"
+
+msgid "Every 12 Hours"
+msgstr "每個12小時"
+
+msgid "Every 24 Hours"
+msgstr "每個24小時"
+
+msgid "Clear Clash Log"
+msgstr "清除日誌"
+
+msgid "Auto Clear Log"
+msgstr "自動清除日誌"
+
+msgid "Clear Time (Time of Day)"
+msgstr "清除時間（一天中的時間）"
+
+msgid "Clear Log Time"
+msgstr "清除日誌時間"
+
+msgid "Other Settings"
+msgstr "其他設定"
+
+msgid "Rule Type"
+msgstr "規則型別"
+
+msgid "Choose Type"
+msgstr "選擇類型"
+
+msgid "Set custom rules under Setting=>Others , will take effect when client start"
+msgstr "在「設定」=>「其他」下設定自訂規則，將在用戶端啟動時生效"
+
+msgid "Append Customs Rules"
+msgstr "附加自訂規則"
+
+msgid "Edit Custom Rule & Group"
+msgstr "編輯自訂規則群組"
+
+msgid "Custom Rules"
+msgstr "自訂規則"
+
+msgid "IP/Domain/Address/Keyword/Port"
+msgstr "IP/網域/位址/關鍵字/連接埠"
+
+msgid "Manually download, unzip and rename clash core from links below and upload"
+msgstr "從下面的連結手動下載、解壓縮和重新命名到clash然後上載"
+
+msgid "Manual Upload"
+msgstr "手動上載"
+
+msgid "Download Online"
+msgstr "線上下載"
+
+msgid "Yacd Dashboard"
+msgstr "Yacd控制面板"
+
+msgid "Enable Ping Servers"
+msgstr "啟用Ping伺服器"
+
+msgid "New Config(Rename fields)"
+msgstr "新配置(重新命名欄位)"
+
+msgid "Enable UDP"
+msgstr "啟用UDP"
+
+msgid "Enable udp traffic ,make sure your server support udp"
+msgstr "啟用udp流量，伺服器必須支援udp"
+
+msgid "DNS Cache"
+msgstr "DNS快取"
+
+msgid "Set to enable or disable dns cache"
+msgstr "設定為啟用或停用dns快取"
+
+msgid "Old Config"
+msgstr "舊配置"
+
+msgid "Import config info"
+msgstr "導入設定資訊"
+
+msgid "Import V2ray config info successful"
+msgstr "導入V2ray設定資訊成功"
+
+msgid "Import Trojan config info successful"
+msgstr "導入Trojan設定資訊成功"
+
+msgid "Import Shadowsocks config info successful"
+msgstr "導入Shadowsocks設定資訊成功"
+
+msgid "Import ShadowsocksR config info successful"
+msgstr "導入ShadowsocksR設定資訊成功"
+
+msgid "Invalid link"
+msgstr "無效格式"
+
+msgid "Operation Aborted"
+msgstr "使用者取消"
+
+msgid "Standard Config"
+msgstr "標準配置"
+
+msgid "Provider Config"
+msgstr "集配置"
+
+msgid "Select Config"
+msgstr "使用配置"
+
+msgid "Provider Behavior"
+msgstr "集行為"
+
+msgid "Edit Rule Provider"
+msgstr "編輯規則集"
+
+msgid "Rule Provider Name"
+msgstr "規則集別名（請勿重新命名)"
+
+msgid "Edit Rules"
+msgstr "編輯規則"
+
+msgid "Description"
+msgstr "描述"
+
+msgid "Provider Config"
+msgstr "集配置"
+
+msgid "Rule Provider"
+msgstr "規則集"
+
+msgid "Use Proxy Provider"
+msgstr "啟用代理程式集"
+
+msgid "Use Rule Provider"
+msgstr "啟用規則集"
+
+msgid "Use Rules"
+msgstr "啟用規則"
+
+msgid "Delete Rule Provider"
+msgstr "刪除規則集"
+
+msgid "Delete Rules"
+msgstr "刪除規則"
+
+msgid "Use Script"
+msgstr "使用腳本"
+
+msgid "Script"
+msgstr "腳本"
+
+msgid "SCRIPT"
+msgstr "腳本模式"
+
+msgid "NB: Set Clash Mode to Script if want to use"
+msgstr "注意：如果要使用，請將Clash模式,設定為腳本"
+
+msgid "Whitelist IPs"
+msgstr "啟用白名單IP"
+
+msgid "Blacklist Ips"
+msgstr "啟用黑名單IP"
+
+msgid "Whitelist or Blacklist IPs to use Clash ( Only support enhanced-mode: redir-host )"
+msgstr "啟用白名單或黑名單IP ( 僅支援enhanced-mode: redir-host )"
+
+msgid "Rule Providers Manager"
+msgstr "規則集經理"
+
+msgid "Rule Providers List"
+msgstr "規則集表"
+
+msgid "Type"
+msgstr "規則型別"
+
+msgid "Not Updated"
+msgstr "規則未更新"
+
+msgid "Update Rule Providers"
+msgstr "更新規則集"
+
+msgid "Proxy Groups"
+msgstr "代理組"
+
+msgid "Use Proxy"
+msgstr "啟用代理"
+
+msgid "Other Rules"
+msgstr "其他規則"
+
+msgid "Use Other Rule"
+msgstr "啟用其他規則"
+
+msgid "Delete Proxy Provider"
+msgstr "刪除代理程式集"
+
+msgid "All Servers"
+msgstr "所有節點"
+
+msgid "Interface Name"
+msgstr "介面名稱"
+
+msgid "Enable Interface Name"
+msgstr "啟用介面名稱"
+
+msgid "Set Interface Name"
+msgstr "設定介面名稱"
+
+msgid "Tun Mode"
+msgstr "Tun模式"
+
+msgid "Enable Tun and make sure you are using tun supported core"
+msgstr "啟用Tun並確保您使用的是Tun支援的核心"
+
+msgid "Stack"
+msgstr "Stack"
+
+msgid "Select Stack Mode"
+msgstr "選擇Stack模式"
+
+msgid "Enable Clash DNS"
+msgstr "啟用Clash DNS"
+
+msgid "DNS Listen Port"
+msgstr "DNS監聽埠"
+
+msgid "Set DNS Listen Port"
+msgstr "設定DNS偵聽連接埠"
+
+msgid "Default NameServer"
+msgstr "預設名稱伺服器"
+
+msgid "Default Nameserver List"
+msgstr "預設名稱伺服器清單"
+
+msgid "Enhanced Mode"
+msgstr "增強模式"
+
+msgid "Select Enhanced Mode"
+msgstr "選擇增強模式"
+
+msgid "Fake IP Range"
+msgstr "假IP範圍"
+
+msgid "Set Fake IP Range"
+msgstr "設定假IP範圍"
+
+msgid "Fake IP Filter List"
+msgstr "假IP過濾器清單"
+
+msgid "Fake IP Filter"
+msgstr "假IP過濾器"
+
+msgid "DNS Hijack"
+msgstr "DNS劫持"
+
+msgid "Enable"
+msgstr "啟用"
+
+msgid "Protocol"
+msgstr "協議"
+
+msgid "Address"
+msgstr "位址"
+
+msgid "Port"
+msgstr "連接埠"
+
+msgid "Authentication"
+msgstr "HTTP(S)與SOCKS5認證方式"
+
+msgid "Username"
+msgstr "使用者名稱"
+
+msgid "Password"
+msgstr "密碼"
+
+msgid "Hosts"
+msgstr "主機"
+
+msgid "IP"
+msgstr "IP"
+
+msgid "Nameservers & Fallback"
+msgstr "自訂上游DNS伺服器"
+
+msgid "Type"
+msgstr "型別"
+
+msgid "Advance DNS"
+msgstr "進階DNS設定"
+
+msgid "Clash DNS"
+msgstr "配置DNS設定"
+
+msgid "Mixed Port"
+msgstr "HTTP(S)和SOCKS5同一連接埠上"
+
+msgid "Enable IPv6"
+msgstr "啟用IPv6"
+
+msgid "Filter List"
+msgstr "自訂篩選器清單"
+
+msgid "Installed Version"
+msgstr "目前核心版本"
+
+msgid "New Version"
+msgstr "最新核心版本"
+
+msgid "Download Update"
+msgstr "下載最新版本用戶端"
+
+msgid "No Protocol"
+msgstr "不帶協議"
+
+msgid "GeoIP Source"
+msgstr "GeoIP下載連線"

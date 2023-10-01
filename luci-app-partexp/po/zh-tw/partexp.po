@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Copyright (C) 2022 sirpdboy herboy2008@gmail.com https://github.com/sirpdboy/luci-app-partexp"
+"This is free software, licensed under the GNU General Public License v3."
+
+msgid "Partition Expansion"
+msgstr "分區擴容"
+
+msgid "One click partition expansion mounting tool"
+msgstr "一鍵分割擴充掛載工具"
+
+msgid "Automatically format and mount the target device partition. If there are multiple partitions, it is recommended to manually delete all partitions before using this tool.<br/>For specific usage, see:"
+msgstr "自動對目標裝置分割區格式化掛載，如果有多分割區建議手動刪除所有分割區再使用本工具.<br/>使用說明見:"
+
+msgid "Select the function to be performed"
+msgstr "選擇需要執行的功能"
+
+msgid "Expand application space overlay (/overlay)"
+msgstr "用於overlay軟體空間 (/overlay)"
+
+msgid "Use as root filesystem (/)"
+msgstr "用作根檔案系統（/）"
+
+msgid "Used as Docker data disk (/opt)"
+msgstr "用作Docker資料磁碟 (/opt)"
+
+msgid "Normal mount and use by device name(/dev/x1)"
+msgstr "依裝置名稱普通掛載使用(/dev/x1)"
+
+msgid "Destination hard disk"
+msgstr "目標硬碟"
+
+msgid "Keep configuration"
+msgstr "保留配置"
+
+msgid "Format before use"
+msgstr "使用前格式化"
+
+msgid "Select the hard disk device to operate"
+msgstr "選擇需要操作的硬碟設備"
+
+msgid "Select function"
+msgstr "選擇功能"
+
+msgid "Perform operation"
+msgstr "執行操作"
+
+msgid "To make the operation effective, the device will restart. Are you sure to execute?"
+msgstr "警告:操作一旦確定無法取消,裝置將會重新啟動,是否確定執行？"
+
+msgid "Operation in progress, please wait..."
+msgstr "操作執行中，請稍候..."
+
+msgid "After operation, restart the machine, please wait..."
+msgstr "操作完畢，機器重啟，請稍候..."
+
+msgid "Please delete the partition or share and try again"
+msgstr "錯誤，請檢查是否有足夠空間或是共用使用中。"
+
+msgid "Restart the device to take effect. Confirm whether to continue?"
+msgstr "重新啟動裝置作業才生效，決定是否繼續執行？"
+
+msgid "Operation execution complete"
+msgstr "操作執行完畢"
+
+msgid "Ticking indicates formatting"
+msgstr "勾選選擇表示格式化"
+
+msgid "Tick means to retain the settings"
+msgstr "打勾選擇表示保留設定"

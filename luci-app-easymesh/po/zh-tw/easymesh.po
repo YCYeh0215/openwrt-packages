@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "easymesh"
+msgstr "easymesh"
+
+msgid "Active node"
+msgstr "活動節點"
+
+msgid "IF"
+msgstr "IF"
+
+msgid "Neighbor"
+msgstr "節點鄰居設備"
+
+msgid "lastseen"
+msgstr "上次連線延遲"
+
+msgid "EASY MESH"
+msgstr "簡單MESH"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "General Settings"
+msgstr "基本設定"
+
+msgid "Enable"
+msgstr "啟用"
+
+msgid "role"
+msgstr "角色"
+
+msgid "off"
+msgstr "關閉"
+
+msgid "host MESH"
+msgstr "主MESH"
+
+msgid "son MESH"
+msgstr "子MESH"
+
+msgid "MESH Radio device"
+msgstr "MESH無線設備"
+
+msgid "The radio device which MESH use"
+msgstr "使用MESH網路的無線設備"
+
+msgid "AUTO"
+msgstr "自動"
+
+msgid "Enable or disable EASY MESH"
+msgstr "啟用或停用簡單MESH"
+
+msgid "Encryption"
+msgstr "加密"
+
+msgid "Key"
+msgstr "密碼"
+
+msgid "inter-access point protocol"
+msgstr "存取點內部協定"
+
+msgid "Wireless Access Points (APs) running on different vendors can communicate with each other"
+msgstr "運作在不同供應商的無線存取點(AP)可以互相交流"
+
+msgid "Threshold for an good RSSI"
+msgstr "快速漫遊接取值"
+
+msgid "Threshold for an bad RSSI"
+msgstr "快速漫遊踢出數值"
+
+msgid "AP MODE Enable"
+msgstr "啟用AP模式"
+
+msgid "Enable or disable AP MODE"
+msgstr "啟用或停用AP模式"
+
+msgid "IPv4-Address"
+msgstr "IPv4 位址"
+
+msgid "IPv4 netmask"
+msgstr "IPv4 子網路遮罩"
+
+msgid "IPv4 gateway"
+msgstr "IPv4 閘道"
+
+msgid "Use custom DNS servers"
+msgstr "使用自訂的 DNS 伺服器"
