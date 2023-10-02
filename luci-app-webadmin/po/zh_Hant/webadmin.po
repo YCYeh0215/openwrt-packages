@@ -1,3 +1,4 @@
+#/cgi-bin/luci/admin/system/webadmin
 msgid ""
 msgstr ""
 "Language: zh_TW\n"

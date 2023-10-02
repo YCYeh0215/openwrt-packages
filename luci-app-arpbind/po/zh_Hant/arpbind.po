@@ -1,3 +1,4 @@
+#/cgi-bin/luci/admin/network/arpbind
 msgid ""
 msgstr ""
 "Project-Id-Version: Luci ARP Bind\n"

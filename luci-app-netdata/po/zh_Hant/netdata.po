@@ -1,3 +1,4 @@
+#/cgi-bin/luci/admin/status/netdata
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 

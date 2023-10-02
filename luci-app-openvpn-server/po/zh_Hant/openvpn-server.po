@@ -1,3 +1,4 @@
+#/cgi-bin/luci/admin/vpn/openvpn-server
 msgid "OpenVPN Server"
 msgstr "OpenVPN 伺服器"
 

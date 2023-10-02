@@ -1,3 +1,4 @@
+#/cgi-bin/luci/admin/vpn/zerotier
 msgid "Zerotier is an open source, cross-platform and easy to use virtual LAN"
 msgstr "Zerotier 是一個開源，跨平台，而且適合內網穿透互聯的傻瓜配置虛擬 VPN LAN"
 
