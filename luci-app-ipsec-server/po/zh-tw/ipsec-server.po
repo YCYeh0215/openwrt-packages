@@ -1,3 +1,4 @@
+#/cgi-bin/luci/admin/vpn/ipsec-server
 msgid "IPSec VPN Server"
 msgstr "IPSec VPN 伺服器"
 

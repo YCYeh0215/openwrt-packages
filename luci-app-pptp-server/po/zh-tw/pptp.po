@@ -1,3 +1,4 @@
+#/cgi-bin/luci/admin/vpn/pptp-server
 msgid "Disable from startup"
 msgstr "禁止開機啟動"
 

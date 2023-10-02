@@ -1,3 +1,4 @@
+#/cgi-bin/luci/admin/system/autoreboot
 msgid "Scheduled Reboot"
 msgstr "定時重開機"
 

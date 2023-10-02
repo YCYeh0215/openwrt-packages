@@ -1,3 +1,4 @@
+#/cgi-bin/luci/admin/vpn/softethervpn
 msgid "SoftEther VPN Service"
 msgstr "SoftEther VPN 伺服器"
 

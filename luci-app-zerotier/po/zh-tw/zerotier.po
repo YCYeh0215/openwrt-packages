@@ -1,0 +1,18 @@
+#/cgi-bin/luci/admin/vpn/zerotier
+msgid "Zerotier is an open source, cross-platform and easy to use virtual LAN"
+msgstr "Zerotier 是一個開源，跨平台，而且適合內網穿透互聯的傻瓜配置虛擬 VPN LAN"
+
+msgid "Auto NAT Clients"
+msgstr "自動允許客戶端 NAT"
+
+msgid "Allow zerotier clients access your LAN network"
+msgstr "允許 Zerotier 的撥入用戶端存取路由器 LAN 資源（需要在 Zerotier 管理頁面設定到 LAN 網段的路由表）"
+
+msgid "Create or manage your zerotier network, and auth clients who could access"
+msgstr "點擊跳轉到 Zerotier 官網管理平台，新建或管理網絡，並允許客戶端接入訪問你私人網路（新接入的節點預設不允許訪問）"
+
+msgid "Base Setting"
+msgstr "基本設定"
+
+msgid "Interface Info"
+msgstr "介面資訊"
