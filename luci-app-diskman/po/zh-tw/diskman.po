@@ -1,7 +1,4 @@
 #/cgi-bin/luci/admin/system/diskman
-msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
-
 msgid "DiskMan"
 msgstr "硬碟管理"
 
