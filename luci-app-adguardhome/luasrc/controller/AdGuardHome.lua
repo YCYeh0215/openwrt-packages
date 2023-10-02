@@ -3,7 +3,7 @@ local fs = require "nixio.fs"
 local http = require "luci.http"
 local uci = require"luci.model.uci".cursor()
 function index()
-local page = entry({"admin", "services", "AdGuardHome"},alias("admin", "services", "AdGuardHome", "base"),_("AdGuard Home"))
+local page = entry({"admin", "services", "AdGuardHome"},alias("admin", "services", "AdGuardHome", "base"),_(translate("AdGuard Home")))
 page.order = 11
 page.dependent = true
 page.acl_depends = { "luci-app-adguardhome" }
