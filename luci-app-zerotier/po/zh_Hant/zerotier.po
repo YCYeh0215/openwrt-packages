@@ -16,3 +16,6 @@ msgstr "基本設定"
 
 msgid "Interface Info"
 msgstr "介面資訊"
+
+msgid "ZeroTier Network ID"
+msgstr "ZeroTier 網路 ID"
