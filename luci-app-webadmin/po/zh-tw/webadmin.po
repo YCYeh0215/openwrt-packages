@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: YC_Yeh <alan0215tw@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3.1\n"
+
+msgid "Web Admin"
+msgstr "Web 管理"
+
+msgid "Web Admin Settings"
+msgstr "Web 管理頁面設定"
+
+msgid "Web Admin Settings Page"
+msgstr "設定更改Web管理頁面端口，綁定地址，是否允許從互聯網訪問等"
+
+msgid "HTTP listeners (address:port)"
+msgstr "HTTP 監聽 (IP位址：連接埠)"
+
+msgid "Bind to specific interface:port (by specifying interface address"
+msgstr "綁定到指定的IP位址:連接埠"
+
+msgid "Redirect all HTTP to HTTPS"
+msgstr "重定向HTTP到HTTPS"
+
+msgid "Redirect all HTTP to HTTPS when SSl cert was installed"
+msgstr "安裝了SSL憑證後，重定向HTTP到HTTPS管理頁面"
+
+msgid "Auto activate"
+msgstr "自動啟動區域網路用戶端"
+
+msgid "configfile"
+msgstr "設定檔"
+
+msgid "Ignore private IPs on public interface"
+msgstr "只允許內網存取"
+
+msgid "Prevent access from private (RFC1918) IPs on an interface if it has an public IP address"
+msgstr "拒絕從網路存取Web管理頁面"

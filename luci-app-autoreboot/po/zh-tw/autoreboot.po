@@ -1,0 +1,20 @@
+msgid "Scheduled Reboot"
+msgstr "定時重開機"
+
+msgid "Scheduled reboot Setting"
+msgstr "定時重新啟動設定"
+
+msgid "Week Day"
+msgstr "星期"
+
+msgid "Everyday"
+msgstr "每天"
+
+msgid "Day"
+msgstr "天"
+
+msgid "Hour"
+msgstr "小時"
+
+msgid "Minute"
+msgstr "分鐘"

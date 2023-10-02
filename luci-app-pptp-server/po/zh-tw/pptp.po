@@ -1,0 +1,53 @@
+msgid "Disable from startup"
+msgstr "禁止開機啟動"
+
+msgid "Enable on startup"
+msgstr "允許開機啟動"
+
+msgid "PPTP VPN Server"
+msgstr "PPTP VPN 伺服器"
+
+msgid "PPTP Service"
+msgstr "PPTP 服務設定"
+
+msgid "Local IP"
+msgstr "PPTP 伺服器IP"
+
+msgid "Client IP"
+msgstr "客戶端指派的IP範圍"
+
+msgid "LAN DHCP reserved start-to-end IP addresses with the same subnet mask"
+msgstr "使用和 LAN 同一網段。請使用 DHCP分配位址以外的空餘IP位址範圍，例如 192.168.0.20-30"
+
+msgid "Remote Client DNS"
+msgstr "客戶端指派IP的DNS伺服器"
+
+msgid "Debug Logging"
+msgstr "記錄日誌"
+
+msgid "PPTP Logins"
+msgstr "PPTP 登入設定"
+
+msgid "User name"
+msgstr "使用者名稱"
+
+msgid "Password"
+msgstr "密碼"
+
+msgid "Enable"
+msgstr "啟用"
+
+msgid "PPTPD status"
+msgstr "PPTPD 服務狀態"
+
+msgid "Start"
+msgstr "啟動"
+
+msgid "Stop"
+msgstr "關閉"
+
+msgid "PPTP VPN Server"
+msgstr "PPTP VPN 伺服器"
+
+msgid "PPTP VPN Server connectivity using the native built-in VPN Client on Windows/Linux or Andriod"
+msgstr "使用Windows/Linux 或 Andriod 內建的 PPTP VPN 用戶端進行連線 "
