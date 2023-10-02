@@ -5,5 +5,5 @@ function index()
 		return
 	end
 
-	entry({"admin", "system", "autoreboot"}, cbi("autoreboot"), _("Scheduled Reboot"),88)
+	entry({"admin", "system", "autoreboot"}, cbi("autoreboot"), _(translate("Scheduled Reboot")),88)
 end

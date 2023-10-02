@@ -8,5 +8,5 @@ function index()
 		return
 	end
 
-	entry({"admin", "system", "webadmin"}, cbi("webadmin"), _("Web Admin"), 1).leaf = true
+	entry({"admin", "system", "webadmin"}, cbi("webadmin"), _(translate("Web Admin")), 1).leaf = true
 end

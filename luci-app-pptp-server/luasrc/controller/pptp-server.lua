@@ -6,7 +6,7 @@ function index()
 	end
 
 	entry({"admin", "vpn"}, firstchild(), "VPN", 45).dependent = false
-	entry({"admin", "vpn", "pptp-server"}, cbi("pptp-server"), _("PPTP VPN Server"), 80).dependent = false
+	entry({"admin", "vpn", "pptp-server"}, cbi("pptp-server"), _(translate("PPTP VPN Server")), 80).dependent = false
 	entry({"admin", "vpn", "pptp-server", "status"}, call("act_status")).leaf = true
 end
 

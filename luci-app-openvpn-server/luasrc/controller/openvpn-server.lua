@@ -6,9 +6,9 @@ function index()
 	end
 
 	entry({"admin", "vpn"}, firstchild(), "VPN", 45).dependent = false
-	entry({"admin", "vpn", "openvpn-server"}, alias("admin", "vpn", "openvpn-server", "basic"), _("OpenVPN Server"), 80).dependent = true
-	entry({"admin", "vpn", "openvpn-server", "basic"}, cbi("openvpn-server/basic"), _("Base Setting"), 1).leaf = true
-	entry({"admin", "vpn", "openvpn-server", "code"}, cbi("openvpn-server/code"), _("Special Code"), 2).leaf = true
+	entry({"admin", "vpn", "openvpn-server"}, alias("admin", "vpn", "openvpn-server", "basic"), _(translate("OpenVPN Server")), 80).dependent = true
+	entry({"admin", "vpn", "openvpn-server", "basic"}, cbi("openvpn-server/basic"), _(translate("Base Setting")), 1).leaf = true
+	entry({"admin", "vpn", "openvpn-server", "code"}, cbi("openvpn-server/code"), _(translate("Special Code")), 2).leaf = true
 	entry({"admin", "vpn", "openvpn-server", "status"}, call("act_status")).leaf = true
 end
 
