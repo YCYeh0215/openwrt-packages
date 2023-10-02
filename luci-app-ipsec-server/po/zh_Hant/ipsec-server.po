@@ -76,3 +76,6 @@ msgstr "未執行"
 
 msgid "RUNNING"
 msgstr "運作中"
+
+msgid "Server IP"
+msgstr "伺服器 IP"
