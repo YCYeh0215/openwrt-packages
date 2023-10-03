@@ -1,9 +1,9 @@
-//  compress: true , sourceMap: false
+// out: ../htdocs/luci-static/argon/css/dark.css, compress: true , sourceMap: false
 /**
  *  Argon is a clean HTML5 theme for LuCI. It is based on luci-theme-material and Argon Template
  *
  *  luci-theme-argon
- *      Copyright 2020 Jerryk <jerrykuku@gmail.com>
+ *      Copyright 2023 Jerryk <jerrykuku@gmail.com>
  *
  *  Have a bug? Please create an issue here on GitHub!
  *      https://github.com/jerrykuku/luci-theme-argon/issues
@@ -20,13 +20,15 @@
  *      https://github.com/LuttyYang/luci-theme-material/
  *
  *  Agron Theme
- *	    https://demos.creative-tim.com/argon-dashboard/index.html
+ *      https://demos.creative-tim.com/argon-dashboard/index.html
  *
  *  Login background
  *      https://unsplash.com/
  *
  *  Licensed to the public under the Apache License 2.0
  */
+
+
 
 body {
     background: #1e1e1e;
@@ -90,7 +92,7 @@ header::after {
         box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, .15);
 
         .sidenav-header .brand {
-            color: #ccc;
+            color: #cccccc;
         }
 
         .nav {
@@ -104,6 +106,10 @@ header::after {
                                 background-color: #cccccc !important;
                             }
                         }
+
+                        &::after {
+                            background-color: var(--dark-primary) !important;
+                        }
                     }
 
                     li {
@@ -114,16 +120,20 @@ header::after {
                         a:hover {
                             background: none !important;
                         }
+
+                        &::after {
+                            background-color: var(--dark-primary) !important;
+                        }
                     }
                 }
 
                 .menu.active {
                     background-color: #483d8b !important;
                     background-color: var(--dark-primary) !important;
-                    color: #cccccc !important;
+                    color: #ffffff !important;
 
                     a::after {
-                        background-color: #cccccc !important;
+                        background-color: #ffffff !important;
                     }
                 }
             }
@@ -136,8 +146,9 @@ header::after {
                 a:hover {
                     background-color: #483d8b !important;
                     background-color: var(--dark-primary) !important;
-                    color: #cccccc !important;
+                    color: #ffffff !important;
                 }
+
             }
         }
 
@@ -167,9 +178,15 @@ h3 {
     background: #333333;
 }
 
+h4 {
+    color: #8C6900;
+}
+
+abbr {
+    color: var(--dark-primary) !important;
+}
+
 a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
     color: #483d8b;
     color: var(--dark-primary);
 }
@@ -177,6 +194,10 @@ a:-webkit-any-link {
 
 input:-webkit-autofill {
     background-color: #3c3c3c !important;
+}
+
+#channel_graph {
+    background-color: transparent !important;
 }
 
 .cbi-value-field .cbi-input-apply,
@@ -210,7 +231,6 @@ header.bg-primary {
 .panel-title {
     color: #ccc;
     background-color: #333333;
-    border-bottom: 0px;
 }
 
 div>table>tbody>tr:nth-of-type(2n),
@@ -221,7 +241,7 @@ div>.table>.tr:nth-of-type(2n) {
 table>tbody>tr>td,
 table>tfoot>tr>td,
 table>thead>tr>td {
-    color: #ccc;
+    color: #cccccc;
 }
 
 fieldset>table>tbody>tr:nth-of-type(2n) {
@@ -240,7 +260,7 @@ table>thead>tr>td {
 #membuff>div>div,
 #conns>div>div,
 #memtotal>div>div {
-    background-color: #32325d !important;
+    background-color: var(--dark-primary) !important;
 }
 
 #swaptotal>div>div>div>small,
@@ -249,7 +269,6 @@ table>thead>tr>td {
 #membuff>div>div>div>small,
 #conns>div>div>div>small,
 #memtotal>div>div>div>small {
-
     color: #ccc !important;
 }
 
@@ -261,7 +280,7 @@ table>thead>tr>td {
         background-color: transparent !important;
 
         div {
-            background-color: #32325d !important;
+            background-color: #ba8b00 !important;
         }
     }
 
@@ -270,7 +289,6 @@ table>thead>tr>td {
 table>tbody>tr>th,
 table>tfoot>tr>th,
 table>thead>tr>th {
-
     background-color: #252526;
     border-bottom: black 1px solid !important;
 }
@@ -302,9 +320,6 @@ body:not(.Interfaces) .cbi-rowstyle-2:first-child {
 .panel-title,
 h3 {
     color: #ccc;
-    border-bottom: 0;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
 }
 
 h4 {
@@ -312,17 +327,10 @@ h4 {
 }
 
 .cbi-progressbar {
-    position: relative;
-    min-width: 170px;
-    height: 20px;
-    margin: 6px 0;
-    border: thin solid #999;
-    background: transparent;
-    border-radius: 0.2rem;
-    overflow: hidden;
+    background: #282a2c;
 
     div {
-        background-color: #32325d !important;
+        background-color: var(--dark-primary) !important;
     }
 }
 
@@ -331,15 +339,13 @@ h4 {
 }
 
 .cbi-button {
-    color: #ccc !important;
+    color: #ffffff !important;
     background-color: #483d8b;
     background-color: var(--dark-primary);
 }
 
 .cbi-section-node {
     background: none;
-    border-radius: 0 0 .375rem .375rem;
-    padding: 0rem;
 }
 
 abbr {
@@ -370,6 +376,16 @@ div>.table>.tbody>.tr:nth-of-type(2n) {
 
 .tabs {
     background-color: #252526;
+
+    li[class~="active"],
+    li:hover {
+        cursor: pointer;
+        color: #ccc !important;
+
+        a {
+            color: #ccc !important;
+        }
+    }
 }
 
 .tabs>li[class~="active"]>a {
@@ -380,7 +396,7 @@ div>.table>.tbody>.tr:nth-of-type(2n) {
 .tabs>li:hover {
     border-bottom: 0.18751rem solid #483d8b;
     border-bottom: 0.18751rem solid var(--dark-primary);
-    color: #ccc;
+    color: var(--dark-primary) !important;
     background-color: #181819;
 }
 
@@ -404,10 +420,12 @@ div>.table>.tbody>.tr:nth-of-type(2n) {
 .cbi-tabmenu>li:hover {
     color: #ccc;
     background: #2d2d2d;
+    border-bottom: 0.18751rem solid var(--dark-primary) !important;
 }
 
 .cbi-tabmenu>li[class~="cbi-tab"] {
     background-color: #181819;
+    border-bottom: 0.18751rem solid var(--dark-primary) !important;
 }
 
 .cbi-tabcontainer>.cbi-value:nth-of-type(2n) {
@@ -426,12 +444,20 @@ input {
     box-shadow: none;
 }
 
+
 select:not([multiple="multiple"]):focus,
 input:focus {
     border-color: #483d8b !important;
     border-color: var(--dark-primary) !important;
     outline: 0;
 
+}
+
+select:not([multiple="multiple"]):focus,
+input:not(.cbi-button):focus,
+.cbi-dropdown:focus {
+    border-color: #5e72e4;
+    border-color: var(--dark-primary) !important;
 }
 
 select {
@@ -465,6 +491,12 @@ select {
     color: #ccc;
 }
 
+textarea {
+    &:focus-visible {
+        border: 1px solid var(--dark-primary);
+    }
+}
+
 
 
 .cbi-section-remove:nth-of-type(2n),
@@ -477,12 +509,9 @@ select {
 
 }
 
-.cbi-section-node .cbi-value {
-    padding: 1rem 1rem 0.3rem 1rem;
-}
 
 .ifacebox {
-    background-color: none;
+    background-color: transparent !important;
     border: 1px solid #1e1e1e;
 }
 
@@ -595,7 +624,6 @@ td.cbi-value-field var {
 .cbi-button[onclick^="iface_reconnect"],
 .cbi-button[onclick="handleReset(event)"],
 .cbi-button-neutral[value="Disable"] {
-    font-weight: normal;
     color: #fff;
     border: thin solid darkorange !important;
     background-color: darkorange !important;
@@ -607,20 +635,17 @@ fieldset[id^="cbi-apply-"] {
 
 #detail-bubble>div {
     border: 1px solid #ccc;
-    border-radius: 2px;
-    padding: 5px;
     background: #252525;
 }
 
 .ifacebox-head.active {
-    background-color: #32325d !important;
+    background-color: var(--dark-primary) !important;
 }
 
 header .fill .status span[data-style="active"] {
     color: #ccc !important;
     background-color: darkolivegreen !important;
 }
-
 #cbi-wireless .td,
 #cbi-network .tr:first-child>.td,
 .table[width="100%"]>.tr:first-child>.td,
@@ -640,11 +665,13 @@ header .fill .status span[data-style="active"] {
 
 td>.ifacebadge,
 .td>.ifacebadge {
-
+    color: #fff;
     background-color: #483d8b;
     background-color: var(--dark-primary);
     border: 0;
 }
+
+
 
 .btn.danger,
 .cbi-section-remove>.cbi-button,
@@ -709,6 +736,7 @@ div[style="width:100%;height:300px;border:1px solid #000;background:#fff"] {
 .cbi-value input[type="password"]+.cbi-button-neutral {
     background-color: #483d8b !important;
     background-color: var(--dark-primary) !important;
+    border-color: var(--dark-primary) !important;
 }
 
 .btn,
@@ -752,7 +780,7 @@ input,
 
 .cbi-dropdown[open]>ul.dropdown {
     background: #252526 !important;
-    color: #ccc !important;
+    color: #ffffff !important;
     box-shadow: none;
     border: 1px solid #3c3c3c !important;
 
@@ -760,7 +788,7 @@ input,
 }
 
 .cbi-dropdown[open]>ul.dropdown li {
-    color: #ccc;
+    color: #ffffff;
     border-bottom: 1px solid #3c3c3c !important;
 }
 
@@ -796,6 +824,7 @@ input,
 .cbi-button[onclick="addKey(event)"] {
     background: #483d8b !important;
     background: var(--dark-primary) !important;
+    border-color: var(--dark-primary) !important;
 }
 
 .btn.primary,
@@ -817,12 +846,39 @@ input,
     color: #ccc !important;
 }
 
-#search_result {
-    background-color: #333333 !important;
-    .float-list {
-        a, span {
-            color: #cccccc !important;
-        }
+[data-page="admin-system-startup"] textarea {
+    color: #ccc;
+    background-color: transparent;
+
+    &:focus-visible {
+        border: 1px solid var(--dark-primary);
+    }
+}
+
+[data-page="admin-network-firewall-custom"] #view p textarea,
+[data-page="admin-status-routes"] #view p textarea,
+[data-page="admin-system-crontab"] #view p textarea {
+    color: #ccc;
+    background-color: transparent;
+}
+
+#view>.spinning {
+    background: #333333 !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03) !important;
+}
+
+@media screen and (min-width: 600px) {
+
+    ::-webkit-scrollbar-thumb {
+        background: var(--dark-primary);
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: var(--dark-primary);
+    }
+
+    ::-webkit-scrollbar-thumb:active {
+        background: var(--dark-primary);
     }
 }
 
