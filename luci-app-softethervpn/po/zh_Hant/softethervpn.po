@@ -20,5 +20,3 @@ msgstr "開啟 MS-SSTP 防火牆"
 msgid "Open the OpenVPN firewall"
 msgstr "開啟 OpenVPN 防火牆"
 
-msgid "Download SoftEtherVPN Stable："
-msgstr "下載控制台："
