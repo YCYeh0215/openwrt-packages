@@ -4,11 +4,11 @@ msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: YC_Yeh <alan0215tw@gmail.com>\n"
+"Last-Translator: dingpengyu <jerrykuku@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_TW\n"
+"Language: zh_CN\n"
 "X-Generator: Poedit 2.3.1\n"
 
 #: applications/luci-app-argon-config/htdocs/luci-static/resources/view/argon-config.js:102
