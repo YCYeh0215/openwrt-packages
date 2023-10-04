@@ -5,11 +5,20 @@ msgstr "基礎設定"
 msgid "Log"
 msgstr "日誌"
 
+msgid "AdGuardHome's version"
+msgstr "AdGuardHome 版本"
+
+msgid "Needed to click 'save&apply' to generate the configuration file"
+msgstr "需要點選「儲存並套用」才能產生設定檔"
+
+msgid "In case of the latest realease is a source code that can not download the binary file"
+msgstr "防止最新release只有原始碼，導致下載不成功"
+
 msgid "Manual Config"
 msgstr "手動設定"
 
 msgid "Free and open source, powerful network-wide ads & trackers blocking DNS server."
-msgstr "免費開源，強大的全網路廣告和追蹤程式攔截DNS伺服器"
+msgstr "全網路廣告與追蹤程式攔截DNS伺服器，預設帳號與密碼皆為：admin"
 
 msgid "RUNNING"
 msgstr "運作中"
@@ -30,10 +39,11 @@ msgid "Enable"
 msgstr "啟用"
 
 msgid "Browser management port"
-msgstr "網頁管理埠"
+msgstr "網頁管理帳號與密碼:admin ,連接埠:"
 
-msgid "Update"
-msgstr "更新"
+msgid "Upgrade Core"
+msgstr "更新核心"
+
 #button change
 msgid "Update core version"
 msgstr "更新核心版本"
@@ -46,21 +56,32 @@ msgstr "已更新"
 
 #button hide
 msgid "Force update"
-msgstr "強制更新"
+msgstr "強制更新核心"
 
 msgid "Fast config"
 msgstr "快速配置"
-#
-msgid "core version:"
-msgstr "核心版本:"
-#description change
+
+msgid "Core Version"
+msgstr "核心版本"
+
+msgid "Latest Version"
+msgstr "最新版"
+
+msgid "Beta Version"
+msgstr "測試版"
+
+msgid "Current core version:"
+msgstr "目前核心版本:"
 msgid "no config"
 msgstr "沒有設定檔"
+
 msgid "no core"
 msgstr "沒有核心"
+
 #
 msgid "Redirect"
 msgstr "重新導向"
+
 #inlist
 msgid "none"
 msgstr "無"
@@ -73,6 +94,7 @@ msgstr "重定向53連接埠到AdGuardHome"
 
 msgid "Use port 53 replace dnsmasq"
 msgstr "使用53埠取代dnsmasq"
+
 #
 msgid "AdGuardHome redirect mode"
 msgstr "AdGuardHome重新導向模式"
@@ -85,6 +107,7 @@ msgstr "AdGuardHome 執行檔路徑 如果沒有執行檔將自動下載"
 
 msgid "use upx to compress bin after download"
 msgstr "下載後使用upx壓縮執行檔"
+
 #inlist
 msgid "compress faster"
 msgstr "快速壓縮"
@@ -117,16 +140,17 @@ msgid "AdGuardHome work dir include rules,audit log and database"
 msgstr "AdGuardHome 工作目錄包含規則，稽核日誌與資料庫"
 
 msgid "Runtime log file"
-msgstr "執行日誌"
+msgstr "執行日誌路徑"
 
 msgid "AdGuardHome runtime Log file if 'syslog': write to system log;if empty no log"
-msgstr "AdGuardHome 執行日誌 如果填syslog將寫入系統日誌；如果空則不記錄日誌"
+msgstr "AdGuardHome 執行日誌, 如果填 syslog 將寫入系統日誌; 如果該項目為空則不記錄執行日誌"
 
 msgid "Verbose log"
-msgstr "詳細日誌"
+msgstr "輸出詳細日誌"
+
 #hide div
 msgid "Add gfwlist"
-msgstr "加入gfw列表"
+msgstr "新增 GFW 清單"
 
 msgid "Add"
 msgstr "新增"
@@ -136,24 +160,28 @@ msgstr "已新增"
 
 msgid "Not added"
 msgstr "未新增"
+
 #hide div
 msgid "Del gfwlist"
 msgstr "刪除gfw清單"
 
 msgid "Del"
 msgstr "刪除"
+
 #hide div
 msgid "Gfwlist upstream dns server"
 msgstr "gfw清單上游伺服器"
 
 msgid "Gfwlist domain upstream dns service"
 msgstr "gfw清單網域上游伺服器"
+
 #hide div
 msgid "Change browser management password"
-msgstr "改變網頁登入密碼"
+msgstr "更改網頁登入密碼"
 
 msgid "Culculate"
 msgstr "計算"
+
 ##button change
 msgid "Load culculate model"
 msgstr "載入運算模組"
@@ -162,19 +190,34 @@ msgid "loading..."
 msgstr "載入中"
 
 msgid "Please save/apply"
-msgstr "請提交"
+msgstr "請點選[儲存/套用]"
 
 msgid "is empty"
 msgstr "為空"
 
 msgid "Press load culculate model and culculate finally save/apply"
-msgstr "依載入計算模組 然後計算 最後儲存/提交"
-#
-msgid "Keep database when system upgrade"
-msgstr "系統升級時保留資料"
+msgstr "先輸入你想要的密碼, 點擊[載入計算模組], 然後點擊[計算], 最後點擊下方[儲存&應用程式]"
 
-msgid "Boot delay until network ok"
-msgstr "開機時直到網路準備好再啟動"
+#
+msgid "Keep files when system upgrade"
+msgstr "系統升級時保留檔案"
+
+#checkbox
+msgid "core bin"
+msgstr "核心執行檔"
+
+msgid "config file"
+msgstr "設定檔"
+
+msgid "log file"
+msgstr "日誌檔"
+
+msgid "querylog.json"
+msgstr "稽核日誌.json"
+
+#
+msgid "On boot when network ok restart"
+msgstr "開機後網路準備好時重新啟動"
 
 msgid "Backup workdir files when shutdown"
 msgstr "關機時備份工作目錄檔"
@@ -206,8 +249,8 @@ msgstr "自動更新gfw清單並重新啟動adh"
 msgid "Please change time and args in crontab"
 msgstr "請在排程任務中修改時間與參數"
 
-msgid "Download links for update"
-msgstr "升級用的下載連結"
+msgid "Core Update URL"
+msgstr "核心更新位址"
 
 #/cgi-bin/luci/admin/services/AdGuardHome/log/
 msgid "reverse"
@@ -228,9 +271,13 @@ msgstr "下載日誌"
 #/cgi-bin/luci//admin/services/AdGuardHome/manual/
 msgid "Use template"
 msgstr "使用模板"
+
 #hide button
 msgid "Reload Config"
 msgstr "重新載入設定"
+
+msgid "WARNING!!! no bin found apply config will not be test"
+msgstr "警告！！！未找到執行文件，提交配置將不會進行校驗"
 
 #unused
 msgid "Change browser management username"
@@ -244,3 +291,9 @@ msgstr "檢查配置"
 
 msgid "unknown"
 msgstr "未知"
+
+msgid "Keep database when system upgrade"
+msgstr "系統升級時保留資料"
+
+msgid "Boot delay until network ok"
+msgstr "開機時直到網路準備好再啟動"
