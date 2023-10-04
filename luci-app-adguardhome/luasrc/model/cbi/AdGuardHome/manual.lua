@@ -8,7 +8,7 @@ require("table")
 function gen_template_config()
 	local b
 	local d=""
-	for cnt in io.lines("/tmp/resolv.conf.d/resolv.conf.auto") do
+	for cnt in io.lines("/tmp/resolv.conf.auto") do
 		b=string.match (cnt,"^[^#]*nameserver%s+([^%s]+)$")
 		if (b~=nil) then
 			d=d.."  - "..b.."\n"
@@ -91,7 +91,7 @@ function m.on_commit(map)
 	elseif ucitracktest=="0" then
 		io.popen("/etc/init.d/AdGuardHome reload &")
 	else
-		fs.writefile("/var/run/AdGlucitest","")
+		fs.writefile("/var/run/AdGucitest","")
 	end
 end
 return m
