@@ -297,3 +297,24 @@ msgstr "系統升級時保留資料"
 
 msgid "Boot delay until network ok"
 msgstr "開機時直到網路準備好再啟動"
+
+msgid "choose Arch for download"
+msgstr "選擇要下載的架構"
+
+msgid "Choose Release Version for download"
+msgstr "選擇要下載的版本"
+
+msgid "Download links for update"
+msgstr "更新的下載鏈結"
+
+msgid "If this option is modified, please confirm the download links"
+msgstr "如果此選項已修改，請確認下載鏈接"
+
+msgid "Release(Default)"
+msgstr "發布版 (默認)"
+
+msgid "Beta"
+msgstr "測試版"
+
+msgid "Auto"
+msgstr "Auto"
