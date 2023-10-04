@@ -45,7 +45,7 @@ msgid "Upgrade Core"
 msgstr "更新核心"
 
 #button change
-msgid "Update core version"
+msgid "Update core version:"
 msgstr "更新核心版本"
 
 msgid "Check..."
@@ -318,3 +318,7 @@ msgstr "測試版"
 
 msgid "Auto"
 msgstr "Auto"
+
+msgid "Need to save to config first before downloading."
+msgstr "需要先儲存配置再進行下載"
+
